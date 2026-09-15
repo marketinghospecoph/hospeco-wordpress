@@ -1,0 +1,36 @@
+{
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes"
+  },
+  "module": {
+    "use_name": "use_name.innerContent.*",
+    "img_display": "img_display.innerContent.*",
+    "img_width": "img_width.innerContent.*",
+    "img_width_units": "img_width_units.innerContent.*",
+    "img_height": "img_height.innerContent.*",
+    "img_height_units": "img_height_units.innerContent.*",
+    "img_fit": "img_fit.innerContent.*",
+    "img_align": "img_align.innerContent.*",
+    "orderby": "orderby.innerContent.*",
+    "order": "order.innerContent.*",
+    "count": "count.innerContent.*",
+    "hide_empty": "hide_empty.innerContent.*",
+    "out_of_stock": "out_of_stock.innerContent.*",
+    "featured_first": "featured_first.innerContent.*",
+    "slider": "slider.innerContent.*",
+    "show_all": "show_all.innerContent.*",
+    "category_only": "category_only.innerContent.*",
+    "hierarchy": "hierarchy.innerContent.*",
+    "brl-brands_include": "brands_include.innerContent.*",
+    "brands_include": "brands_include.innerContent.*",
+    "per_row": "per_row.innerContent.*",
+    "brands_number": "brands_number.innerContent.*",
+    "padding": "padding.innerContent.*",
+    "margin": "margin.innerContent.*",
+    "border_width": "border_width.innerContent.*",
+    "border_color": "border_color.innerContent.*"
+  }
+}

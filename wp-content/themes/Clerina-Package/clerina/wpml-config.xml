@@ -1,0 +1,34 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">image</custom-field>
+		<custom-field action="copy">images</custom-field>
+		<custom-field action="copy">video</custom-field>
+		<custom-field action="translate">job</custom-field>
+		<custom-field action="copy">rating</custom-field>
+		<custom-field action="copy">hide_page_header</custom-field>
+		<custom-field action="copy">hide_breadcrumb</custom-field>
+		<custom-field action="copy">hide_title</custom-field>
+		<custom-field action="copy">hide_parallax</custom-field>
+		<custom-field action="copy">text_color</custom-field>
+		<custom-field action="copy">page_bg</custom-field>
+		<custom-field action="copy">heading_layout</custom-field>
+		<custom-field action="copy">custom_layout</custom-field>
+		<custom-field action="copy">layout</custom-field>
+	</custom-fields>
+
+	<admin-texts>
+		<key name="theme_mods_clerina">
+			<key name="menu_booking_text" />
+			<key name="menu_booking_link" />
+			<key name="related_posts_title" />
+			<key name="service_section_title" />
+			<key name="service_layout_description" />
+			<key name="service_contact_title" />
+			<key name="portfolio_single_project" />
+			<key name="testimonial_title" />
+			<key name="testimonial_description" />
+			<key name="newsletter_content" />
+			<key name="footer_copyright" />
+		</key>
+	</admin-texts>
+</wpml-config>

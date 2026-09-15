@@ -1,0 +1,4408 @@
+# Copyright (C) 2026 Better Chat Support
+# This file is distributed under the same license as the Better Chat Support package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Chat Support\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-24 12:52+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: messenger-chat-support.php:76
+msgid "Better Chat Support block"
+msgstr ""
+
+#: src/Admin/Admin.php:97, src/Admin/Admin.php:98, src/Admin/Dashboard.php:322
+msgid "Messenger"
+msgstr ""
+
+#: src/Admin/Admin.php:107, src/Admin/Admin.php:108, src/Admin/Dashboard.php:270
+msgid "Dashboard"
+msgstr ""
+
+#: src/Admin/Admin.php:115, src/Admin/Admin.php:116, src/Admin/Dashboard.php:271
+msgid "Floating Chat"
+msgstr ""
+
+#: src/Admin/Admin.php:125, src/Admin/Admin.php:126, src/Admin/Dashboard.php:272
+msgid "Shortcodes"
+msgstr ""
+
+#: src/Admin/Admin.php:133, src/Admin/Admin.php:134, src/Admin/Admin.php:169, src/Admin/Dashboard.php:273
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Admin.php:141, src/Admin/Admin.php:142, src/Admin/Dashboard.php:274
+msgid "Help"
+msgstr ""
+
+#: src/Admin/Admin.php:150
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: src/Admin/Admin.php:153
+msgid "Upgrade To Pro! 👑"
+msgstr ""
+
+#: src/Admin/Admin.php:170, src/Admin/Dashboard.php:284
+msgid "Support"
+msgstr ""
+
+#: src/Admin/Admin.php:174
+msgid "Go Pro"
+msgstr ""
+
+#: src/Admin/Admin.php:193, src/Admin/Dashboard.php:191
+msgid "Live Demo"
+msgstr ""
+
+#. translators: 1: start strong tag, 2: close strong tag. 3: start link 4: close link
+#: src/Admin/Admin.php:218
+msgid "<i>Enjoying %1$sBetter Chat Support for Messenger?%2$s Please rate us %3$sWordPress.org%4$s. Your positive feedback will help us grow more. Thank you! 😊</i>"
+msgstr ""
+
+#: src/Admin/Dashboard.php:166
+msgid "Demo"
+msgstr ""
+
+#: src/Admin/Dashboard.php:168
+msgid "Select…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:169
+msgid "Search…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:170
+msgid "No results found."
+msgstr ""
+
+#: src/Admin/Dashboard.php:171
+msgid "result"
+msgstr ""
+
+#: src/Admin/Dashboard.php:172
+msgid "results"
+msgstr ""
+
+#: src/Admin/Dashboard.php:174
+msgid "Select items…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:175
+msgid "No items available."
+msgstr ""
+
+#: src/Admin/Dashboard.php:177
+msgid "WordPress media library is not available."
+msgstr ""
+
+#: src/Admin/Dashboard.php:178
+msgid "Select Image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:179
+msgid "Use this image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:180
+msgid "Change Image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:181
+msgid "Remove"
+msgstr ""
+
+#: src/Admin/Dashboard.php:182
+msgid "Upload or select an image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:183
+msgid "Preview"
+msgstr ""
+
+#: src/Admin/Dashboard.php:185
+msgid "Top"
+msgstr ""
+
+#: src/Admin/Dashboard.php:186, src/Frontend/elementor-widgets/elementor-widget.php:1506
+msgid "Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:187
+msgid "Bottom"
+msgstr ""
+
+#: src/Admin/Dashboard.php:188, src/Frontend/elementor-widgets/elementor-widget.php:1498
+msgid "Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:189
+msgid "Unit"
+msgstr ""
+
+#: src/Admin/Dashboard.php:192
+msgid "Open Docs"
+msgstr ""
+
+#: src/Admin/Dashboard.php:194
+msgid "Enabled"
+msgstr ""
+
+#: src/Admin/Dashboard.php:195
+msgid "Disabled"
+msgstr ""
+
+#: src/Admin/Dashboard.php:197
+msgid "Add Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:198
+msgid "Remove Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:199
+msgid "No icon selected"
+msgstr ""
+
+#: src/Admin/Dashboard.php:200, src/Frontend/Templates/items/single-template-header.php:22
+msgid "Close"
+msgstr ""
+
+#: src/Admin/Dashboard.php:201
+msgid "Search icons…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:202
+msgid "No icons match \"%s\"."
+msgstr ""
+
+#: src/Admin/Dashboard.php:203
+msgid "Showing %1$s of %2$s icons"
+msgstr ""
+
+#: src/Admin/Dashboard.php:205, src/Admin/SettingsController.php:749, src/Admin/SettingsController.php:759, src/Admin/SettingsController.php:769, src/Admin/SettingsController.php:779, src/Admin/SettingsController.php:789, src/Admin/SettingsController.php:799
+msgid "I am online"
+msgstr ""
+
+#: src/Admin/Dashboard.php:206, src/Admin/SettingsController.php:750, src/Admin/SettingsController.php:760, src/Admin/SettingsController.php:770, src/Admin/SettingsController.php:780, src/Admin/SettingsController.php:790, src/Admin/SettingsController.php:800
+msgid "I am offline"
+msgstr ""
+
+#: src/Admin/Dashboard.php:207
+msgid "Drag to reorder"
+msgstr ""
+
+#: src/Admin/Dashboard.php:208
+msgid "Duplicate agent"
+msgstr ""
+
+#: src/Admin/Dashboard.php:209
+msgid "Remove agent"
+msgstr ""
+
+#: src/Admin/Dashboard.php:210
+msgid "Agent Name"
+msgstr ""
+
+#: src/Admin/Dashboard.php:211
+msgid "Designation"
+msgstr ""
+
+#: src/Admin/Dashboard.php:212, src/Frontend/elementor-widgets/elementor-widget.php:91
+msgid "Facebook ID"
+msgstr ""
+
+#: src/Admin/Dashboard.php:213, src/Frontend/elementor-widgets/elementor-widget.php:206
+msgid "Timezone"
+msgstr ""
+
+#: src/Admin/Dashboard.php:214
+msgid "Online Text"
+msgstr ""
+
+#: src/Admin/Dashboard.php:215
+msgid "Offline Text"
+msgstr ""
+
+#: src/Admin/Dashboard.php:216
+msgid "Agent Photo"
+msgstr ""
+
+#: src/Admin/Dashboard.php:217
+msgid "Availability"
+msgstr ""
+
+#: src/Admin/Dashboard.php:218
+msgid "Select timezone…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:219
+msgid "Add Agent"
+msgstr ""
+
+#: src/Admin/Dashboard.php:220
+msgid "Agent"
+msgstr ""
+
+#: src/Admin/Dashboard.php:222, src/Frontend/elementor-widgets/elementor-widget.php:813
+msgid "Sunday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:223, src/Frontend/elementor-widgets/elementor-widget.php:852
+msgid "Monday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:224, src/Frontend/elementor-widgets/elementor-widget.php:891
+msgid "Tuesday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:225, src/Frontend/elementor-widgets/elementor-widget.php:930
+msgid "Wednesday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:226, src/Frontend/elementor-widgets/elementor-widget.php:969
+msgid "Thursday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:227, src/Frontend/elementor-widgets/elementor-widget.php:1008
+msgid "Friday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:228, src/Frontend/elementor-widgets/elementor-widget.php:1046
+msgid "Saturday"
+msgstr ""
+
+#: src/Admin/Dashboard.php:229
+msgid "Sun"
+msgstr ""
+
+#: src/Admin/Dashboard.php:230
+msgid "Mon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:231
+msgid "Tue"
+msgstr ""
+
+#: src/Admin/Dashboard.php:232
+msgid "Wed"
+msgstr ""
+
+#: src/Admin/Dashboard.php:233
+msgid "Thu"
+msgstr ""
+
+#: src/Admin/Dashboard.php:234
+msgid "Fri"
+msgstr ""
+
+#: src/Admin/Dashboard.php:235
+msgid "Sat"
+msgstr ""
+
+#: src/Admin/Dashboard.php:236
+msgid "Cancel"
+msgstr ""
+
+#: src/Admin/Dashboard.php:237
+msgid "Ok"
+msgstr ""
+
+#: src/Admin/Dashboard.php:238
+msgid "Offline"
+msgstr ""
+
+#: src/Admin/Dashboard.php:239
+msgid "Online"
+msgstr ""
+
+#: src/Admin/Dashboard.php:240
+msgid "Mark offline"
+msgstr ""
+
+#: src/Admin/Dashboard.php:241
+msgid "Mark online"
+msgstr ""
+
+#: src/Admin/Dashboard.php:242
+msgid "Mark this day as offline (unavailable)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:243
+msgid "Mark this day as online (always available)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:244
+msgid "From"
+msgstr ""
+
+#: src/Admin/Dashboard.php:245
+msgid "To"
+msgstr ""
+
+#: src/Admin/Dashboard.php:247
+msgid "Available in Pro"
+msgstr ""
+
+#: src/Admin/Dashboard.php:248
+msgid "PRO"
+msgstr ""
+
+#: src/Admin/Dashboard.php:250
+msgid "Devices"
+msgstr ""
+
+#: src/Admin/Dashboard.php:251
+msgid "Desktop"
+msgstr ""
+
+#: src/Admin/Dashboard.php:252
+msgid "Mobile"
+msgstr ""
+
+#: src/Admin/Dashboard.php:253, src/Admin/Dashboard.php:339
+msgid "Others"
+msgstr ""
+
+#: src/Admin/Dashboard.php:254
+msgid "View"
+msgstr ""
+
+#: src/Admin/Dashboard.php:255
+msgid "Conversion"
+msgstr ""
+
+#: src/Admin/Dashboard.php:256
+msgid "Visitors"
+msgstr ""
+
+#: src/Admin/Dashboard.php:258
+msgid "Traffic Breakdown"
+msgstr ""
+
+#: src/Admin/Dashboard.php:259
+msgid "Countries"
+msgstr ""
+
+#: src/Admin/Dashboard.php:260
+msgid "Pages"
+msgstr ""
+
+#: src/Admin/Dashboard.php:261
+msgid "Browsers"
+msgstr ""
+
+#: src/Admin/Dashboard.php:262
+msgid "Country"
+msgstr ""
+
+#: src/Admin/Dashboard.php:263
+msgid "Page URL"
+msgstr ""
+
+#: src/Admin/Dashboard.php:264
+msgid "Browser"
+msgstr ""
+
+#: src/Admin/Dashboard.php:265
+msgid "Views"
+msgstr ""
+
+#: src/Admin/Dashboard.php:266
+msgid "No data"
+msgstr ""
+
+#: src/Admin/Dashboard.php:267
+msgid "Pro Feature"
+msgstr ""
+
+#: src/Admin/Dashboard.php:268
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: src/Admin/Dashboard.php:276
+msgid "Analytics"
+msgstr ""
+
+#: src/Admin/Dashboard.php:277
+msgid "This Week"
+msgstr ""
+
+#: src/Admin/Dashboard.php:278
+msgid "Last Week"
+msgstr ""
+
+#: src/Admin/Dashboard.php:279
+msgid "This Month"
+msgstr ""
+
+#: src/Admin/Dashboard.php:280
+msgid "Last Month"
+msgstr ""
+
+#: src/Admin/Dashboard.php:281
+msgid "This Year"
+msgstr ""
+
+#: src/Admin/Dashboard.php:282
+msgid "Last Year"
+msgstr ""
+
+#: src/Admin/Dashboard.php:283
+msgid "Custom Date"
+msgstr ""
+
+#: src/Admin/Dashboard.php:285
+msgid "Visitor"
+msgstr ""
+
+#: src/Admin/Dashboard.php:286
+msgid "Conversion Rate"
+msgstr ""
+
+#: src/Admin/Dashboard.php:288
+msgid "Advance"
+msgstr ""
+
+#: src/Admin/Dashboard.php:289
+msgid "Save Settings"
+msgstr ""
+
+#: src/Admin/Dashboard.php:290
+msgid "Loading editor…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:291
+msgid "Saving…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:292
+msgid "Changes Saved"
+msgstr ""
+
+#: src/Admin/Dashboard.php:293
+msgid "Reset Section"
+msgstr ""
+
+#: src/Admin/Dashboard.php:294
+msgid "Failed to load settings."
+msgstr ""
+
+#: src/Admin/Dashboard.php:295
+msgid "Save failed. Please try again."
+msgstr ""
+
+#: src/Admin/Dashboard.php:296
+msgid "Network error. Please try again."
+msgstr ""
+
+#: src/Admin/Dashboard.php:297
+msgid "Network error."
+msgstr ""
+
+#: src/Admin/Dashboard.php:298
+msgid "Reset this section to default values?"
+msgstr ""
+
+#: src/Admin/Dashboard.php:299
+msgid "Clean-up Data on Deletion"
+msgstr ""
+
+#: src/Admin/Dashboard.php:300
+msgid "Completely remove all plugin data when the plugin is deleted."
+msgstr ""
+
+#: src/Admin/Dashboard.php:301
+msgid "Open in New Tab"
+msgstr ""
+
+#: src/Admin/Dashboard.php:302
+msgid "Open the Messenger chat link in a new browser tab when clicked."
+msgstr ""
+
+#: src/Admin/Dashboard.php:303
+msgid "Custom CSS"
+msgstr ""
+
+#: src/Admin/Dashboard.php:304
+msgid "Add your own CSS to override or extend the default chat styling."
+msgstr ""
+
+#: src/Admin/Dashboard.php:305
+msgid "/* Your custom CSS here */"
+msgstr ""
+
+#: src/Admin/Dashboard.php:306
+msgid "Custom JavaScript"
+msgstr ""
+
+#: src/Admin/Dashboard.php:307
+msgid "Add your own JavaScript to extend or customise chat behaviour."
+msgstr ""
+
+#: src/Admin/Dashboard.php:308
+msgid "// Your custom JavaScript here"
+msgstr ""
+
+#: src/Admin/Dashboard.php:310
+msgid "Choose Your Chat Experience"
+msgstr ""
+
+#: src/Admin/Dashboard.php:311
+msgid "Chat is disabled. You can still use shortcodes and Gutenberg blocks."
+msgstr ""
+
+#: src/Admin/Dashboard.php:312
+msgid "Disable Chat"
+msgstr ""
+
+#: src/Admin/Dashboard.php:313
+msgid "Single Agent"
+msgstr ""
+
+#: src/Admin/Dashboard.php:314
+msgid "Chat Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:315
+msgid "Multi-Agent List"
+msgstr ""
+
+#: src/Admin/Dashboard.php:316
+msgid "Multi-Agent Grid"
+msgstr ""
+
+#: src/Admin/Dashboard.php:317
+msgid "Icon Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:318
+msgid "Simple Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:319
+msgid "Advance Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:320
+msgid "Flat Theme"
+msgstr ""
+
+#: src/Admin/Dashboard.php:321
+msgid "Custom Theme"
+msgstr ""
+
+#: src/Admin/Dashboard.php:323
+msgid "Live Support"
+msgstr ""
+
+#: src/Admin/Dashboard.php:324
+msgid "Chat"
+msgstr ""
+
+#: src/Admin/Dashboard.php:325
+msgid "Telegram"
+msgstr ""
+
+#: src/Admin/Dashboard.php:326
+msgid "Paper Plane"
+msgstr ""
+
+#: src/Admin/Dashboard.php:327
+msgid "Close Line"
+msgstr ""
+
+#: src/Admin/Dashboard.php:328
+msgid "Close Circle"
+msgstr ""
+
+#: src/Admin/Dashboard.php:329
+msgid "UI Close"
+msgstr ""
+
+#: src/Admin/Dashboard.php:330
+msgid "Close Square"
+msgstr ""
+
+#: src/Admin/Dashboard.php:331
+msgid "Native"
+msgstr ""
+
+#: src/Admin/Dashboard.php:332
+msgid "Custom"
+msgstr ""
+
+#: src/Admin/Dashboard.php:333
+msgid "No Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:335
+msgid "General"
+msgstr ""
+
+#: src/Admin/Dashboard.php:336
+msgid "Header & Footer"
+msgstr ""
+
+#: src/Admin/Dashboard.php:337
+msgid "Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:338, src/Frontend/elementor-widgets/elementor-widget.php:101
+msgid "Style"
+msgstr ""
+
+#: src/Admin/Dashboard.php:340
+msgid "Backup"
+msgstr ""
+
+#: src/Admin/Dashboard.php:342
+msgid "Multi-Agent Settings"
+msgstr ""
+
+#: src/Admin/Dashboard.php:343
+msgid "Box Header"
+msgstr ""
+
+#: src/Admin/Dashboard.php:344
+msgid "Send Message Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:345
+msgid "Box Footer"
+msgstr ""
+
+#: src/Admin/Dashboard.php:346
+msgid "Button Style"
+msgstr ""
+
+#: src/Admin/Dashboard.php:347
+msgid "Status Text"
+msgstr ""
+
+#: src/Admin/Dashboard.php:348
+msgid "Icon Button Icons"
+msgstr ""
+
+#: src/Admin/Dashboard.php:349
+msgid "Simple Button Icons"
+msgstr ""
+
+#: src/Admin/Dashboard.php:350
+msgid "Button Size"
+msgstr ""
+
+#: src/Admin/Dashboard.php:351
+msgid "Colors"
+msgstr ""
+
+#: src/Admin/Dashboard.php:352
+msgid "Border & Padding"
+msgstr ""
+
+#: src/Admin/Dashboard.php:353
+msgid "Notification Badge"
+msgstr ""
+
+#: src/Admin/Dashboard.php:354
+msgid "Button Tooltip"
+msgstr ""
+
+#: src/Admin/Dashboard.php:355
+msgid "Position"
+msgstr ""
+
+#: src/Admin/Dashboard.php:356
+msgid "Popup Behaviour"
+msgstr ""
+
+#: src/Admin/Dashboard.php:357
+msgid "Color Scheme"
+msgstr ""
+
+#: src/Admin/Dashboard.php:358
+msgid "Typography"
+msgstr ""
+
+#: src/Admin/Dashboard.php:359
+msgid "Other"
+msgstr ""
+
+#: src/Admin/Dashboard.php:360
+msgid "Device Visibility"
+msgstr ""
+
+#: src/Admin/Dashboard.php:361
+msgid "Content Visibility"
+msgstr ""
+
+#: src/Admin/Dashboard.php:362
+msgid "Export"
+msgstr ""
+
+#: src/Admin/Dashboard.php:363
+msgid "Import"
+msgstr ""
+
+#: src/Admin/Dashboard.php:365
+msgid "Add your profile or page ID to receive messages."
+msgstr ""
+
+#: src/Admin/Dashboard.php:366
+msgid "Test Link"
+msgstr ""
+
+#: src/Admin/Dashboard.php:367
+msgid "Enter a Facebook username to test"
+msgstr ""
+
+#: src/Admin/Dashboard.php:368
+msgid "Current Time"
+msgstr ""
+
+#: src/Admin/Dashboard.php:369
+msgid "Enable to display the current time before the agent's message."
+msgstr ""
+
+#: src/Admin/Dashboard.php:370
+msgid "Message From Agent"
+msgstr ""
+
+#: src/Admin/Dashboard.php:371
+msgid "Add a custom message to display inside the agent's message box."
+msgstr ""
+
+#: src/Admin/Dashboard.php:372
+msgid "Select your local timezone. Availability schedules will be applied based on this timezone."
+msgstr ""
+
+#: src/Admin/Dashboard.php:373
+msgid "Set your daily availability using 24-hour format (e.g. 09:00 to 18:00). To mark a full day as offline, set both From and To values to 00:00."
+msgstr ""
+
+#: src/Admin/Dashboard.php:374
+msgid "Show Search Field"
+msgstr ""
+
+#: src/Admin/Dashboard.php:375
+msgid "Show or hide the search box. This helps visitors quickly find an agent when you have many agents."
+msgstr ""
+
+#: src/Admin/Dashboard.php:376
+msgid "Chat Agents"
+msgstr ""
+
+#: src/Admin/Dashboard.php:377
+msgid "Add and manage your chat agents. Each agent can have a name, photo, Facebook ID, pre-filled message, timezone, availability, designation, and custom online/offline text."
+msgstr ""
+
+#: src/Admin/Dashboard.php:378
+msgid "Agent Photo Type"
+msgstr ""
+
+#: src/Admin/Dashboard.php:379
+msgid "Choose how the agent photo is displayed — Default uses the built-in photo, Custom lets you upload your own, None shows no photo."
+msgstr ""
+
+#: src/Admin/Dashboard.php:380
+msgid "Upload an agent photo to display inside the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:381
+msgid "Enter the agent's name to display inside the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:382
+msgid "Online Subtitle"
+msgstr ""
+
+#: src/Admin/Dashboard.php:383
+msgid "Enter a subtitle to display below the agent's name in the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:384
+msgid "Offline Subtitle"
+msgstr ""
+
+#: src/Admin/Dashboard.php:385
+msgid "Enter a subtitle to display when the agent is offline in the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:386
+msgid "Header Content Alignment"
+msgstr ""
+
+#: src/Admin/Dashboard.php:387
+msgid "Choose the alignment for the header content."
+msgstr ""
+
+#: src/Admin/Dashboard.php:388
+msgid "Icon for Send Message Button"
+msgstr ""
+
+#: src/Admin/Dashboard.php:389
+msgid "Select an icon to display before the send message button text."
+msgstr ""
+
+#: src/Admin/Dashboard.php:390
+msgid "Native Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:391
+msgid "Custom Icon Image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:392
+msgid "Send Message Button Label"
+msgstr ""
+
+#: src/Admin/Dashboard.php:393
+msgid "Enter the text to display on the send message button."
+msgstr ""
+
+#: src/Admin/Dashboard.php:394
+msgid "Bubble Title"
+msgstr ""
+
+#: src/Admin/Dashboard.php:395
+msgid "Enter the main title text to display at the top of the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:396
+msgid "Bubble Subtitle"
+msgstr ""
+
+#: src/Admin/Dashboard.php:397
+msgid "Enter a subtitle to display below the main title inside the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:398
+msgid "Footer Content"
+msgstr ""
+
+#: src/Admin/Dashboard.php:399
+msgid "Enable or disable the footer text below the chat box. You can also replace the default text with your own custom message."
+msgstr ""
+
+#: src/Admin/Dashboard.php:400
+msgid "Custom Footer Text"
+msgstr ""
+
+#: src/Admin/Dashboard.php:401
+msgid "Text or HTML shown in the footer when footer content is enabled."
+msgstr ""
+
+#: src/Admin/Dashboard.php:402
+msgid "Floating Button Style"
+msgstr ""
+
+#: src/Admin/Dashboard.php:403
+msgid "Choose a style for the floating chat button."
+msgstr ""
+
+#: src/Admin/Dashboard.php:404
+msgid "Agent Avatar Type"
+msgstr ""
+
+#: src/Admin/Dashboard.php:405
+msgid "Agent Avatar Image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:406, src/Frontend/elementor-widgets/elementor-widget.php:132
+msgid "Button Top Label"
+msgstr ""
+
+#: src/Admin/Dashboard.php:407
+msgid "Small label above the main button text."
+msgstr ""
+
+#: src/Admin/Dashboard.php:408
+msgid "Button Main Label"
+msgstr ""
+
+#: src/Admin/Dashboard.php:409
+msgid "Chat Button Image Type"
+msgstr ""
+
+#: src/Admin/Dashboard.php:410
+msgid "Chat Button Image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:411
+msgid "Show Notification Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:412
+msgid "Notification Number"
+msgstr ""
+
+#: src/Admin/Dashboard.php:413
+msgid "Number shown on the badge. None = no number."
+msgstr ""
+
+#: src/Admin/Dashboard.php:414
+msgid "Tooltip Behaviour"
+msgstr ""
+
+#: src/Admin/Dashboard.php:415
+msgid "Tooltip Text"
+msgstr ""
+
+#: src/Admin/Dashboard.php:416
+msgid "Tooltip Background"
+msgstr ""
+
+#: src/Admin/Dashboard.php:417
+msgid "Tooltip Width"
+msgstr ""
+
+#: src/Admin/Dashboard.php:418
+msgid "Max width in px."
+msgstr ""
+
+#: src/Admin/Dashboard.php:419
+msgid "Bubble Position"
+msgstr ""
+
+#: src/Admin/Dashboard.php:420
+msgid "Different Position for Tablet"
+msgstr ""
+
+#: src/Admin/Dashboard.php:421
+msgid "Tablet Position"
+msgstr ""
+
+#: src/Admin/Dashboard.php:422
+msgid "Different Position for Mobile"
+msgstr ""
+
+#: src/Admin/Dashboard.php:423
+msgid "Mobile Position"
+msgstr ""
+
+#: src/Admin/Dashboard.php:424
+msgid "Auto Open Popup"
+msgstr ""
+
+#: src/Admin/Dashboard.php:425
+msgid "Automatically opens the chat popup on page load."
+msgstr ""
+
+#: src/Admin/Dashboard.php:426
+msgid "Auto Open Delay"
+msgstr ""
+
+#: src/Admin/Dashboard.php:427
+msgid "Delay in ms before auto-opening (0 = immediate)."
+msgstr ""
+
+#: src/Admin/Dashboard.php:428
+msgid "Bubble Animation"
+msgstr ""
+
+#: src/Admin/Dashboard.php:429
+msgid "How the chat bubble appears on screen."
+msgstr ""
+
+#: src/Admin/Dashboard.php:430
+msgid "Theme Style"
+msgstr ""
+
+#: src/Admin/Dashboard.php:431
+msgid "Visual style for the chat popup."
+msgstr ""
+
+#: src/Admin/Dashboard.php:432
+msgid "Background Image"
+msgstr ""
+
+#: src/Admin/Dashboard.php:433
+msgid "Bubble Layout Mode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:434
+msgid "Light / Dark / Night colour mode."
+msgstr ""
+
+#: src/Admin/Dashboard.php:435
+msgid "Primary & Secondary Colors"
+msgstr ""
+
+#: src/Admin/Dashboard.php:436
+msgid "Brand colours used throughout the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:437
+msgid "Send Button Colors"
+msgstr ""
+
+#: src/Admin/Dashboard.php:438
+msgid "Google Font Family"
+msgstr ""
+
+#: src/Admin/Dashboard.php:439
+msgid "Leave blank to inherit the site's font."
+msgstr ""
+
+#: src/Admin/Dashboard.php:440
+msgid "Custom Bubble Trigger"
+msgstr ""
+
+#: src/Admin/Dashboard.php:441
+msgid "Extra CSS selectors that also open the chat (e.g. .my-btn, #chat-trigger)."
+msgstr ""
+
+#: src/Admin/Dashboard.php:442
+msgid "Show Chat On"
+msgstr ""
+
+#: src/Admin/Dashboard.php:443
+msgid "Control which device types see the chat bubble."
+msgstr ""
+
+#: src/Admin/Dashboard.php:444
+msgid "Enable Visibility Rules By"
+msgstr ""
+
+#: src/Admin/Dashboard.php:445
+msgid "Select content types that should use include/exclude rules."
+msgstr ""
+
+#: src/Admin/Dashboard.php:446
+msgid "Export Settings"
+msgstr ""
+
+#: src/Admin/Dashboard.php:447
+msgid "Download your current settings as a JSON backup file."
+msgstr ""
+
+#: src/Admin/Dashboard.php:448
+msgid "Download Backup"
+msgstr ""
+
+#: src/Admin/Dashboard.php:449
+msgid "Import Settings"
+msgstr ""
+
+#: src/Admin/Dashboard.php:450
+msgid "Restore settings from a previously exported JSON file. This overwrites current settings."
+msgstr ""
+
+#: src/Admin/Dashboard.php:451
+msgid "After importing, click Save Settings to apply."
+msgstr ""
+
+#: src/Admin/Dashboard.php:452
+msgid "Reset all settings to defaults?"
+msgstr ""
+
+#: src/Admin/Dashboard.php:453
+msgid "Imported. Click Save to apply."
+msgstr ""
+
+#: src/Admin/Dashboard.php:454
+msgid "Invalid file."
+msgstr ""
+
+#: src/Admin/Dashboard.php:455
+msgid "Could not parse file."
+msgstr ""
+
+#: src/Admin/Dashboard.php:457
+msgid "Default (inherit)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:458
+msgid "Default"
+msgstr ""
+
+#: src/Admin/Dashboard.php:459
+msgid "None"
+msgstr ""
+
+#: src/Admin/Dashboard.php:460, src/Frontend/elementor-widgets/elementor-widget.php:1502
+msgid "Center"
+msgstr ""
+
+#: src/Admin/Dashboard.php:461, src/Frontend/elementor-widgets/elementor-widget.php:186, src/Frontend/elementor-widgets/elementor-widget.php:1375, src/Frontend/elementor-widgets/elementor-widget.php:1449
+msgid "Yes"
+msgstr ""
+
+#: src/Admin/Dashboard.php:462, src/Frontend/elementor-widgets/elementor-widget.php:187, src/Frontend/elementor-widgets/elementor-widget.php:1376, src/Frontend/elementor-widgets/elementor-widget.php:1450
+msgid "No"
+msgstr ""
+
+#: src/Admin/Dashboard.php:463, src/Frontend/elementor-widgets/elementor-widget.php:1097
+msgid "Everywhere"
+msgstr ""
+
+#: src/Admin/Dashboard.php:464
+msgid "Desktop Only"
+msgstr ""
+
+#: src/Admin/Dashboard.php:465
+msgid "Tablet Only"
+msgstr ""
+
+#: src/Admin/Dashboard.php:466
+msgid "Mobile Only"
+msgstr ""
+
+#: src/Admin/Dashboard.php:467
+msgid "Include (show on selected)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:468
+msgid "Exclude (hide on selected)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:469
+msgid "Theme Pages"
+msgstr ""
+
+#: src/Admin/Dashboard.php:470
+msgid "Posts"
+msgstr ""
+
+#: src/Admin/Dashboard.php:471
+msgid "Products"
+msgstr ""
+
+#: src/Admin/Dashboard.php:472
+msgid "Post Categories"
+msgstr ""
+
+#: src/Admin/Dashboard.php:473
+msgid "Post Tags"
+msgstr ""
+
+#: src/Admin/Dashboard.php:474
+msgid "Product Categories"
+msgstr ""
+
+#: src/Admin/Dashboard.php:475
+msgid "Product Tags"
+msgstr ""
+
+#: src/Admin/Dashboard.php:476
+msgid "Light Mode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:477
+msgid "Dark Mode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:478
+msgid "Night Mode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:479
+msgid "Bottom Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:480
+msgid "Bottom Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:481
+msgid "Middle Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:482
+msgid "Middle Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:483
+msgid "On Hover"
+msgstr ""
+
+#: src/Admin/Dashboard.php:484
+msgid "Always Show"
+msgstr ""
+
+#: src/Admin/Dashboard.php:485
+msgid "Hide"
+msgstr ""
+
+#: src/Admin/Dashboard.php:486, src/Frontend/elementor-widgets/elementor-widget.php:1114
+msgid "XS"
+msgstr ""
+
+#: src/Admin/Dashboard.php:487, src/Frontend/elementor-widgets/elementor-widget.php:1115
+msgid "S"
+msgstr ""
+
+#: src/Admin/Dashboard.php:488, src/Frontend/elementor-widgets/elementor-widget.php:1116
+msgid "M"
+msgstr ""
+
+#: src/Admin/Dashboard.php:489, src/Frontend/elementor-widgets/elementor-widget.php:1117
+msgid "L"
+msgstr ""
+
+#: src/Admin/Dashboard.php:490, src/Frontend/elementor-widgets/elementor-widget.php:1118
+msgid "XL"
+msgstr ""
+
+#: src/Admin/Dashboard.php:491, src/Frontend/elementor-widgets/elementor-widget.php:1119
+msgid "XXL"
+msgstr ""
+
+#: src/Admin/Dashboard.php:492, src/Frontend/elementor-widgets/elementor-widget.php:1214, src/Frontend/elementor-widgets/elementor-widget.php:1302
+msgid "Normal"
+msgstr ""
+
+#: src/Admin/Dashboard.php:493, src/Frontend/elementor-widgets/elementor-widget.php:1247, src/Frontend/elementor-widgets/elementor-widget.php:1337
+msgid "Hover"
+msgstr ""
+
+#: src/Admin/Dashboard.php:494
+msgid "Primary"
+msgstr ""
+
+#: src/Admin/Dashboard.php:495
+msgid "Secondary"
+msgstr ""
+
+#: src/Admin/Dashboard.php:496
+msgid "Color"
+msgstr ""
+
+#: src/Admin/Dashboard.php:497
+msgid "Hover Color"
+msgstr ""
+
+#: src/Admin/Dashboard.php:498
+msgid "Background"
+msgstr ""
+
+#: src/Admin/Dashboard.php:499
+msgid "Hover Background"
+msgstr ""
+
+#: src/Admin/Dashboard.php:500
+msgid "Fade Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:501
+msgid "Fade Down"
+msgstr ""
+
+#: src/Admin/Dashboard.php:502
+msgid "Ease Down"
+msgstr ""
+
+#: src/Admin/Dashboard.php:503
+msgid "Fade In Scale"
+msgstr ""
+
+#: src/Admin/Dashboard.php:504
+msgid "Rotation"
+msgstr ""
+
+#: src/Admin/Dashboard.php:505
+msgid "Slide Fall"
+msgstr ""
+
+#: src/Admin/Dashboard.php:506
+msgid "Slide Down"
+msgstr ""
+
+#: src/Admin/Dashboard.php:507
+msgid "Rotate Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:508
+msgid "Flip Horizontal"
+msgstr ""
+
+#: src/Admin/Dashboard.php:509
+msgid "Flip Vertical"
+msgstr ""
+
+#: src/Admin/Dashboard.php:510
+msgid "Flip Up"
+msgstr ""
+
+#: src/Admin/Dashboard.php:511
+msgid "Super Scaled"
+msgstr ""
+
+#: src/Admin/Dashboard.php:512
+msgid "Slide Up"
+msgstr ""
+
+#: src/Admin/Dashboard.php:513
+msgid "Random"
+msgstr ""
+
+#: src/Admin/Dashboard.php:514
+msgid "Fade"
+msgstr ""
+
+#: src/Admin/Dashboard.php:515
+msgid "Rotate"
+msgstr ""
+
+#: src/Admin/Dashboard.php:517
+msgid "Margin — Bottom Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:518
+msgid "Margin — Bottom Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:519
+msgid "Margin — Middle Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:520
+msgid "Margin — Middle Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:521
+msgid "Tablet — Bottom Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:522
+msgid "Tablet — Bottom Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:523
+msgid "Tablet — Middle Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:524
+msgid "Tablet — Middle Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:525
+msgid "Mobile — Bottom Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:526
+msgid "Mobile — Bottom Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:527
+msgid "Mobile — Middle Right"
+msgstr ""
+
+#: src/Admin/Dashboard.php:528
+msgid "Mobile — Middle Left"
+msgstr ""
+
+#: src/Admin/Dashboard.php:530
+msgid "Open Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:531
+msgid "Open — Native Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:532
+msgid "Open — Custom Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:533
+msgid "Close Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:534
+msgid "Close — Native Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:535
+msgid "Close — Custom Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:536
+msgid "Open/Close Transition Effect"
+msgstr ""
+
+#: src/Admin/Dashboard.php:537, src/Frontend/elementor-widgets/elementor-widget.php:1373
+msgid "Button Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:538
+msgid "Button — Native Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:539
+msgid "Button — Custom Icon"
+msgstr ""
+
+#: src/Admin/Dashboard.php:540
+msgid "Custom Size"
+msgstr ""
+
+#: src/Admin/Dashboard.php:541
+msgid "Scale % relative to normal size (100%)."
+msgstr ""
+
+#: src/Admin/Dashboard.php:542, src/Frontend/elementor-widgets/elementor-widget.php:1412
+msgid "Icon Color"
+msgstr ""
+
+#: src/Admin/Dashboard.php:543, src/Frontend/elementor-widgets/elementor-widget.php:1447
+msgid "Icon Background"
+msgstr ""
+
+#: src/Admin/Dashboard.php:544
+msgid "Icon Background Color"
+msgstr ""
+
+#: src/Admin/Dashboard.php:545
+msgid "Button Background"
+msgstr ""
+
+#: src/Admin/Dashboard.php:546
+msgid "Button Label Color"
+msgstr ""
+
+#: src/Admin/Dashboard.php:547
+msgid "Button Border"
+msgstr ""
+
+#: src/Admin/Dashboard.php:548, src/Frontend/elementor-widgets/elementor-widget.php:1309, src/Frontend/elementor-widgets/elementor-widget.php:1313
+msgid "Icon Border"
+msgstr ""
+
+#: src/Admin/Dashboard.php:549
+msgid "Button Padding"
+msgstr ""
+
+#: src/Admin/Dashboard.php:550, src/Frontend/elementor-widgets/elementor-widget.php:213
+msgid "Select timezone"
+msgstr ""
+
+#: src/Admin/Dashboard.php:551
+msgid "Search fonts…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:553
+msgid "Select Button Style"
+msgstr ""
+
+#: src/Admin/Dashboard.php:554
+msgid "Shortcode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:555
+msgid "Copy Shortcode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:556
+msgid "Copied!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:557
+msgid "Copy Failed — Select & Ctrl+C"
+msgstr ""
+
+#: src/Admin/Dashboard.php:558
+msgid "Available Attributes ="
+msgstr ""
+
+#: src/Admin/Dashboard.php:560
+msgid "Get Started"
+msgstr ""
+
+#: src/Admin/Dashboard.php:561
+msgid "Recommended"
+msgstr ""
+
+#: src/Admin/Dashboard.php:562
+msgid "Lite Vs Pro"
+msgstr ""
+
+#: src/Admin/Dashboard.php:563
+msgid "Pro Plugins"
+msgstr ""
+
+#: src/Admin/Dashboard.php:564
+msgid "Active"
+msgstr ""
+
+#: src/Admin/Dashboard.php:565
+msgid "Activating…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:566
+msgid "Install Now"
+msgstr ""
+
+#: src/Admin/Dashboard.php:567
+msgid "Installing…"
+msgstr ""
+
+#: src/Admin/Dashboard.php:568
+msgid "More Details"
+msgstr ""
+
+#: src/Admin/Dashboard.php:569
+msgid "Couldn't load plugins right now. Please try again later."
+msgstr ""
+
+#: src/Admin/Dashboard.php:570
+msgid "Hot"
+msgstr ""
+
+#: src/Admin/Dashboard.php:571
+msgid "active"
+msgstr ""
+
+#: src/Admin/Dashboard.php:572
+msgid "Upgrading To Pro!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:573
+msgid "Welcome to Better Chat Support for Messenger!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:574
+msgid "Thank you for installing Better Chat Support for Messenger! This playlist will help you get started with the plugin. Enjoy!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:575
+msgid "Overview"
+msgstr ""
+
+#: src/Admin/Dashboard.php:576
+msgid "Better Chat Support Plugin - Overview"
+msgstr ""
+
+#: src/Admin/Dashboard.php:577
+msgid "Plugin Settings"
+msgstr ""
+
+#: src/Admin/Dashboard.php:578
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: src/Admin/Dashboard.php:579
+msgid "Documentation"
+msgstr ""
+
+#: src/Admin/Dashboard.php:580
+msgid "Explore Messenger Chat Support plugin capabilities in our enriched documentation."
+msgstr ""
+
+#: src/Admin/Dashboard.php:581
+msgid "Technical Support"
+msgstr ""
+
+#: src/Admin/Dashboard.php:582
+msgid "For personalized assistance, reach out to our skilled support team for prompt help."
+msgstr ""
+
+#: src/Admin/Dashboard.php:583
+msgid "Hire Us!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:584
+msgid "We are available for freelance work for any WordPress, React, NextJS projects. Click to contact us."
+msgstr ""
+
+#: src/Admin/Dashboard.php:585
+msgid "Enhance your Website with our Free Robust Plugins"
+msgstr ""
+
+#: src/Admin/Dashboard.php:586
+msgid "Free, high-quality plugins by ThemeAtelier — install in one click."
+msgstr ""
+
+#: src/Admin/Dashboard.php:587
+msgid "Lite Vs Pro Comparison"
+msgstr ""
+
+#: src/Admin/Dashboard.php:588
+msgid "FEATURES"
+msgstr ""
+
+#: src/Admin/Dashboard.php:589
+msgid "Lite"
+msgstr ""
+
+#: src/Admin/Dashboard.php:590
+msgid "All Free Version Features"
+msgstr ""
+
+#: src/Admin/Dashboard.php:591
+msgid "Single Agent & Chat Button Layouts"
+msgstr ""
+
+#: src/Admin/Dashboard.php:592
+msgid "Icon & Simple Button Styles"
+msgstr ""
+
+#: src/Admin/Dashboard.php:593
+msgid "Time based availability for agents"
+msgstr ""
+
+#: src/Admin/Dashboard.php:594
+msgid "Bubble animation"
+msgstr ""
+
+#: src/Admin/Dashboard.php:595
+msgid "Open/Close Transition Effects"
+msgstr ""
+
+#: src/Admin/Dashboard.php:596
+msgid "Typography & Google Fonts"
+msgstr ""
+
+#: src/Admin/Dashboard.php:597
+msgid "Responsive Positioning (Desktop/Tablet/Mobile)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:598
+msgid "Button Tooltip & Notification Badge"
+msgstr ""
+
+#: src/Admin/Dashboard.php:599
+msgid "Custom CSS & JavaScript"
+msgstr ""
+
+#: src/Admin/Dashboard.php:600
+msgid "Shortcode Buttons"
+msgstr ""
+
+#: src/Admin/Dashboard.php:601
+msgid "WooCommerce Buttons"
+msgstr ""
+
+#: src/Admin/Dashboard.php:602
+msgid "Gutenberg Button Blocks"
+msgstr ""
+
+#: src/Admin/Dashboard.php:603
+msgid "Export/Import Option"
+msgstr ""
+
+#: src/Admin/Dashboard.php:604
+msgid "Multi-Agent Layouts (List & Grid)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:605
+msgid "Advance Chat Button Style"
+msgstr ""
+
+#: src/Admin/Dashboard.php:606
+msgid "Dark & Night Layout Mode"
+msgstr ""
+
+#: src/Admin/Dashboard.php:607
+msgid "Custom Button Icons & Images"
+msgstr ""
+
+#: src/Admin/Dashboard.php:608
+msgid "Advanced Visibility (Posts, Products, Categories, Tags)"
+msgstr ""
+
+#: src/Admin/Dashboard.php:609
+msgid "Automatic Updates & Priority Support"
+msgstr ""
+
+#: src/Admin/Dashboard.php:610
+msgid "Upgrade To PRO & Enjoy Advanced Features!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:611
+msgid "Already,"
+msgstr ""
+
+#: src/Admin/Dashboard.php:612
+msgid "people are using Better Chat Support on their websites to turn visitors into customers with powerful video greetings — why won't you?"
+msgstr ""
+
+#: src/Admin/Dashboard.php:613
+msgid "Upgrade to Pro Now!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:614
+msgid "14-Day No-Questions-Asked"
+msgstr ""
+
+#: src/Admin/Dashboard.php:615
+msgid "Refund Policy"
+msgstr ""
+
+#: src/Admin/Dashboard.php:616
+msgid "See All Features"
+msgstr ""
+
+#: src/Admin/Dashboard.php:617
+msgid "Pro Live Demo"
+msgstr ""
+
+#: src/Admin/Dashboard.php:618
+msgid "NO NEED TO TAKE OUR WORD FOR IT"
+msgstr ""
+
+#: src/Admin/Dashboard.php:619
+msgid "Our Users Love Better Chat Support!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:620
+msgid "Upgrade your Website with our High-quality Plugins!"
+msgstr ""
+
+#: src/Admin/Dashboard.php:621
+msgid "View Details"
+msgstr ""
+
+#: src/Admin/Dashboard.php:622
+msgid "Made With"
+msgstr ""
+
+#: src/Admin/Dashboard.php:623
+msgid "By the Team"
+msgstr ""
+
+#: src/Admin/Dashboard.php:624
+msgid "Get connected with"
+msgstr ""
+
+#: src/Admin/Dashboard.php:678
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: src/Admin/Dashboard.php:697
+msgid "Google Web Fonts"
+msgstr ""
+
+#: src/Admin/SettingsController.php:148
+msgid "Please enter a valid email."
+msgstr ""
+
+#: src/Admin/SettingsController.php:295
+msgid "ago"
+msgstr ""
+
+#: src/Admin/SettingsController.php:503
+msgid "WordPress User"
+msgstr ""
+
+#: src/Admin/SettingsController.php:617
+msgid "No plugin specified."
+msgstr ""
+
+#: src/Admin/SettingsController.php:633
+msgid "Could not retrieve plugin information from WordPress.org."
+msgstr ""
+
+#: src/Admin/SettingsController.php:652
+msgid "Plugin installation failed. Please try again."
+msgstr ""
+
+#: src/Admin/SettingsController.php:681
+msgid "Invalid plugin specified."
+msgstr ""
+
+#: src/Admin/SettingsController.php:687
+msgid "Plugin is not installed."
+msgstr ""
+
+#: src/Admin/SettingsController.php:716
+msgid "Plugin activation failed. Please try again."
+msgstr ""
+
+#: src/Admin/SettingsController.php:745, src/Admin/SettingsController.php:795
+msgid "Technical support"
+msgstr ""
+
+#: src/Admin/SettingsController.php:755
+msgid "Marketing support"
+msgstr ""
+
+#: src/Admin/SettingsController.php:765
+msgid "Sales support"
+msgstr ""
+
+#: src/Admin/SettingsController.php:775
+msgid "Product manager"
+msgstr ""
+
+#: src/Admin/SettingsController.php:785
+msgid "Support Manager"
+msgstr ""
+
+#: src/Includes/AutoUpdate.php:392
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: src/Includes/AutoUpdate.php:392
+msgid "Error"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:66
+msgid "Enjoying"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:66, src/Admin/Helpers/ReviewNotice.php:67
+msgid "Better Chat Support"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:67
+msgid "We hope you had a wonderful experience using"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:67
+msgid "Please take a moment to leave a review on"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:67
+msgid "WordPress.org"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:68
+msgid "Your positive review will help us improve. Thank you!"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:71
+msgid "Ok, you deserve"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:72
+msgid "Nope, maybe later"
+msgstr ""
+
+#: src/Admin/Helpers/ReviewNotice.php:74
+msgid "Never show again"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:42
+msgid "Better Chat Support buttons"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:84
+msgid "General settings"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:92
+msgid "Add your facebook ID eg: ThemeAtelier"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:106
+msgid "Advanced button"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:107
+msgid "Basic button"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:116
+msgid "Agent photo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:117
+msgid "Add agent photo to show in button."
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:133
+msgid "Write agent name to show in button."
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:136
+msgid "John / Sales Support"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:146
+msgid "Button Main label"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:147
+msgid "Add custom button label."
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:150
+msgid "How can I help you?"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:157
+msgid "Online badget text"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:158
+msgid "Add custom badget text when user in online."
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:161
+msgid "I'm avaiable"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:171
+msgid "Offline badget text"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:172
+msgid "Add custom badget text when user in offline."
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:175
+msgid "I'm offline"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:184
+msgid "Open link in new window"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:198
+msgid "Chat settings"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:207
+msgid "When using the date and time from the user browser you can transform it to your current timezone (in case your user is in a different timezone)"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:214
+msgid "Africa/Abidjan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:215
+msgid "Africa/Accra"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:216
+msgid "Africa/Addis_Ababa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:217
+msgid "Africa/Algiers"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:218
+msgid "Africa/Asmara"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:219
+msgid "Africa/Asmera"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:220
+msgid "Africa/Bamako"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:221
+msgid "Africa/Bangui"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:222
+msgid "Africa/Banjul"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:223
+msgid "Africa/Bissau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:224
+msgid "Africa/Blantyre"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:225
+msgid "Africa/Brazzaville"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:226
+msgid "Africa/Bujumbura"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:227
+msgid "Africa/Cairo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:228
+msgid "Africa/Casablanca"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:229
+msgid "Africa/Ceuta"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:230
+msgid "Africa/Conakry"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:231
+msgid "Africa/Dakar"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:232
+msgid "Africa/Dar_es_Salaam"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:233
+msgid "Africa/Djibouti"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:234
+msgid "Africa/Douala"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:235
+msgid "Africa/El_Aaiun"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:236
+msgid "Africa/Freetown"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:237
+msgid "Africa/Gaborone"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:238
+msgid "Africa/Harare"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:239
+msgid "Africa/Johannesburg"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:240
+msgid "Africa/Juba"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:241
+msgid "Africa/Kampala"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:242
+msgid "Africa/Khartoum"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:243
+msgid "Africa/Kigali"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:244
+msgid "Africa/Kinshasa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:245
+msgid "Africa/Lagos"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:246
+msgid "Africa/Libreville"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:247
+msgid "Africa/Lome"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:248
+msgid "Africa/Luanda"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:249
+msgid "Africa/Lubumbashi"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:250
+msgid "Africa/Lusaka"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:251
+msgid "Africa/Malabo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:252
+msgid "Africa/Maputo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:253
+msgid "Africa/Maseru"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:254
+msgid "Africa/Mbabane"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:255
+msgid "Africa/Mogadishu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:256
+msgid "Africa/Monrovia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:257
+msgid "Africa/Nairobi"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:258
+msgid "Africa/Ndjamena"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:259
+msgid "Africa/Niamey"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:260
+msgid "Africa/Nouakchott"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:261
+msgid "Africa/Ouagadougou"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:262
+msgid "Africa/Porto-Novo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:263
+msgid "Africa/Sao_Tome"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:264
+msgid "Africa/Timbuktu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:265
+msgid "Africa/Tripoli"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:266
+msgid "Africa/Tunis"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:267
+msgid "Africa/Windhoek"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:268
+msgid "America/Adak"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:269
+msgid "America/Anchorage"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:270
+msgid "America/Anguilla"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:271
+msgid "America/Antigua"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:272, src/Frontend/elementor-widgets/elementor-widget.php:317, src/Frontend/elementor-widgets/elementor-widget.php:319
+msgid "America/Araguaina"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:273
+msgid "America/Argentina/Buenos_Aires"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:274
+msgid "America/Argentina/Catamarca"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:275
+msgid "America/Argentina/ComodRivadavia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:276
+msgid "America/Argentina/Cordoba"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:277
+msgid "America/Argentina/Jujuy"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:278
+msgid "America/Argentina/La_Rioja"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:279
+msgid "America/Argentina/Mendoza"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:280
+msgid "America/Argentina/Rio_Gallegos"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:281
+msgid "America/Argentina/Salta"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:282
+msgid "America/Argentina/San_Juan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:283
+msgid "America/Argentina/San_Luis"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:284
+msgid "America/Argentina/Tucuman"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:285
+msgid "America/Argentina/Ushuaia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:286
+msgid "America/Aruba"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:287
+msgid "America/Asuncion"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:288
+msgid "America/Atikokan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:289
+msgid "America/Atka"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:290
+msgid "America/Bahia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:291
+msgid "America/Bahia_Banderas"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:292
+msgid "America/Barbados"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:293
+msgid "America/Belem"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:294
+msgid "America/Belize"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:295
+msgid "America/Blanc-Sablon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:296
+msgid "America/Boa_Vista"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:297
+msgid "America/Bogota"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:298
+msgid "America/Boise"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:299
+msgid "America/Buenos_Aires"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:300
+msgid "America/Cambridge_Bay"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:301
+msgid "America/Campo_Grande"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:302
+msgid "America/Cancun"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:303
+msgid "America/Caracas"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:304
+msgid "America/Catamarca"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:305
+msgid "America/Cayenne"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:306
+msgid "America/Cayman"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:307
+msgid "America/Chicago"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:308
+msgid "America/Chihuahua"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:309
+msgid "America/Coral_Harbour"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:310
+msgid "America/Cordoba"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:311
+msgid "America/Costa_Rica"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:312
+msgid "America/Creston"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:313
+msgid "America/Cuiaba"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:314
+msgid "America/Curacao"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:315
+msgid "America/Danmarkshavn"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:316
+msgid "America/Dawson"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:318
+msgid "America/Denver"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:320
+msgid "America/Dominica"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:321
+msgid "America/Edmonton"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:322
+msgid "America/Eirunepe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:323
+msgid "America/El_Salvador"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:324
+msgid "America/Ensenada"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:325
+msgid "America/Fort_Nelson"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:326
+msgid "America/Fort_Wayne"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:327
+msgid "America/Fortaleza"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:328
+msgid "America/Glace_Bay"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:329
+msgid "America/Godthab"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:330
+msgid "America/Goose_Bay"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:331
+msgid "America/Grand_Turk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:332
+msgid "America/Grenada"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:333
+msgid "America/Guadeloupe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:334
+msgid "America/Guatemala"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:335
+msgid "America/Guayaquil"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:336
+msgid "America/Guyana"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:337
+msgid "America/Halifax"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:338
+msgid "America/Havana"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:339
+msgid "America/Hermosillo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:340
+msgid "Indiana/Indianapolis"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:341
+msgid "America/Indiana/Knox"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:342
+msgid "America/Indiana/Marengo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:343
+msgid "America/Indiana/Petersburg"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:344
+msgid "America/Indiana/Tell_City"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:345
+msgid "America/Indiana/Vevay"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:346
+msgid "America/Indiana/Vincennes"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:347
+msgid "America/Indiana/Winamac"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:348
+msgid "America/Indianapolis"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:349
+msgid "America/Inuvik"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:350
+msgid "America/Iqaluit"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:351
+msgid "America/Jamaica"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:352
+msgid "America/Jujuy"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:353
+msgid "America/Juneau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:354
+msgid "America/Kentucky/Louisville"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:355
+msgid "America/Kentucky/Monticello"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:356
+msgid "America/Knox_IN"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:357
+msgid "America/Kralendijk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:358
+msgid "America/La_Paz"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:359
+msgid "America/Lima"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:360
+msgid "America/Los_Angeles"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:361
+msgid "America/Louisville"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:362
+msgid "America/Lower_Princes"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:363
+msgid "America/Maceio"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:364
+msgid "America/Managua"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:365
+msgid "America/Manaus"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:366
+msgid "America/Marigot"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:367
+msgid "America/Martinique"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:368
+msgid "America/Matamoros"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:369
+msgid "America/Mazatlan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:370
+msgid "America/Mendoza"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:371
+msgid "America/Menominee"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:372
+msgid "America/Merida"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:373
+msgid "America/Metlakatla"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:374
+msgid "America/Mexico_City"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:375
+msgid "America/Miquelon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:376
+msgid "America/Moncton"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:377
+msgid "America/Monterrey"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:378
+msgid "America/Montevideo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:379
+msgid "America/Montreal"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:380
+msgid "America/Montserrat"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:381
+msgid "America/Nassau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:382
+msgid "America/New_York"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:383
+msgid "America/Nipigon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:384
+msgid "America/Nome"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:385
+msgid "America/Noronha"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:386
+msgid "America/North_Dakota/Beulah"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:387
+msgid "America/North_Dakota/Center"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:388
+msgid "America/North_Dakota/New_Salem"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:389
+msgid "America/Ojinaga"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:390
+msgid "America/Panama"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:391
+msgid "America/Pangnirtung"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:392
+msgid "America/Paramaribo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:393
+msgid "America/Phoenix"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:394
+msgid "America/Port-au-Prince"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:395
+msgid "America/Port_of_Spain"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:396
+msgid "America/Porto_Acre"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:397
+msgid "America/Porto_Velho"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:398
+msgid "America/Puerto_Rico"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:399
+msgid "America/Punta_Arenas"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:400
+msgid "America/Rainy_River"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:401
+msgid "America/Rankin_Inlet"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:402
+msgid "America/Recife"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:403
+msgid "America/Regina"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:404
+msgid "America/Resolute"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:405
+msgid "America/Rio_Branco"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:406
+msgid "America/Rosario"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:407
+msgid "America/Santa_Isabel"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:408
+msgid "America/Santarem"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:409
+msgid "America/Santiago"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:410
+msgid "America/Santo_Domingo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:411
+msgid "America/Sao_Paulo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:412
+msgid "America/Scoresbysund"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:413
+msgid "America/Shiprock"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:414
+msgid "America/Sitka"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:415
+msgid "America/St_Barthelemy"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:416
+msgid "America/St_Johns"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:417
+msgid "America/St_Kitts"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:418
+msgid "America/St_Lucia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:419
+msgid "America/St_Thomas"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:420
+msgid "America/St_Vincent"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:421
+msgid "America/Swift_Current"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:422
+msgid "America/Tegucigalpa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:423
+msgid "America/Thule"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:424
+msgid "America/Thunder_Bay"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:425
+msgid "America/Tijuana"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:426
+msgid "America/Toronto"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:427
+msgid "America/Tortola"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:428
+msgid "America/Vancouver"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:429
+msgid "America/Virgin"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:430
+msgid "America/Whitehorse"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:431
+msgid "America/Winnipeg"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:432
+msgid "America/Yakutat"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:433
+msgid "America/Yellowknife"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:434
+msgid "Antarctica/Casey"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:435
+msgid "Antarctica/Davis"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:436
+msgid "Antarctica/DumontDUrville"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:437
+msgid "Antarctica/Macquarie"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:438
+msgid "Antarctica/Mawson"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:439
+msgid "Antarctica/McMurdo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:440
+msgid "Antarctica/Palmer"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:441
+msgid "Antarctica/Rothera"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:442
+msgid "Antarctica/South_Pole"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:443
+msgid "Antarctica/Syowa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:444
+msgid "Antarctica/Troll"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:445
+msgid "Antarctica/Vostok"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:446
+msgid "Arctic/Longyearbyen"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:447
+msgid "Asia/Aden"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:448
+msgid "Asia/Almaty"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:449
+msgid "Asia/Amman"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:450
+msgid "Asia/Anadyr"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:451
+msgid "Asia/Aqtau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:452
+msgid "Asia/Aqtobe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:453
+msgid "Asia/Ashgabat"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:454
+msgid "Asia/Ashkhabad"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:455
+msgid "Asia/Atyrau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:456
+msgid "Asia/Baghdad"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:457
+msgid "Asia/Bahrain"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:458
+msgid "Asia/Baku"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:459
+msgid "Asia/Bangkok"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:460
+msgid "Asia/Barnaul"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:461
+msgid "Asia/Beirut"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:462
+msgid "Asia/Bishkek"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:463
+msgid "Asia/Brunei"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:464
+msgid "Asia/Calcutta"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:465
+msgid "Asia/Chita"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:466
+msgid "Asia/Choibalsan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:467
+msgid "Asia/Chongqing"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:468
+msgid "Asia/Chungking"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:469
+msgid "Asia/Colombo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:470
+msgid "Asia/Dacca"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:471
+msgid "Asia/Damascus"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:472
+msgid "Asia/Dhaka"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:473
+msgid "Asia/Dili"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:474
+msgid "Asia/Dubai"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:475
+msgid "Asia/Dushanbe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:476
+msgid "Asia/Famagusta"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:477
+msgid "Asia/Gaza"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:478
+msgid "Asia/Harbin"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:479
+msgid "Asia/Hebron"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:480
+msgid "Asia/Ho_Chi_Minh"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:481
+msgid "Asia/Hong_Kong"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:482
+msgid "Asia/Hovd"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:483
+msgid "Asia/Irkutsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:484
+msgid "Asia/Istanbul"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:485
+msgid "Asia/Jakarta"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:486
+msgid "Asia/Jayapura"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:487
+msgid "Asia/Jerusalem"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:488
+msgid "Asia/Kabul"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:489
+msgid "Asia/Kamchatka"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:490
+msgid "Asia/Karachi"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:491
+msgid "Asia/Kashgar"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:492
+msgid "Asia/Kathmandu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:493
+msgid "Asia/Katmandu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:494
+msgid "Asia/Khandyga"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:495
+msgid "Asia/Kolkata"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:496
+msgid "Asia/Krasnoyarsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:497
+msgid "Asia/Kuala_Lumpur"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:498
+msgid "Asia/Kuching"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:499
+msgid "Asia/Kuwait"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:500
+msgid "Asia/Macao"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:501
+msgid "Asia/Macau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:502
+msgid "Asia/Magadan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:503
+msgid "Asia/Makassar"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:504
+msgid "Asia/Manila"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:505
+msgid "Asia/Muscat"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:506
+msgid "Asia/Nicosia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:507
+msgid "Asia/Novokuznetsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:508
+msgid "Asia/Novosibirsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:509
+msgid "Asia/Omsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:510
+msgid "Asia/Oral"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:511
+msgid "Asia/Phnom_Penh"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:512
+msgid "Asia/Pontianak"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:513
+msgid "Asia/Pyongyang"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:514
+msgid "Asia/Qatar"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:515
+msgid "Asia/Qyzylorda"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:516
+msgid "Asia/Rangoon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:517
+msgid "Asia/Riyadh"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:518
+msgid "Asia/Saigon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:519
+msgid "Asia/Sakhalin"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:520
+msgid "Asia/Samarkand"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:521
+msgid "Asia/Seoul"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:522
+msgid "Asia/Shanghai"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:523
+msgid "Asia/Singapore"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:524
+msgid "Asia/Srednekolymsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:525
+msgid "Asia/Taipei"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:526
+msgid "Asia/Tashkent"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:527
+msgid "Asia/Tbilisi"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:528
+msgid "Asia/Tehran"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:529
+msgid "Asia/Tel_Aviv"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:530
+msgid "Asia/Thimbu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:531
+msgid "Asia/Thimphu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:532
+msgid "Asia/Tokyo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:533
+msgid "Asia/Tomsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:534
+msgid "Asia/Ujung_Pandang"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:535
+msgid "Asia/Ulaanbaatar"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:536
+msgid "Asia/Ulan_Bator"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:537
+msgid "Asia/Urumqi"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:538
+msgid "Asia/Ust-Nera"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:539
+msgid "Asia/Vientiane"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:540
+msgid "Asia/Vladivostok"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:541
+msgid "Asia/Yakutsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:542
+msgid "Asia/Yangon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:543
+msgid "Asia/Yekaterinburg"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:544
+msgid "Asia/Yerevan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:545
+msgid "Atlantic/Azores"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:546
+msgid "Atlantic/Bermuda"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:547
+msgid "Atlantic/Canary"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:548
+msgid "Atlantic/Cape_Verde"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:549
+msgid "Atlantic/Faeroe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:550
+msgid "Atlantic/Faroe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:551
+msgid "Atlantic/Jan_Mayen"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:552
+msgid "Atlantic/Madeira"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:553
+msgid "Atlantic/Reykjavik"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:554
+msgid "Atlantic/South_Georgia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:555
+msgid "Atlantic/St_Helena"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:556
+msgid "Atlantic/Stanley"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:557
+msgid "Australia/ACT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:558
+msgid "Australia/Adelaide"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:559
+msgid "Australia/Brisbane"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:560
+msgid "Asia/Broken_Hill"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:561
+msgid "Australia/Canberra"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:562
+msgid "Australia/Currie"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:563
+msgid "Australia/Darwin"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:564
+msgid "Australia/Eucla"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:565
+msgid "Australia/Hobart"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:566
+msgid "Australia/LHI"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:567
+msgid "Australia/Lindeman"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:568
+msgid "Australia/Lord_Howe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:569
+msgid "Australia/Melbourne"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:570
+msgid "Australia/NSW"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:571
+msgid "Australia/North"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:572
+msgid "Australia/Perth"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:573
+msgid "Australia/Queensland"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:574
+msgid "Australia/South"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:575
+msgid "Australia/Sydney"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:576
+msgid "Australia/Tasmania"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:577
+msgid "Australia/Victoria"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:578
+msgid "Australia/West"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:579
+msgid "Australia/Yancowinna"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:580
+msgid "Brazil/Acre"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:581
+msgid "Brazil/DeNoronha"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:582
+msgid "Brazil/East"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:583
+msgid "Brazil/West"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:584
+msgid "CET"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:585
+msgid "CST6CDT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:586
+msgid "Canada/Atlantic"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:587
+msgid "Canada/Central"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:588
+msgid "Canada/Eastern"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:589
+msgid "Canada/Mountain"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:590
+msgid "Canada/Newfoundland"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:591
+msgid "Canada/Pacific"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:592
+msgid "Canada/Saskatchewan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:593
+msgid "Canada/Yukon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:594
+msgid "Chile/Continental"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:595
+msgid "Chile/EasterIsland"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:596
+msgid "Cuba"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:597
+msgid "EET"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:598
+msgid "EST"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:599
+msgid "EST5EDT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:600
+msgid "Egypt"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:601
+msgid "Eire"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:602
+msgid "Etc/GMT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:603
+msgid "Etc/GMT+0"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:604
+msgid "Etc/GMT+1"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:605
+msgid "Etc/GMT+10"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:606
+msgid "Etc/GMT+11"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:607
+msgid "Etc/GMT+12"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:608
+msgid "Etc/GMT+2"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:609
+msgid "Etc/GMT+3"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:610
+msgid "Etc/GMT+4"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:611
+msgid "Etc/GMT+5"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:612
+msgid "Etc/GMT+6"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:613
+msgid "Etc/GMT+7"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:614
+msgid "Etc/GMT+8"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:615
+msgid "Etc/GMT+9"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:616
+msgid "Etc/GMT-0"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:617
+msgid "Etc/GMT-1"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:618
+msgid "Etc/GMT-10"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:619
+msgid "Etc/GMT-11"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:620
+msgid "Etc/GMT-12"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:621
+msgid "Etc/GMT-13"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:622
+msgid "Etc/GMT-14"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:623
+msgid "Etc/GMT-2"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:624
+msgid "Etc/GMT-3"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:625
+msgid "Etc/GMT-4"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:626
+msgid "Etc/GMT-5"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:627
+msgid "Etc/GMT-6"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:628
+msgid "Etc/GMT-7"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:629
+msgid "Etc/GMT-8"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:630
+msgid "Etc/GMT-9"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:631
+msgid "Etc/GMT0"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:632
+msgid "Etc/Greenwich"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:633
+msgid "Etc/UCT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:634
+msgid "Etc/UTC"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:635
+msgid "Etc/Universal"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:636
+msgid "Etc/Zulu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:637
+msgid "Europe/Amsterdam"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:638
+msgid "Europe/Andorra"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:639
+msgid "Europe/Astrakhan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:640
+msgid "Europe/Athens"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:641
+msgid "Europe/Belfast"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:642
+msgid "Europe/Belgrade"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:643
+msgid "Europe/Berlin"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:644
+msgid "Europe/Bratislava"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:645
+msgid "Europe/Brussels"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:646
+msgid "Europe/Bucharest"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:647
+msgid "Europe/Budapest"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:648
+msgid "Europe/Busingen"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:649
+msgid "Europe/Chisinau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:650
+msgid "Europe/Copenhagen"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:651
+msgid "Europe/Dublin"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:652
+msgid "Europe/Gibraltar"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:653
+msgid "Europe/Guernsey"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:654
+msgid "Europe/Helsinki"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:655
+msgid "Europe/Isle_of_Man"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:656
+msgid "Europe/Istanbul"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:657
+msgid "Europe/Jersey"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:658
+msgid "Europe/Kaliningrad"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:659
+msgid "Europe/Kiev"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:660
+msgid "Europe/Kirov"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:661
+msgid "Europe/Lisbon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:662
+msgid "Europe/Ljubljana"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:663
+msgid "Europe/London"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:664
+msgid "Europe/Luxembourg"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:665
+msgid "Europe/Madrid"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:666
+msgid "Europe/Malta"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:667
+msgid "Europe/Mariehamn"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:668
+msgid "Europe/Minsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:669
+msgid "Europe/Monaco"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:670
+msgid "Europe/Moscow"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:671
+msgid "Europe/Nicosia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:672
+msgid "Europe/Oslo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:673
+msgid "Europe/Paris"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:674
+msgid "Europe/Podgorica"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:675
+msgid "Europe/Prague"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:676
+msgid "Europe/Riga"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:677
+msgid "Europe/Rome"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:678
+msgid "Europe/Samara"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:679
+msgid "Europe/San_Marino"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:680
+msgid "Europe/Sarajevo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:681
+msgid "Europe/Saratov"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:682
+msgid "Europe/Simferopol"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:683
+msgid "Europe/Skopje"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:684
+msgid "Europe/Sofia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:685
+msgid "Europe/Stockholm"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:686
+msgid "Europe/Tallinn"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:687
+msgid "Europe/Tirane"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:688
+msgid "Europe/Tiraspol"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:689
+msgid "Europe/Ulyanovsk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:690
+msgid "Europe/Uzhgorod"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:691
+msgid "Europe/Vaduz"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:692
+msgid "Europe/Vatican"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:693
+msgid "Europe/Vienna"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:694
+msgid "Europe/Vilnius"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:695
+msgid "Europe/Volgograd"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:696
+msgid "Europe/Warsaw"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:697
+msgid "Europe/Zagreb"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:698
+msgid "Europe/Zaporozhye"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:699
+msgid "Europe/Zurich"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:700
+msgid "GB"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:701
+msgid "GB-Eire"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:702
+msgid "GMT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:703
+msgid "GMT+0"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:704
+msgid "GMT-0"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:705
+msgid "GMT0"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:706
+msgid "Greenwich"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:707
+msgid "HST"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:708
+msgid "Hongkong"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:709
+msgid "Iceland"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:710
+msgid "Indian/Antananarivo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:711
+msgid "Indian/Chagos"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:712
+msgid "Indian/Christmas"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:713
+msgid "Indian/Cocos"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:714
+msgid "Indian/Comoro"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:715
+msgid "Indian/Kerguelen"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:716
+msgid "Indian/Mahe"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:717
+msgid "Indian/Maldives"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:718
+msgid "Indian/Mauritius"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:719
+msgid "Indian/Mayotte"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:720
+msgid "Indian/Reunion"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:721
+msgid "Iran"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:722
+msgid "Israel"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:723
+msgid "Jamaica"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:724
+msgid "Japan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:725
+msgid "Kwajalein"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:726
+msgid "Libya"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:727
+msgid "MET"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:728
+msgid "MST"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:729
+msgid "MST7MDT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:730
+msgid "Mexico/BajaNorte"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:731
+msgid "Mexico/BajaSur"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:732
+msgid "Mexico/General"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:733
+msgid "NZ"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:734
+msgid "NZ-CHAT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:735
+msgid "Navajo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:736
+msgid "PRC"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:737
+msgid "PST8PDT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:738
+msgid "Pacific/Apia"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:739
+msgid "Pacific/Auckland"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:740
+msgid "Pacific/Bougainville"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:741
+msgid "Pacific/Chatham"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:742
+msgid "Pacific/Chuuk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:743
+msgid "Pacific/Easter"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:744
+msgid "Pacific/Efate"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:745
+msgid "Pacific/Enderbury"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:746
+msgid "Pacific/Fakaofo"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:747
+msgid "Pacific/Fiji"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:748
+msgid "Pacific/Funafuti"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:749
+msgid "Pacific/Galapagos"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:750
+msgid "Pacific/Gambier"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:751
+msgid "Pacific/Guadalcanal"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:752
+msgid "Pacific/Guam"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:753
+msgid "Pacific/Honolulu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:754
+msgid "Pacific/Johnston"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:755
+msgid "Pacific/Kiritimati"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:756
+msgid "Pacific/Kosrae"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:757
+msgid "Pacific/Kwajalein"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:758
+msgid "Pacific/Majuro"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:759
+msgid "Pacific/Marquesas"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:760
+msgid "Pacific/Midway"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:761
+msgid "Pacific/Nauru"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:762
+msgid "Pacific/Niue"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:763
+msgid "Pacific/Norfolk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:764
+msgid "Pacific/Noumea"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:765
+msgid "Pacific/Pago_Pago"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:766
+msgid "Pacific/Palau"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:767
+msgid "Pacific/Pitcairn"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:768
+msgid "Pacific/Pohnpei"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:769
+msgid "Pacific/Ponape"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:770
+msgid "Pacific/Port_Moresby"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:771
+msgid "Pacific/Rarotonga"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:772
+msgid "Pacific/Saipan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:773
+msgid "Pacific/Samoa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:774
+msgid "Pacific/Tahiti"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:775
+msgid "Pacific/Tarawa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:776
+msgid "Pacific/Tongatapu"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:777
+msgid "Pacific/Truk"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:778
+msgid "Pacific/Wake"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:779
+msgid "Pacific/Wallis"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:780
+msgid "Pacific/Yap"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:781
+msgid "Poland"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:782
+msgid "Portugal"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:783
+msgid "ROC"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:784
+msgid "ROK"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:785
+msgid "Singapore"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:786
+msgid "Turkey"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:787
+msgid "UCT"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:788
+msgid "US/Alaska"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:789
+msgid "US/Aleutian"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:790
+msgid "US/Arizona"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:791
+msgid "US/Central"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:792
+msgid "US/East-Indiana"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:793
+msgid "US/Eastern"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:794
+msgid "US/Hawaii"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:795
+msgid "US/Indiana-Starke"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:796
+msgid "US/Michigan"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:797
+msgid "US/Mountain"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:798
+msgid "US/Pacific"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:799
+msgid "US/Pacific-New"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:800
+msgid "US/Samoa"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:801
+msgid "UTC"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:802
+msgid "Universal"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:803
+msgid "W-SU"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:804
+msgid "WET"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:822, src/Frontend/elementor-widgets/elementor-widget.php:861, src/Frontend/elementor-widgets/elementor-widget.php:900, src/Frontend/elementor-widgets/elementor-widget.php:939, src/Frontend/elementor-widgets/elementor-widget.php:978, src/Frontend/elementor-widgets/elementor-widget.php:1017, src/Frontend/elementor-widgets/elementor-widget.php:1055
+msgid "Start time"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:835, src/Frontend/elementor-widgets/elementor-widget.php:874, src/Frontend/elementor-widgets/elementor-widget.php:913, src/Frontend/elementor-widgets/elementor-widget.php:952, src/Frontend/elementor-widgets/elementor-widget.php:991, src/Frontend/elementor-widgets/elementor-widget.php:1030, src/Frontend/elementor-widgets/elementor-widget.php:1068
+msgid "End time"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1084
+msgid "Appearance settings"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1092
+msgid "Visibility on"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1098
+msgid "Desktops only"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1099
+msgid "Tablets only"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1100
+msgid "Mobile only"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1109
+msgid "Size"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1127, src/Frontend/elementor-widgets/elementor-widget.php:1460
+msgid "Background color"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1139
+msgid "Hover backgound color"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1151
+msgid "Text color"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1163
+msgid "Hover text color"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1175
+msgid "Padding"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1194
+msgid "Border Radius"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1221, src/Frontend/elementor-widgets/elementor-widget.php:1225
+msgid "Border"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1254, src/Frontend/elementor-widgets/elementor-widget.php:1259, src/Frontend/elementor-widgets/elementor-widget.php:1348
+msgid "Hover border"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1283
+msgid "Icon Border Radius"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1344
+msgid "Icon Hover border"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1386
+msgid "Change icon"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1429
+msgid "Hover Icon Color"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1477
+msgid "Hover background color"
+msgstr ""
+
+#: src/Frontend/elementor-widgets/elementor-widget.php:1494
+msgid "Alignment"
+msgstr ""

@@ -1,0 +1,183 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/better-chat-support-button",
+	"title": "Better Chat Support Button",
+	"category": "better-chat-support-block",
+	"icon": "format-status",
+	"description": "Messenger button block for Better Chat Support plugin.",
+	"textdomain": "better-chat-support",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"supports": {
+		"styles": false,
+		"html": false
+	},
+
+	"example": {
+		"attributes": {
+			"text": "How can I help you?",
+			"gradients": "red-to-blue",
+			"links": true
+		}
+	},
+
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "How can I help you?"
+		},
+		"info": {
+			"type": "string",
+			"default": "Robert / Sales Support"
+		},
+		"title": {
+			"type": "string",
+			"default": "How can I help you?"
+		},
+		"online": {
+			"type": "string",
+			"default": "I am online"
+		},
+		"offline": {
+			"type": "string",
+			"default": "I am offline"
+		},
+		"buttonType": {
+			"type": "string",
+			"default": "basic-button"
+		},
+		"buttonSize": {
+			"type": "string",
+			"default": "1"
+		},
+		"buttonPadding": {
+			"type": "object",
+			"default": {
+				"top": "5px",
+				"right": "15px",
+				"bottom": "5px",
+				"left": "6px"
+			}
+		},
+		"buttonBorder": {
+			"type": "object",
+			"default": {
+				"color": "#0084ff",
+				"style": "solid",
+				"width": "0px"
+			}
+		},
+		"buttonIconBorder": {
+			"type": "object",
+			"default": {
+				"color": "#ffffff",
+				"style": "solid",
+				"width": "0px"
+			}
+		},
+		"bgColor": { "type": "string", "default": "#0084ff" },
+		"bgHoverColor": { "type": "string", "default": "#0066ff" },
+		"textColor": { "type": "string", "default": "#ffffff" },
+		"textHoverColor": { "type": "string", "default": "#ffffff" },
+		"iconBgColor": { "type": "string", "default": "#ffffff" },
+		"iconBgHoverColor": { "type": "string", "default": "#ffffff" },
+		"iconColor": { "type": "string", "default": "#0084ff" },
+		"iconHoverColor": { "type": "string", "default": "#0066ff" },
+		"borderRadius": {
+			"type": "number",
+			"default": 50
+		},
+		"icon_borderRadius": {
+			"type": "number",
+			"default": 50
+		},
+		"visibility": {
+			"type": "string",
+			"default": ""
+		},
+		"textAlignment": {
+			"type": "string",
+			"default": "left"
+		},
+		"iconTarget": {
+			"type": "boolean",
+			"default": false
+		},
+		"iconBackground": {
+			"type": "boolean",
+			"default": false
+		},
+		"buttonLinkTarget": {
+			"type": "boolean",
+			"default": true
+		},
+		"messengerUserName": {
+			"type": "string",
+			"default": ""
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"timeZone": {
+			"type": "string",
+			"default": ""
+		},
+		"mondayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"mondayEnd": {
+			"type": "string",
+			"default": "23:59"
+		},
+		"tuesdayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"tuesdayEnd": {
+			"type": "string",
+			"default": "23:59"
+		},
+		"wednesdayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"wednesdayEnd": {
+			"type": "string",
+			"default": "23:59"
+		},
+		"thursdayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"thursdayEnd": {
+			"type": "string",
+			"default": "23:59"
+		},
+		"fridayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"fridayEnd": {
+			"type": "string",
+			"default": "23:59"
+		},
+		"saturdayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"saturdayEnd": {
+			"type": "string",
+			"default": "23:59"
+		},
+		"sundayStart": {
+			"type": "string",
+			"default": "00:01"
+		},
+		"sundayEnd": {
+			"type": "string",
+			"default": "05:00"
+		}
+	}
+}

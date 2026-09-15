@@ -1,0 +1,26 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Config & secrets
+wp-config.php
+
+# Database dumps
+*.sql
+
+# Uploads / media
+wp-content/uploads/
+
+# Cache & plugin-generated files
+wp-content/ewww/
+wp-content/cache/
+wp-content/cache-old/
+wp-content/ew-backup/
+wp-content/wflogs/
+wp-content/wflogs-old/
+seraphinite-accelerator-*.htaccess
+seraph-accel-img-compr-redir.conf
+pwa-amp-sw.js
+
+# Logs
+*.log

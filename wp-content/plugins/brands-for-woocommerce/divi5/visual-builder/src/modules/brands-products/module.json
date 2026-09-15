@@ -1,0 +1,35 @@
+{
+  "name": "brbrand/brands-products",
+  "d4Shortcode": "et_pb_brands_products_list",
+  "title": "Brands Products",
+  "titles": "Brands Products",
+  "category": "module",
+  "moduleClassName": "brbrand_divi5_brands_products",
+  "moduleOrderClassName": "brbrand_divi5_brands_products",
+  "attributes": {
+    "module": { "type": "object", "selector": "{{selector}}", "settings": { "meta": { "adminLabel": {} }, "decoration": { "layout": {}, "background": {}, "sizing": {}, "spacing": {}, "border": {}, "boxShadow": {}, "filters": {}, "transform": {}, "animation": {}, "overflow": {}, "disabledOn": {}, "transition": {}, "position": {}, "zIndex": {}, "scroll": {}, "sticky": {} } } },
+    "brands": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 10, "render": true, "attrName": "brands.innerContent", "label": "Brand ID or name", "component": { "name": "divi/text", "type": "field" } } } } },
+    "per_page": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 20, "render": true, "attrName": "per_page.innerContent", "label": "Per page", "component": { "name": "divi/text", "type": "field" } } } } },
+    "columns": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 30, "render": true, "attrName": "columns.innerContent", "label": "Columns", "component": { "name": "divi/text", "type": "field" } } } } },
+    "orderby": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 40, "render": true, "attrName": "orderby.innerContent", "label": "Order by", "component": { "name": "divi/text", "type": "field" } } } } },
+    "order": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 50, "render": true, "attrName": "order.innerContent", "label": "Order", "component": { "name": "divi/text", "type": "field" } } } } },
+    "slider": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 60, "render": true, "attrName": "slider.innerContent", "label": "Slider", "component": { "name": "divi/toggle", "type": "field" } } } } },
+    "hide_brands": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 70, "render": true, "attrName": "hide_brands.innerContent", "label": "Hide brands", "component": { "name": "divi/toggle", "type": "field" } } } } },
+    "hide_pagination": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 80, "render": true, "attrName": "hide_pagination.innerContent", "label": "Hide pagination", "component": { "name": "divi/toggle", "type": "field" } } } } },
+    "hide_labels": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 90, "render": true, "attrName": "hide_labels.innerContent", "label": "Hide BeRocket labels", "component": { "name": "divi/toggle", "type": "field" } } } } },
+    "brand_field": { "type": "object", "settings": { "innerContent": { "groupType": "group-item", "item": { "groupName": "mainContent", "priority": 100, "render": true, "attrName": "brand_field.innerContent", "label": "Brand field", "component": { "name": "divi/text", "type": "field" } } } } }
+  },
+  "settings": { "content": "auto", "design": "auto", "advanced": "auto" },
+  "defaultAttrs": {
+    "brands": { "innerContent": { "desktop": { "value": "" } } },
+    "per_page": { "innerContent": { "desktop": { "value": "" } } },
+    "columns": { "innerContent": { "desktop": { "value": "4" } } },
+    "orderby": { "innerContent": { "desktop": { "value": "title" } } },
+    "order": { "innerContent": { "desktop": { "value": "asc" } } },
+    "slider": { "innerContent": { "desktop": { "value": "off" } } },
+    "hide_brands": { "innerContent": { "desktop": { "value": "off" } } },
+    "hide_pagination": { "innerContent": { "desktop": { "value": "off" } } },
+    "hide_labels": { "innerContent": { "desktop": { "value": "off" } } },
+    "brand_field": { "innerContent": { "desktop": { "value": "name" } } }
+  }
+}

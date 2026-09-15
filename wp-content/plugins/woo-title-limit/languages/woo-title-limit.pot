@@ -1,0 +1,120 @@
+# Copyright (C) 2020 Dima W.
+# This file is distributed under the same license as the Woo Title Limit plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Title Limit 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-title-limit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-01T22:03:30+01:00\n"
+"PO-Revision-Date: 2020-02-01T22:03:30+01:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: woo-title-limit\n"
+
+#. Plugin Name of the plugin
+msgid "Woo Title Limit"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.dimitri-wolf.de"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows you to set product title lengths for WooCommerce products."
+msgstr ""
+
+#. Author of the plugin
+msgid "Dima W."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:109
+msgid "Woo Title Limit Notice: WooCommerce is either not installed or not activated"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:137
+msgid "General"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:138
+msgid "Some settings that affect all areas."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:146
+msgid "Shop Page"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:147
+msgid "Influences product titles on the shop page."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:154
+msgid "Product Page"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:155
+msgid "Influences product titles on product pages."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:162
+msgid "Category Page"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:163
+msgid "Influences product titles on product category pages."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:170
+msgid "Home Page"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:171
+msgid "Influences product titles on the home page."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:178
+msgid "Tag Page"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:179
+msgid "Influences product titles on product tag pages."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:188
+msgid "Shorten the product title at the end of the word?"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:198
+msgid "Shorten product title for widgets automatically? <br> (still beta ¯\\_(ツ)_/¯)"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:209
+#: \admin\class-woo-title-limit-admin.php:232
+#: \admin\class-woo-title-limit-admin.php:255
+#: \admin\class-woo-title-limit-admin.php:278
+#: \admin\class-woo-title-limit-admin.php:301
+msgid "Product Title length"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:210
+#: \admin\class-woo-title-limit-admin.php:233
+#: \admin\class-woo-title-limit-admin.php:256
+#: \admin\class-woo-title-limit-admin.php:279
+#: \admin\class-woo-title-limit-admin.php:302
+msgid "Set the limit for the product titles (amount of maximum characters)."
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:222
+#: \admin\class-woo-title-limit-admin.php:245
+#: \admin\class-woo-title-limit-admin.php:268
+#: \admin\class-woo-title-limit-admin.php:291
+#: \admin\class-woo-title-limit-admin.php:314
+msgid "Add \"...\" to the title"
+msgstr ""
+
+#: \admin\class-woo-title-limit-admin.php:327
+msgid "Settings"
+msgstr ""

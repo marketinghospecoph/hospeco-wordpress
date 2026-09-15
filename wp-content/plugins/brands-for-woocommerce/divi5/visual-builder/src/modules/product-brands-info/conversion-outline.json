@@ -1,0 +1,37 @@
+{
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes"
+  },
+  "module": {
+    "product": "product.innerContent.*",
+    "limit": "limit.innerContent.*",
+    "display_title": "display_title.innerContent.*",
+    "display_description": "display_description.innerContent.*",
+    "thumbnail_display": "thumbnail_display.innerContent.*",
+    "thumbnail_width": "thumbnail_width.innerContent.*",
+    "thumbnail_width_units": "thumbnail_width_units.innerContent.*",
+    "thumbnail_height": "thumbnail_height.innerContent.*",
+    "thumbnail_height_units": "thumbnail_height_units.innerContent.*",
+    "thumbnail_fit": "thumbnail_fit.innerContent.*",
+    "thumbnail_align": "thumbnail_align.innerContent.*",
+    "banner_display": "banner_display.innerContent.*",
+    "banner_width": "banner_width.innerContent.*",
+    "banner_width_units": "banner_width_units.innerContent.*",
+    "banner_height": "banner_height.innerContent.*",
+    "banner_height_units": "banner_height_units.innerContent.*",
+    "banner_fit": "banner_fit.innerContent.*",
+    "banner_align": "banner_align.innerContent.*",
+    "related_products_display": "related_products_display.innerContent.*",
+    "per_page": "per_page.innerContent.*",
+    "columns": "columns.innerContent.*",
+    "orderby": "orderby.innerContent.*",
+    "order": "order.innerContent.*",
+    "slider": "slider.innerContent.*",
+    "hide_brands": "hide_brands.innerContent.*",
+    "display_link": "display_link.innerContent.*",
+    "featured": "featured.innerContent.*"
+  }
+}

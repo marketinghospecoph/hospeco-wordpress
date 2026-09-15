@@ -1,0 +1,164 @@
+/** tooltip */
+.pisol-tooltip {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    text-align: center;
+    margin: 0!important
+}
+
+[tooltip] {
+    position: relative
+}
+
+[tooltip]::after,[tooltip]::before {
+    text-transform: none;
+    font-size: .9em;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0
+}
+
+[tooltip]::before {
+    content: '';
+    border: 5px solid transparent;
+    z-index: 1001
+}
+
+[tooltip]::after {
+    content: attr(tooltip);
+    line-height: 1.5;
+    text-align: center;
+    width: 200px;
+    max-width: 200px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    padding: 1ch 1.5ch;
+    border-radius: .3ch;
+    box-shadow: 0 1em 2em -.5em rgba(0,0,0,.35);
+    background: #333;
+    color: #fff;
+    z-index: 100000000
+}
+
+[tooltip]:hover::after,[tooltip]:hover::before {
+    display: block
+}
+
+[tooltip='']::after,[tooltip='']::before {
+    display: none!important
+}
+
+[tooltip]:not([flow])::before,[tooltip][flow^=up]::before {
+    bottom: 100%;
+    border-bottom-width: 0;
+    border-top-color: #333
+}
+
+[tooltip]:not([flow])::after,[tooltip][flow^=up]::after {
+    bottom: calc(100% + 5px)
+}
+
+[tooltip]:not([flow])::after,[tooltip]:not([flow])::before,[tooltip][flow^=up]::after,[tooltip][flow^=up]::before {
+    left: 50%;
+    -webkit-transform: translate(-50%,-.5em);
+    transform: translate(-50%,-.5em)
+}
+
+[tooltip][flow^=down]::before {
+    top: 100%;
+    border-top-width: 0;
+    border-bottom-color: #333
+}
+
+[tooltip][flow^=down]::after {
+    top: calc(100% + 5px)
+}
+
+[tooltip][flow^=down]::after,[tooltip][flow^=down]::before {
+    left: 50%;
+    -webkit-transform: translate(-50%,.5em);
+    transform: translate(-50%,.5em)
+}
+
+[tooltip][flow^=left]::before {
+    top: 50%;
+    border-right-width: 0;
+    border-left-color: #333;
+    left: calc(0em - 5px);
+    -webkit-transform: translate(-.5em,-50%);
+    transform: translate(-.5em,-50%)
+}
+
+[tooltip][flow^=left]::after {
+    top: 50%;
+    right: calc(100% + 5px);
+    -webkit-transform: translate(-.5em,-50%);
+    transform: translate(-.5em,-50%)
+}
+
+[tooltip][flow^=right]::before {
+    top: 50%;
+    border-left-width: 0;
+    border-right-color: #333;
+    right: calc(0em - 5px);
+    -webkit-transform: translate(.5em,-50%);
+    transform: translate(.5em,-50%)
+}
+
+[tooltip][flow^=right]::after {
+    top: 50%;
+    left: calc(100% + 5px);
+    -webkit-transform: translate(.5em,-50%);
+    transform: translate(.5em,-50%)
+}
+
+@-webkit-keyframes tooltips-vert {
+    to {
+        opacity: .9;
+        -webkit-transform: translate(-50%,0);
+        transform: translate(-50%,0)
+    }
+}
+
+@keyframes tooltips-vert {
+    to {
+        opacity: .9;
+        -webkit-transform: translate(-50%,0);
+        transform: translate(-50%,0)
+    }
+}
+
+@-webkit-keyframes tooltips-horz {
+    to {
+        opacity: .9;
+        -webkit-transform: translate(0,-50%);
+        transform: translate(0,-50%)
+    }
+}
+
+@keyframes tooltips-horz {
+    to {
+        opacity: .9;
+        -webkit-transform: translate(0,-50%);
+        transform: translate(0,-50%)
+    }
+}
+
+[tooltip]:not([flow]):hover::after,[tooltip]:not([flow]):hover::before,[tooltip][flow^=down]:hover::after,[tooltip][flow^=down]:hover::before,[tooltip][flow^=up]:hover::after,[tooltip][flow^=up]:hover::before {
+    -webkit-animation: tooltips-vert .3s ease-out forwards;
+    animation: tooltips-vert .3s ease-out forwards
+}
+
+[tooltip][flow^=left]:hover::after,[tooltip][flow^=left]:hover::before,[tooltip][flow^=right]:hover::after,[tooltip][flow^=right]:hover::before {
+    -webkit-animation: tooltips-horz .3s ease-out forwards;
+    animation: tooltips-horz .3s ease-out forwards
+}
+
+/* end tooltip */

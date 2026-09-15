@@ -1,0 +1,78 @@
+/* Review notice */
+#better-chat-support-review-notice {
+  padding: 18px 15px 18px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20px 20px 0 0;
+  box-shadow: 0 0 20px 0 rgba(36, 39, 50, 0.08);
+}
+
+#better-chat-support-review-notice .better-chat-support-plugin-icon {
+  width: 125px;
+  float: left;
+  line-height: 90px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+#better-chat-support-review-notice .better-chat-support-plugin-icon img {
+  max-width: 94px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text {
+  overflow: hidden;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text h3 {
+  font-size: 24px;
+  margin: 0 0 5px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text p {
+  margin: 10px 0 10px 0;
+  font-size: 13px;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text p.better-chat-support-review-actions {
+  margin: 10px 0 2px 0;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text .better-chat-support-review-actions a {
+  text-decoration: none;
+  margin-right: 8px;
+  color: #63a37b;
+  display: inline-block;
+  position: relative;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text .better-chat-support-review-actions a span {
+  padding-right: 2px;
+}
+
+#better-chat-support-review-notice .better-chat-support-notice-text .better-chat-support-review-actions a.button {
+  color: #fff;
+}
+
+.rtl #better-chat-support-review-notice {
+  margin: 20px 0 0 20px;
+  padding: 18px 0 18px 15px;
+}
+
+.rtl #better-chat-support-review-notice .better-chat-support-plugin-icon {
+  float: right;
+  margin: 0 0 0 8px;
+}
+
+#themeatelier-offer-banner {
+  padding: 0;
+  border: 0;
+  line-height: 0;
+  background: 0 0;
+}
+#themeatelier-offer-banner .themeatelier-offer-banner-dismiss{
+  background-color: #fff;
+}

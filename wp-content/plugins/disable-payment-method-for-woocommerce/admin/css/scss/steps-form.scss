@@ -1,0 +1,186 @@
+/* Step */
+.pi-step-container {
+   padding: 20px 0px;
+   border-bottom: 1px solid #eee;
+}
+
+.pi-step-container.pi-closed .pi-step-description {
+   display: none;
+}
+
+.pi-step-container .dashicons-minus {
+   display: block;
+}
+
+.pi-step-container .dashicons-plus-alt2 {
+   display: none;
+}
+
+.pi-step-container.pi-closed .dashicons-plus-alt2 {
+   display: block;
+}
+
+.pi-step-container.pi-closed .dashicons-minus {
+   display: none;
+}
+
+.status-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: var(--primary);
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 60px;
+}
+
+.pi-step-content {
+   padding:0px;
+   border-radius: 5px;
+   border:2px solid #ccc;
+}
+
+.pi-step-content:has(.pi-step-header.bg-primary) {
+    border:2px solid var(--primary);
+}
+
+.pi-step-content:has(.pi-step-header.bg-dark) {
+    border:2px solid var(--dark);
+}
+
+.pi-step-header{
+    padding:1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+}
+
+.pi-step-header p{
+    margin-bottom:0px !important;
+}
+
+.pi-step-description{
+    padding:0 15px ;
+}
+
+.pi-step-title {
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    margin-bottom:10px !important;
+    display: block;
+}
+
+.pi-step-title > small{
+    font-size: 0.8rem !important;
+    color: #fff !important;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+/**
+ * Row blocking when field is loading
+ */
+.pi-block-condition-row{
+    position: relative;
+}
+ 
+.pi-block-condition-row:after{
+    content:"Loading....";
+    color:#000;
+    display: flex;
+    font-weight:bold;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+    left:0px;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background:rgba(236, 74, 52, 0.2);
+}
+
+#pi-selection-columns{
+    display:flex;
+    flex-direction: column;
+}
+
+/** End */
+
+/** Form processing blocker */
+#pisol-dpmw-new-method.pi-blocked:after{
+     content:"Saving...";
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width:100%;
+     height:100%;
+     top:0px;
+     position: absolute;
+     background-color: rgba(255,255,255,0.6);
+     font-size:18px;
+     font-weight:bold;
+}
+/* End */
+
+/* Form Saved Poup */
+.jc-bs3-container.container{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jc-bs3-container.container .pi-close-notification{
+    display: none;
+}
+/* End */
+
+/* Save notification at top */
+#pisol-dpmw-notices{
+    background:#fff;
+}
+
+#pisol-dpmw-notices .pi-dpmw-notice{
+    padding:10px 20px;
+    margin:10px !important;
+    background:#eef2ff;
+    border-radius:6px;
+    position:relative;
+
+    .pi-close-notification{
+        position:absolute;
+        right:10px;
+        cursor:pointer;
+    }
+}
+
+#pisol-dpmw-notices .pi-dpmw-notice.success{
+    box-shadow: inset 3px 0 0 #b1f1b1;
+}
+
+#pisol-dpmw-notices .pi-dpmw-notice.error{
+    box-shadow: inset 3px 0 0 #ff0000;
+}
+/* End */
+
+/* Status change blocking */
+ .blocktable:after{
+     content:'Processing.....';
+     width:100%;
+     height:100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top:0;
+     left:0;
+     background-color: rgba(255,255,255,0.6);
+     font-size:18px;
+     font-weight:bold;
+ }
+/* End */

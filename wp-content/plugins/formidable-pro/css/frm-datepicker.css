@@ -1,0 +1,224 @@
+/**
+ * Formidable style settings for the flatpickr datepicker.
+ *
+ * These rules live outside of flatpickr.css on purpose. flatpickr.css tracks the
+ * upstream flatpickr stylesheet, so it should stay replaceable when flatpickr is
+ * updated. Every rule that binds a Formidable style setting to the calendar
+ * belongs here instead.
+ *
+ * This file is enqueued with flatpickr.css as a dependency, so it always loads
+ * after it. Every selector starts from .frm-datepicker.flatpickr-calendar, two
+ * classes that are both always on the calendar element. That pairing is what wins
+ * against the flatpickr.css counterparts without !important, and it matches every
+ * calendar Formidable creates: a popup appended to the body, an inline field, and
+ * the styler's own sample. The style variables reach all three either way, since
+ * the datepicker JS copies with_frm_style and frm_style_<key> onto a popup or
+ * inline calendar, and the styler's sample sits inside a styled form.
+ *
+ * --date-band-fill is a tint of the Band Color. It is generated in PHP next to
+ * the other style variables, in pro_fields.css.php and single-style.css.php.
+ *
+ * Day numbers are deliberately absent here. They keep the neutral color
+ * flatpickr.css gives them, which is the one the jQuery UI datepicker used. The
+ * field text color does not work on them: the calendar always sits on white, so a
+ * style with dark fields and light text would leave the numbers unreadable.
+ *
+ * Color, background, border-color, border-radius, and font-weight are all guarded
+ * with :not(.frm-datepicker-custom-theme) so an official flatpickr theme wins.
+ */
+
+/*
+ * Day cells are left without a border. ui-lightness/jquery-ui.css does rule a
+ * 1px #f4f4f4 grid on .ui-datepicker td, but the datepicker block in
+ * single-style.css.php zeroes it with a two-class selector that outranks it, so
+ * the jQuery UI calendar has no grid on screen. The same rule zeroes the border
+ * on .flatpickr-day, which is what keeps the two matching.
+ */
+
+/* Days outside the current month, and days the field does not allow. */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.prevMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.nextMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed.prevMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed.nextMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled:hover {
+	color: var(--text-color-disabled, #667085);
+}
+
+/*
+ * The jQuery UI datepicker left the cells around the current month empty, so every number shown
+ * there is new on screen. The disabled text color alone does not set them apart, it is a muted
+ * body color rather than a faded one, and a grid where all six weeks read at the same weight is
+ * hard to scan. Fading the cell keeps whatever color the style picked instead of hard-coding a
+ * second grey. The rules below take the fade back off once a day is hovered, focused, selected or
+ * in a range, so the band fill and the selected fill are never washed out.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.prevMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.nextMonthDay {
+	opacity: 0.5;
+}
+
+/* The band fill covers hover, focus, and every day between the two ends of a range. */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.prevMonthDay.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.nextMonthDay.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.today.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.prevMonthDay.today.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.nextMonthDay.today.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day:not(.flatpickr-disabled):not(.notAllowed):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.prevMonthDay:not(.flatpickr-disabled):not(.notAllowed):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.nextMonthDay:not(.flatpickr-disabled):not(.notAllowed):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day:not(.flatpickr-disabled):not(.notAllowed):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.prevMonthDay:not(.flatpickr-disabled):not(.notAllowed):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.nextMonthDay:not(.flatpickr-disabled):not(.notAllowed):focus {
+	color: var(--date-band-color);
+	background: var(--date-band-fill);
+	border-color: var(--date-band-fill);
+	opacity: 1;
+}
+
+/*
+ * The selected day, and both ends of a range. The jQuery UI datepicker filled the
+ * selected cell with the active field border color, so the Band Color stays what
+ * it is there: today's number and the hover tint.
+ *
+ * The :hover and :focus selectors below repeat the two :not() guards the band fill
+ * uses, and they have to. Without them the band's own hover and focus selector is
+ * a class more specific than this one, so it wins on any selected day that is
+ * hovered or focused, and the day drops to the band tint instead of keeping its
+ * fill. Being later in the file is not enough when the other selector counts
+ * higher. flatpickr leaves the clicked day focused, so the end of a range picked
+ * with the mouse landed on exactly that case, as does arrow key navigation.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected:not(.flatpickr-disabled):not(.notAllowed):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange:not(.flatpickr-disabled):not(.notAllowed):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange:not(.flatpickr-disabled):not(.notAllowed):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected:not(.flatpickr-disabled):not(.notAllowed):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange:not(.flatpickr-disabled):not(.notAllowed):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange:not(.flatpickr-disabled):not(.notAllowed):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected.prevMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange.prevMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange.prevMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected.nextMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange.nextMonthDay,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange.nextMonthDay {
+	color: #fff;
+	background: var(--border-color-active);
+	border-color: var(--border-color-active);
+	opacity: 1;
+}
+
+/*
+ * A day the field does not allow has to read as unavailable whatever the style's
+ * disabled text color turns out to be. --text-color-disabled is a muted body
+ * color rather than a faded one, dark enough on its own to pass for a day that
+ * can still be picked, so the color alone is not the difference. The jQuery UI
+ * datepicker faded its unselectable cells instead, with the .ui-state-disabled
+ * opacity in ui-lightness/jquery-ui.css, and 0.35 is the number it used.
+ *
+ * This sits after the band fill and the selected fill so it wins the ties with
+ * them, and it carries :hover and :focus so it also outranks the fade
+ * flatpickr.css puts on a disabled today. Between them, a day that cannot be
+ * picked stays faded in every state.
+ *
+ * .inRange is the one exception. A range is allowed to run across days the field
+ * does not allow, and fading the cell fades the band with it, which leaves a gap
+ * in the middle of a band that is meant to read as one span. Those days keep the
+ * band and are left to the range to explain.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled:not(.inRange),
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled:not(.inRange):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled:not(.inRange):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed:not(.inRange),
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed:not(.inRange):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed:not(.inRange):focus {
+	opacity: 0.35;
+}
+
+/*
+ * flatpickr.css hovers every day with a pale fill of its own, and the band fill
+ * above used to cover it. Now that the band fill skips these days, that fill is
+ * what is left behind on them, so it is cleared here. .inRange is excluded
+ * because a disabled day inside a range still has to carry the band across.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled:not(.inRange):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.flatpickr-disabled:not(.inRange):focus,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed:not(.inRange):hover,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.notAllowed:not(.inRange):focus {
+	background: none;
+	border-color: transparent;
+}
+
+/*
+ * flatpickr's range shadows exist to bridge horizontal gaps between day cells.
+ * Formidable's grid has no gaps, so all they do is lay a second copy of the
+ * translucent band fill over the neighbouring cells and stripe the band.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.inRange,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)),
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)),
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)),
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.week.selected {
+	box-shadow: none;
+}
+
+/*
+ * A range only reads as one band if the days in it are square and the two ends
+ * are rounded on their outer side. Every day cell otherwise carries the style's
+ * Border Radius, which on a rounded style leaves a row of circles with the band
+ * fill notched between them.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.inRange {
+	border-radius: 0;
+}
+
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange {
+	border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.endRange {
+	border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-day.startRange.endRange {
+	border-radius: var(--border-radius);
+}
+
+/*
+ * The weekday names sit on the field background on the jQuery UI datepicker,
+ * where they are the calendar table's head row rather than part of the calendar
+ * chrome. The rule they get there is in pro_fields.css.php.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-weekdays {
+	background: var(--bg-color);
+}
+
+/*
+ * Head Color and Font Color, matching what they already do on the jQuery UI
+ * header. flatpickr.css spaces the month row with a margin, which would leave the
+ * Head Color as a thin strip around the controls, so the same spacing is moved
+ * inside the band. The arrows are positioned against the band, so they move down
+ * by the padding they now sit behind.
+ */
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-months {
+	margin: 0;
+	padding: 6px 0 12px;
+	background: var(--date-head-bg-color);
+}
+
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-months .flatpickr-prev-month,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-months .flatpickr-next-month {
+	top: 6px;
+}
+
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .flatpickr-current-month .cur-month,
+.frm-datepicker.flatpickr-calendar:not(.frm-datepicker-custom-theme) .numInputWrapper .cur-year {
+	color: var(--date-head-color);
+}

@@ -1,0 +1,1764 @@
+# Translation of Plugins - Breeze Cache - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Breeze Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-03 10:28:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Breeze Cache - Stable (latest release)\n"
+
+#: views/option-tabs/one-click-optimization-tab.php:102
+msgid "Host Files Locally: Google Fonts and Gravatars"
+msgstr "Host Files Locally: Google Fonts and Gravatars"
+
+#: inc/class-breeze-file-permissions.php:134
+msgid " file is not writable. Minified files owned by another user cannot be maintained and may be removed while pages still use them."
+msgstr " file is not writable. Minified files owned by another user cannot be maintained and may be removed while pages still use them."
+
+#. translators: %d: maximum number of cache warmup URLs allowed.
+#: views/option-tabs/preload-tab.php:241
+msgid "Only local URLs for this site are accepted. Non-local URLs will be rejected. Up to 30 URLs can be saved, and any additional entries will be ignored. These pages will be automatically preloaded in the background after a full cache clear."
+msgstr "Only local URLs for this site are accepted. Non-local URLs will be rejected. Up to 30 URLs can be saved, and any additional entries will be ignored. These pages will be automatically preloaded in the background after a full cache clear."
+
+#. translators: %d: maximum number of cache warmup URLs allowed.
+#: views/option-tabs/preload-tab.php:217
+msgid "Specify local URLs to warm the cache after it is cleared (one URL per line, up to 30 URLs). The homepage is always included automatically."
+msgstr "Specify local URLs to warm the cache after it is cleared (one URL per line, up to 30 URLs). The homepage is always included automatically."
+
+#: views/option-tabs/preload-tab.php:192
+msgid "Preload URLs"
+msgstr "Preload URLs"
+
+#. translators: 1: number of dropped URLs, 2: maximum allowed URLs
+#: inc/breeze-configuration.php:411
+msgid "%1$d URL was removed: a maximum of %2$d cache warmup URLs can be saved."
+msgid_plural "%1$d URLs were removed: a maximum of %2$d cache warmup URLs can be saved."
+msgstr[0] "%1$d URL was removed: a maximum of %2$d cache warmup URLs can be saved."
+msgstr[1] "%1$d URLs were removed: a maximum of %2$d cache warmup URLs can be saved."
+
+#: inc/breeze-configuration.php:403
+msgid "this network sites"
+msgstr "this network sites"
+
+#. translators: 1: number of rejected URLs, 2: scope label
+#: inc/breeze-configuration.php:396
+msgid "%1$d URL was removed: only URLs from %2$s are allowed for cache warmup."
+msgid_plural "%1$d URLs were removed: only URLs from %2$s are allowed for cache warmup."
+msgstr[0] "%1$d URL was removed: only URLs from %2$s are allowed for cache warmup."
+msgstr[1] "%1$d URLs were removed: only URLs from %2$s are allowed for cache warmup."
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:147
+msgid "You can only export settings for the site you administer."
+msgstr "You can only export settings for the site you administer."
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:137
+msgid "Only Network (Super) Administrators can export settings at the network level."
+msgstr "Only Network (Super) Administrators can export settings at the network level."
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:83
+msgid "You can only import settings for the site you administer."
+msgstr "You can only import settings for the site you administer."
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:73
+msgid "Only Network (Super) Administrators can import settings at the network level."
+msgstr "Only Network (Super) Administrators can import settings at the network level."
+
+#: views/option-tabs/file-tab.php:87
+msgid "WP Ghost is active. Disable HTML Minify to avoid layout issues, as it is not compatible with WP Ghost."
+msgstr "WP Ghost is active. Disable HTML Minify to avoid layout issues, as it is not compatible with WP Ghost."
+
+#: inc/cache/purge-varnish.php:171
+msgid "No valid domain found in the purge request. Please contact support for assistance!"
+msgstr "No valid domain found in the purge request. Please contact support for assistance!"
+
+#: inc/cache/purge-varnish.php:165
+msgid "Nothing to Purge No cached domains found for this application. Please contact support for assistance!"
+msgstr "Nothing to Purge No cached domains found for this application. Please contact support for assistance!"
+
+#: views/option-tabs/one-click-optimization-tab.php:121
+msgid "Restore Previous Settings"
+msgstr "Restore Previous Settings"
+
+#: views/option-tabs/one-click-optimization-tab.php:100
+msgid "JS Minify and Include Inline JS"
+msgstr "JS Minify and Include Inline JS"
+
+#: views/option-tabs/one-click-optimization-tab.php:99
+msgid "All from Advanced"
+msgstr "All from Advanced"
+
+#: views/option-tabs/one-click-optimization-tab.php:95
+msgid "Recommended for simpler sites and testing."
+msgstr "Recommended for simpler sites and testing."
+
+#: views/option-tabs/one-click-optimization-tab.php:94
+msgid "Expert"
+msgstr "Expert"
+
+#: views/option-tabs/one-click-optimization-tab.php:83
+msgid "Host Files Locally: only Google Fonts"
+msgstr "Host Files Locally: only Google Fonts"
+
+#: views/option-tabs/one-click-optimization-tab.php:79
+msgid "Lazy Load for iframes and videos"
+msgstr "Lazy Load for iframes and videos"
+
+#: views/option-tabs/one-click-optimization-tab.php:78
+msgid "All from Standard"
+msgstr "All from Standard"
+
+#: views/option-tabs/one-click-optimization-tab.php:74
+msgid "Recommended for modern themes and plugins."
+msgstr "Recommended for modern themes and plugins."
+
+#: views/option-tabs/one-click-optimization-tab.php:73
+msgid "Advanced"
+msgstr "Advanced"
+
+#: views/option-tabs/one-click-optimization-tab.php:53
+msgid "Recommended for most websites."
+msgstr "Recommended for most websites."
+
+#: views/option-tabs/one-click-optimization-tab.php:52
+msgid "Standard"
+msgstr "Standard"
+
+#: views/option-tabs/one-click-optimization-tab.php:45
+msgid "Settings Restored Successfully"
+msgstr "Settings Restored Successfully"
+
+#: views/option-tabs/one-click-optimization-tab.php:35
+msgid "Don't Proceed"
+msgstr "Don't Proceed"
+
+#: views/option-tabs/one-click-optimization-tab.php:34
+msgid "Continue Anyway"
+msgstr "Continue Anyway"
+
+#: views/option-tabs/one-click-optimization-tab.php:30
+msgid "Compatibility Issues Detected"
+msgstr "Compatibility Issues Detected"
+
+#: views/option-tabs/one-click-optimization-tab.php:27
+msgid "Choose the setting that suits your needs. Breeze will apply the recommended improvements for a better website experience."
+msgstr "Choose the setting that suits your needs. Breeze will apply the recommended improvements for a better website experience."
+
+#: views/option-tabs/one-click-optimization-tab.php:119
+msgid "If you experience any issues after applying an optimization level, you can restore your previous settings."
+msgstr "If you experience any issues after applying an optimisation level, you can restore your previous settings."
+
+#: views/option-tabs/one-click-optimization-tab.php:107
+msgid "Enable Expert Optimization"
+msgstr "Enable Expert Optimisation"
+
+#: views/option-tabs/one-click-optimization-tab.php:88
+msgid "Enable Advanced Optimization "
+msgstr "Enable Advanced Optimisation "
+
+#: views/option-tabs/one-click-optimization-tab.php:67
+msgid "Enable Standard Optimization "
+msgstr "Enable Standard Optimisation "
+
+#: views/option-tabs/one-click-optimization-tab.php:46
+msgid "All of the one click optimization has been disabled and previous settings has been restored successfully"
+msgstr "All of the one click optimisation has been disabled and previous settings has been restored successfully"
+
+#: views/option-tabs/one-click-optimization-tab.php:41
+msgid "The selected optimization level has been applied to your website."
+msgstr "The selected optimisation level has been applied to your website."
+
+#: views/option-tabs/one-click-optimization-tab.php:31
+msgid "We have found some compatibility issues while enabling the Expert Optimization Settings. We recommend choosing a lower optimization level before proceeding."
+msgstr "We have found some compatibility issues while enabling the Expert Optimisation Settings. We recommend choosing a lower optimisation level before proceeding."
+
+#: views/option-tabs/one-click-optimization-tab.php:21
+#: views/option-tabs/one-click-optimization-tab.php:40
+msgid "Optimization Applied Successfully!"
+msgstr "Optimisation Applied Successfully!"
+
+#: views/breeze-setting-views.php:60
+#: views/option-tabs/one-click-optimization-tab.php:14
+msgid "ONE-CLICK OPTIMIZATION"
+msgstr "ONE-CLICK OPTIMISATION"
+
+#: inc/class-breeze-one-click-optimization.php:557
+msgid "Close"
+msgstr "Close"
+
+#: inc/class-breeze-one-click-optimization.php:522
+msgid "Settings restored successfully."
+msgstr "Settings restored successfully."
+
+#: inc/class-breeze-one-click-optimization.php:493
+msgid "No backup settings found."
+msgstr "No backup settings found."
+
+#: inc/class-breeze-one-click-optimization.php:359
+msgid "Compatibility issues found."
+msgstr "Compatibility issues found."
+
+#: inc/class-breeze-one-click-optimization.php:352
+msgid "No compatibility issues found."
+msgstr "No compatibility issues found."
+
+#: inc/class-breeze-one-click-optimization.php:554
+msgid "Explore Optimization Options"
+msgstr "Explore Optimisation Options"
+
+#: inc/class-breeze-one-click-optimization.php:553
+msgid "Save time with Breeze's predefined optimization presets. These presets simplify optimization by automatically enabling proven performance settings."
+msgstr "Save time with Breeze's predefined optimisation presets. These presets simplify optimisation by automatically enabling proven performance settings."
+
+#: inc/class-breeze-one-click-optimization.php:552
+msgid "Optimize Your Site in One Click"
+msgstr "Optimise Your Site in One Click"
+
+#: inc/class-breeze-one-click-optimization.php:278
+msgid "%s optimization level applied successfully."
+msgstr "%s optimisation level applied successfully."
+
+#: inc/class-breeze-one-click-optimization.php:247
+#: inc/class-breeze-one-click-optimization.php:292
+#: inc/class-breeze-one-click-optimization.php:341
+msgid "Invalid optimization level."
+msgstr "Invalid optimisation level."
+
+#: inc/breeze-admin.php:482
+msgid "An error occurred while applying optimization."
+msgstr "An error occurred while applying optimisation."
+
+#: inc/breeze-admin.php:479
+msgid "Are you sure you want to apply the %s optimization level? This will overwrite your current settings."
+msgstr "Are you sure you want to apply the %s optimisation level? This will overwrite your current settings."
+
+#: inc/class-breeze-one-click-optimization.php:237
+#: inc/class-breeze-one-click-optimization.php:336
+#: inc/class-breeze-one-click-optimization.php:451
+#: inc/class-breeze-one-click-optimization.php:485
+#: inc/class-breeze-one-click-optimization.php:531
+msgid "You do not have permission to perform this action."
+msgstr "You do not have permission to perform this action."
+
+#: inc/class-breeze-one-click-optimization.php:232
+#: inc/class-breeze-one-click-optimization.php:331
+#: inc/class-breeze-one-click-optimization.php:480
+msgid "Security check failed."
+msgstr "Security check failed."
+
+#: inc/breeze-admin.php:484 views/option-tabs/one-click-optimization-tab.php:52
+#: views/option-tabs/one-click-optimization-tab.php:73
+#: views/option-tabs/one-click-optimization-tab.php:94
+msgid "Enabled"
+msgstr "Enabled"
+
+#: inc/breeze-admin.php:483
+msgid "An error occurred while restoring settings."
+msgstr "An error occurred while restoring settings."
+
+#: inc/breeze-admin.php:481
+msgid "An error occurred while checking compatibility."
+msgstr "An error occurred while checking compatibility."
+
+#: inc/breeze-admin.php:480
+msgid "Are you sure you want to restore your previous settings?"
+msgstr "Are you sure you want to restore your previous settings?"
+
+#: inc/class-breeze-file-permissions.php:341
+msgid ", the website performance might drop. You can enable the cache system in the Breeze settings "
+msgstr ", the website performance might drop. You can enable the cache system in the Breeze settings "
+
+#: inc/class-breeze-file-permissions.php:341
+msgid "The Breeze Cache System is disabled in the settings"
+msgstr "The Breeze Cache System is disabled in the settings"
+
+#: inc/class-breeze-api.php:113
+msgid "Cache Cleared"
+msgstr "Cache Cleared"
+
+#: inc/class-breeze-api.php:84
+msgid "Authentication failed."
+msgstr "Authentication failed."
+
+#: inc/class-breeze-api.php:70
+msgid "Invalid or missing authentication token."
+msgstr "Invalid or missing authentication token."
+
+#: inc/class-breeze-api.php:55
+msgid "Too many requests. Please try again later."
+msgstr "Too many requests. Please try again later."
+
+#: inc/breeze-admin.php:538
+msgid "Mismatch"
+msgstr "Mismatch"
+
+#: inc/breeze-admin.php:537
+msgid "Strong"
+msgstr "Strong"
+
+#: inc/breeze-admin.php:536
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/breeze-admin.php:535
+msgid "Weak"
+msgstr "Weak"
+
+#: inc/breeze-admin.php:534
+msgid "Very weak"
+msgstr "Very weak"
+
+#: views/option-tabs/advanced-tab.php:271
+msgid "Authentication is required for the Breeze API Endpoint. Provide an authentication key to secure the purge endpoint from unauthorized access. Use the refresh icon to autogenerate a random key."
+msgstr "Authentication is required for the Breeze API Endpoint. Provide an authentication key to secure the purge endpoint from unauthorised access. Use the refresh icon to autogenerate a random key."
+
+#: views/option-tabs/advanced-tab.php:290
+msgid "Copy Token"
+msgstr "Copy Token"
+
+#: views/option-tabs/advanced-tab.php:265
+msgid "Authentication Token"
+msgstr "Authentication Token"
+
+#: inc/breeze-configuration.php:1761
+msgid "Varnish Cache could not be purged."
+msgstr "Varnish Cache could not be purged."
+
+#: inc/cache/purge-varnish.php:177
+msgid "Cloudflare microservices base url not found. Please contact support."
+msgstr "Cloudflare microservices base URL not found. Please contact support."
+
+#: inc/cache/purge-varnish.php:153 inc/cache/purge-varnish.php:180
+msgid "An error occurred while purging the Cloudflare cache. Please try again or contact support."
+msgstr "An error occurred while purging the Cloudflare cache. Please try again or contact support."
+
+#: inc/cache/purge-varnish.php:174
+msgid "Invalid token. Please contact support for more details."
+msgstr "Invalid token. Please contact support for more details."
+
+#: inc/cache/purge-varnish.php:168
+msgid "Unable to connect to Cloudflare. Please try again or contact support."
+msgstr "Unable to connect to Cloudflare. Please try again or contact support."
+
+#: inc/cache/purge-varnish.php:162
+msgid "Too many purge requests. Please try again in a few minutes."
+msgstr "Too many purge requests. Please try again in a few minutes."
+
+#: inc/class-breeze-file-permissions.php:353
+msgid "here"
+msgstr "here"
+
+#: inc/class-breeze-file-permissions.php:69
+#: inc/class-breeze-file-permissions.php:302
+msgid "Breeze plugin functionality may be affected due to missing config file(s) or folder(s), or issues with file permissions preventing proper operation."
+msgstr "Breeze plugin functionality may be affected due to missing config file(s) or folder(s), or issues with file permissions preventing proper operation."
+
+#: inc/cache/purge-varnish.php:120
+msgid "Problem: Varnish Cache not purged."
+msgstr "Problem: Varnish Cache not purged."
+
+#: inc/breeze-configuration.php:1758 inc/cache/purge-varnish.php:120
+msgid "Varnish Cache has been purged."
+msgstr "Varnish Cache has been purged."
+
+#: views/option-tabs/heartbeat-tab.php:80
+msgid "Every 120 seconds"
+msgstr "Every 120 seconds"
+
+#: views/option-tabs/heartbeat-tab.php:79
+msgid "Every 90 seconds"
+msgstr "Every 90 seconds"
+
+#: views/option-tabs/heartbeat-tab.php:78
+msgid "Every 60 seconds"
+msgstr "Every 60 seconds"
+
+#: views/option-tabs/heartbeat-tab.php:77
+msgid "Every 30 seconds"
+msgstr "Every 30 seconds"
+
+#: views/option-tabs/varnish-tab.php:76
+msgid " article and learn how to enable it."
+msgstr " article and learn how to enable it."
+
+#: inc/cache/class-purge-post-cache.php:40
+msgid "Cache has been purged."
+msgstr "Cache has been purged."
+
+#: views/option-tabs/tools-tab.php:126
+msgid "Rollback Version"
+msgstr "Rollback Version"
+
+#: inc/rollback/class-breeze-rollback.php:88
+msgid "Breeze cache cleared successfully."
+msgstr "Breeze cache cleared successfully."
+
+#: inc/rollback/class-breeze-rollback.php:74
+msgid "Your Request is missing a required query param"
+msgstr "Your Request is missing a required query param"
+
+#: inc/rollback/class-breeze-rollback.php:59
+msgid "You do not have sufficient permissions to perform rollbacks for this site."
+msgstr "You do not have sufficient permissions to perform rollbacks for this site."
+
+#: inc/rollback/class-breeze-rollback.php:48
+#: inc/rollback/class-breeze-rollback.php:49
+msgid "Breeze Rollback"
+msgstr "Breeze Rollback"
+
+#: views/option-tabs/basic-tab.php:361
+msgid "Video lazy load"
+msgstr "Video lazy load"
+
+#: views/option-tabs/basic-tab.php:345
+msgid "Apply lazy load to all iframe tags."
+msgstr "Apply lazy load to all iframe tags."
+
+#. translators: %s Export file location
+#: views/option-tabs/basic-tab.php:134
+msgid "To use mobile caching with the Breeze plugin on Cloudways, you must enable the Device Detection feature through the Cloudways Platform. Please follow this <a href=\"%s\" target=\"_blank\">guide</a> to ensure the mobile cache functions properly."
+msgstr "To use mobile caching with the Breeze plugin on Cloudways, you must enable the Device Detection feature through the Cloudways Platform. Please follow this <a href=\"%s\" target=\"_blank\">guide</a> to ensure the mobile cache functions properly."
+
+#: views/option-tabs/basic-tab.php:120
+msgid "Modern themes are built to be responsive and they usually function optimally without the need for an additional cache. Only activate mobile caching if you happen to be using a dedicated mobile theme or plugin."
+msgstr "Modern themes are built to be responsive and they usually function optimally without the need for an additional cache. Only activate mobile caching if you happen to be using a dedicated mobile theme or plugin."
+
+#: views/option-tabs/advanced-tab.php:286
+msgid "Refresh Token"
+msgstr "Refresh Token"
+
+#: views/option-tabs/advanced-tab.php:244
+msgid "Enable Breeze API endpoint to purge cache via Rest API OnDemand. The functionality can be used to integrate with your  workflows. i.e. when updating or adding new posts or products through the WordPress Rest API."
+msgstr "Enable Breeze API endpoint to purge cache via Rest API OnDemand. The functionality can be used to integrate with your  workflows. i.e. when updating or adding new posts or products through the WordPress Rest API."
+
+#: views/option-tabs/advanced-tab.php:219
+msgid "API Integration"
+msgstr "API Integration"
+
+#. translators: %s Cloudways community
+#: views/option-tabs/faq-tab.php:116
+msgid "Breeze has been tested with popular plugins available on WordPress.org. Please feel free to report any incompatibilities on the WordPress Support Forums or on <a href=\"%s\" target=\"_blank\">Cloudways Community Forum.</a>."
+msgstr "Breeze has been tested with popular plugins available on WordPress.org. Please feel free to report any incompatibilities on the WordPress Support Forums or on <a href=\"%s\" target=\"_blank\">Cloudways Community Forum.</a>."
+
+#. translators: %s Export file location
+#: views/option-tabs/faq-tab.php:46
+msgid ""
+"Breeze is fully compatible with Aelia Currency Switcher Plugin. Also exclude the cookie of Aelia currency switcher plugin \"aelia_cs_selected_currency\" from Varnish settings.\n"
+"<br/>\n"
+"<br/>\n"
+"If Varnish is active, you will need to exclude URLs and file type(s) in the Varnish configuration. If you are hosting WordPress websites on Cloudways servers, follow <a href=\"%s\" target=\"_blank\">this KB to exclude URLs from the Varnish cache</a>."
+msgstr ""
+"Breeze is fully compatible with Aelia Currency Switcher Plugin. Also exclude the cookie of Aelia currency switcher plugin \"aelia_cs_selected_currency\" from Varnish settings.\n"
+"<br/>\n"
+"<br/>\n"
+"If Varnish is active, you will need to exclude URLs and file type(s) in the Varnish configuration. If you are hosting WordPress websites on Cloudways servers, follow <a href=\"%s\" target=\"_blank\">this KB to exclude URLs from the Varnish cache</a>."
+
+#: views/option-tabs/faq-tab.php:38
+msgid "Does Breeze support Aelia Currency Switcher Plugin For WooCommerce?"
+msgstr "Does Breeze support Aelia Currency Switcher Plugin For WooCommerce?"
+
+#: views/option-tabs/advanced-tab.php:162
+msgid "Host Files Locally"
+msgstr "Host Files Locally"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:158
+msgid "Cloudflare cache has been purged."
+msgstr "Cloudflare cache has been purged."
+
+#: inc/cache/purge-varnish.php:150 inc/cache/purge-varnish.php:159
+msgid "Cloudflare Cache has been purged. "
+msgstr "Cloudflare Cache has been purged. "
+
+#: inc/breeze-admin.php:675
+msgid "Purge Cloudflare Cache"
+msgstr "Purge Cloudflare Cache"
+
+#: views/option-tabs/tools-tab.php:111
+msgid "Reset Now"
+msgstr "Reset Now"
+
+#: views/option-tabs/tools-tab.php:107
+msgid "Reset all settings"
+msgstr "Reset all settings"
+
+#: views/option-tabs/file-tab.php:544 views/option-tabs/file-tab.php:639
+msgid "This option can't be combined with \"Combine JS\" ."
+msgstr "This option can't be combined with \"Combine JS\" ."
+
+#: views/option-tabs/file-tab.php:423
+msgid "This option can't be combined with \"Delay JS Inline Script\" or \"Delay All JavaScript\" ."
+msgstr "This option can't be combined with \"Delay JS Inline Script\" or \"Delay All JavaScript\" ."
+
+#: views/option-tabs/database-tab.php:189
+msgid "Try to optimize database tables."
+msgstr "Try to optimise database tables."
+
+#: views/option-tabs/database-tab.php:188
+msgid "Optimize database"
+msgstr "Optimise database"
+
+#: views/option-tabs/dbsummary-tab.php:27
+msgid "DATABASE SUMMARY"
+msgstr "DATABASE SUMMARY"
+
+#: views/option-tabs/database-tab.php:331
+msgid "AUTOLOAD SUMMARY"
+msgstr "AUTOLOAD SUMMARY"
+
+#: views/option-tabs/database-tab.php:219
+msgid "Remove all the comments that are considered as unapproved from DB"
+msgstr "Remove all the comments that are considered as unapproved from DB"
+
+#: views/option-tabs/database-tab.php:218
+msgid "Unapproved/Pending Comments"
+msgstr "Unapproved/Pending Comments"
+
+#: views/option-tabs/database-tab.php:184
+msgid "Remove all the comments metadata which are orphaned from DB"
+msgstr "Remove all the comments metadata which are orphaned from DB"
+
+#: views/option-tabs/database-tab.php:183
+msgid "Orphaned Comments metadata"
+msgstr "Orphaned Comments metadata"
+
+#: views/option-tabs/database-tab.php:179
+msgid "Remove orphan term(taxonomies) metadata."
+msgstr "Remove orphan term(taxonomies) metadata."
+
+#: views/option-tabs/database-tab.php:178
+msgid "Orphan Term metadata"
+msgstr "Orphan Term metadata"
+
+#: views/option-tabs/database-tab.php:173
+msgid "Remove orphan user metadata."
+msgstr "Remove orphan user metadata."
+
+#: views/option-tabs/database-tab.php:172
+msgid "Orphan User metadata"
+msgstr "Orphan User metadata"
+
+#: views/option-tabs/database-tab.php:168
+msgid "Remove all orphaned posts metadata from DB"
+msgstr "Remove all orphaned posts metadata from DB"
+
+#: views/option-tabs/database-tab.php:167
+msgid "Orphaned Posts metadata"
+msgstr "Orphaned Posts metadata"
+
+#: views/option-tabs/database-tab.php:163
+msgid "Remove oEmbed cache in posts metadata from DB"
+msgstr "Remove oEmbed cache in posts metadata from DB"
+
+#: views/option-tabs/database-tab.php:162
+msgid "oEmbed in Posts metadata"
+msgstr "oEmbed in Posts metadata"
+
+#: views/option-tabs/database-tab.php:158
+msgid "Delete expired transients from the WordPress database."
+msgstr "Delete expired transients from the WordPress database."
+
+#: views/option-tabs/database-tab.php:157
+msgid "Expired Transients"
+msgstr "Expired Transients"
+
+#: views/option-tabs/database-tab.php:153
+msgid "Remove duplicated term(taxonomies) metadata."
+msgstr "Remove duplicated term(taxonomies) metadata."
+
+#: views/option-tabs/database-tab.php:152
+msgid "Duplicated Term metadata"
+msgstr "Duplicated Term metadata"
+
+#: views/option-tabs/database-tab.php:148
+msgid "Remove duplicated user metadata."
+msgstr "Remove duplicated user metadata."
+
+#: views/option-tabs/database-tab.php:147
+msgid "Duplicated User metadata"
+msgstr "Duplicated User metadata"
+
+#: views/option-tabs/database-tab.php:143
+msgid "Remove all the comments metadata which are duplicated from DB"
+msgstr "Remove all the comments metadata which are duplicated from DB"
+
+#: views/option-tabs/database-tab.php:142
+msgid "Duplicated Comments metadata"
+msgstr "Duplicated Comments metadata"
+
+#: views/option-tabs/database-tab.php:138
+msgid "Remove all duplicated posts metadata from DB"
+msgstr "Remove all duplicated posts metadata from DB"
+
+#: views/option-tabs/database-tab.php:137
+msgid "Duplicated Posts metadata"
+msgstr "Duplicated Posts metadata"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:458
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+#: inc/helpers/class-breeze-db-summary-table.php:115
+msgid "Autoload Count: "
+msgstr "Autoload Count: "
+
+#: inc/helpers/class-breeze-db-summary-table.php:114
+msgid "Autoload Total Size: "
+msgstr "Autoload Total Size: "
+
+#: inc/breeze-configuration.php:1827 views/option-tabs/cdn-tab.php:92
+msgid "The CDN URL you've used is insecure."
+msgstr "The CDN URL you've used is insecure."
+
+#: inc/breeze-admin.php:706
+msgid "Purge Object Cache"
+msgstr "Purge Object Cache"
+
+#: views/breeze-setting-views.php:178
+msgid "Inherit Network Settings"
+msgstr "Inherit Network Settings"
+
+#: views/breeze-setting-views.php:169 views/breeze-setting-views.php:183
+msgid "Use Custom Settings"
+msgstr "Use Custom Settings"
+
+#: views/option-tabs/file-tab.php:634
+msgid "You can add specific keywords to identify the Inline JavaScript or JavaScript files to not be delayed. Each script identifying keyword must be added on a new line."
+msgstr "You can add specific keywords to identify the Inline JavaScript or JavaScript files to not be delayed. Each script identifying keyword must be added on a new line."
+
+#: views/option-tabs/file-tab.php:628
+msgid "List of scripts not to delay"
+msgstr "List of scripts not to delay"
+
+#: views/option-tabs/file-tab.php:597
+msgid "Improve the page load by delaying JavaScript execution."
+msgstr "Improve the page load by delaying JavaScript execution."
+
+#: views/option-tabs/file-tab.php:564
+#: views/option-tabs/one-click-optimization-tab.php:101
+msgid "Delay All JavaScript"
+msgstr "Delay All JavaScript"
+
+#: views/option-tabs/file-tab.php:553 views/option-tabs/file-tab.php:649
+msgid "Use only one option \"Delay JS Inline Scripts\" OR \"Delay All JavaScript\" at same time."
+msgstr "Use only one option \"Delay JS Inline Scripts\" OR \"Delay All JavaScript\" at same time."
+
+#: views/option-tabs/preload-tab.php:176
+msgid "Third-party content load will be optimized if we prefetch the domains."
+msgstr "Third-party content load will be optimised if we prefetch the domains."
+
+#: views/option-tabs/preload-tab.php:153
+msgid "Specify domain URLs, one per line"
+msgstr "Specify domain URLs, one per line"
+
+#: views/option-tabs/preload-tab.php:148
+msgid "Prefetch of DNS Request"
+msgstr "Prefetch of DNS Request"
+
+#: views/option-tabs/heartbeat-tab.php:194
+msgid "Change Heartbeat behaviour or disable it completely in the admin area"
+msgstr "Change Heartbeat behaviour or disable it completely in the admin area"
+
+#: views/option-tabs/heartbeat-tab.php:152
+msgid "Change Heartbeat behaviour or disable it completely in post edit screen"
+msgstr "Change Heartbeat behaviour or disable it completely in post edit screen"
+
+#: views/option-tabs/heartbeat-tab.php:130
+msgid "Heartbeat Post Editor"
+msgstr "Heartbeat Post Editor"
+
+#: views/option-tabs/heartbeat-tab.php:118
+#: views/option-tabs/heartbeat-tab.php:160
+#: views/option-tabs/heartbeat-tab.php:202
+msgid "Disabling Heartbeat may break some functionalities from plugins and themes which are dependent on Heartbeat API."
+msgstr "Disabling Heartbeat may break some functionalities from plugins and themes which are dependent on Heartbeat API."
+
+#: views/option-tabs/heartbeat-tab.php:81
+msgid "Disable"
+msgstr "Disable"
+
+#: views/option-tabs/heartbeat-tab.php:76
+msgid "Default"
+msgstr "Default"
+
+#: views/option-tabs/heartbeat-tab.php:66
+msgid "Can help save some of the server resources when it's controlled."
+msgstr "Can help save some of the server resources when it's controlled."
+
+#: views/option-tabs/heartbeat-tab.php:46
+msgid "Control Heartbeat"
+msgstr "Control Heartbeat"
+
+#: views/option-tabs/heartbeat-tab.php:41
+msgid "Heartbeat Control"
+msgstr "Heartbeat Control"
+
+#: views/option-tabs/basic-tab.php:368
+msgid "Apply lazy load to all videos tags."
+msgstr "Apply lazy load to all videos tags."
+
+#: views/option-tabs/basic-tab.php:338
+msgid "iFrame lazy load"
+msgstr "iFrame lazy load"
+
+#: views/breeze-setting-views.php:35 views/option-tabs/heartbeat-tab.php:37
+msgid "HEARTBEAT API"
+msgstr "HEARTBEAT API"
+
+#: inc/class-breeze-file-permissions.php:155
+#: inc/class-breeze-file-permissions.php:187
+#: inc/class-breeze-file-permissions.php:235
+#: inc/class-breeze-file-permissions.php:264
+msgid " file does not exist. Save Breeze settings to create the file."
+msgstr " file does not exist. Save Breeze settings to create the file."
+
+#: views/option-tabs/varnish-tab.php:98
+msgid "127.0.0.1"
+msgstr "127.0.0.1"
+
+#: views/option-tabs/tools-tab.php:97
+msgid "Upload File and Import Settings"
+msgstr "Upload File and Import Settings"
+
+#. translators: Upload size
+#: views/option-tabs/tools-tab.php:90
+msgid "Choose a JSON file from your computer (maximum size: %s)"
+msgstr "Choose a JSON file from your computer (maximum size: %s)"
+
+#: views/option-tabs/tools-tab.php:79
+msgid "No File Chosen"
+msgstr "No File Chosen"
+
+#: views/option-tabs/tools-tab.php:57
+msgid "Download a backup file of your settings"
+msgstr "Download a backup file of your settings"
+
+#: views/option-tabs/tools-tab.php:53
+msgid "Download Settings"
+msgstr "Download Settings"
+
+#: views/option-tabs/preload-tab.php:93
+msgid "Example:"
+msgstr "Example:"
+
+#: views/option-tabs/preload-tab.php:87
+msgid "Specify the local font URL or the URL for the CSS file which loads only fonts. Load WOFF formats fonts for the best performance. Do not preload the whole website CSS file as it will slow down your website. Do not add Google Fonts links as those already use preload."
+msgstr "Specify the local font URL or the URL for the CSS file which loads only fonts. Load WOFF formats fonts for the best performance. Do not preload the whole website CSS file as it will slow down your website. Do not add Google Fonts links as those already use preload."
+
+#: views/breeze-setting-views.php:20 views/option-tabs/file-tab.php:42
+msgid "FILE OPTIMIZATION"
+msgstr "FILE OPTIMISATION"
+
+#: views/option-tabs/preload-tab.php:42
+msgid "Preload Webfont"
+msgstr "Preload Webfont"
+
+#: views/option-tabs/file-tab.php:377
+msgid "Minify Inline JS removes whitespace and create seprate cache file for inline JS."
+msgstr "Minify Inline JS removes whitespace and create seprate cache file for inline JS."
+
+#: views/option-tabs/file-tab.php:415
+msgid "Combine JS merges all your minified files into a single file, reducing HTTP requests."
+msgstr "Combine JS merges all your minified files into a single file, reducing HTTP requests."
+
+#: views/option-tabs/file-tab.php:401
+msgid "Combine JS"
+msgstr "Combine JS"
+
+#: views/option-tabs/file-tab.php:324
+msgid "Minify JavaScript removes whitespace and comments to reduce the file size."
+msgstr "Minify JavaScript removes whitespace and comments to reduce the file size."
+
+#: views/option-tabs/file-tab.php:301
+msgid "JS Minify"
+msgstr "JS Minify"
+
+#: views/option-tabs/file-tab.php:296
+msgid "JS Settings"
+msgstr "JS Settings"
+
+#: views/option-tabs/file-tab.php:236
+msgid "Combine CSS merges all your minified files into a single file, reducing HTTP requests."
+msgstr "Combine CSS merges all your minified files into a single file, reducing HTTP requests."
+
+#: views/option-tabs/file-tab.php:221
+#: views/option-tabs/one-click-optimization-tab.php:81
+msgid "Combine CSS"
+msgstr "Combine CSS"
+
+#: views/option-tabs/file-tab.php:198
+msgid "Minify Inline CSS removes whitespace and create seprate cache file for inline CSS."
+msgstr "Minify Inline CSS removes whitespace and create seprate cache file for inline CSS."
+
+#: views/option-tabs/file-tab.php:127
+msgid "Minify CSS removes whitespace and comments to reduce the file size."
+msgstr "Minify CSS removes whitespace and comments to reduce the file size."
+
+#: views/option-tabs/file-tab.php:103
+#: views/option-tabs/one-click-optimization-tab.php:61
+msgid "CSS Minify"
+msgstr "CSS Minify"
+
+#: views/option-tabs/file-tab.php:98
+msgid "CSS Settings"
+msgstr "CSS Settings"
+
+#: views/option-tabs/file-tab.php:80 views/option-tabs/file-tab.php:159
+#: views/option-tabs/file-tab.php:332
+msgid "We recommend testing minification on a staging website before deploying it on a live website. "
+msgstr "We recommend testing minification on a staging website before deploying it on a live website. "
+
+#: views/option-tabs/file-tab.php:71
+msgid "Minifying HTML removes whitespace and comments to reduce the size."
+msgstr "Minifying HTML removes whitespace and comments to reduce the size."
+
+#: views/option-tabs/file-tab.php:51
+#: views/option-tabs/one-click-optimization-tab.php:60
+msgid "HTML Minify"
+msgstr "HTML Minify"
+
+#: views/option-tabs/file-tab.php:46
+msgid "HTML Settings"
+msgstr "HTML Settings"
+
+#: views/option-tabs/faq-tab.php:155
+msgid "You can exclude URL(s) by mentioning in exclude fields available in the Breeze settings. Excluding a URL(s) will automatically prevent the page to be cached on server side caching (Varnish) by adding a cache-control:no-cache Response Header."
+msgstr "You can exclude URL(s) by mentioning in exclude fields available in the Breeze settings. Excluding a URL(s) will automatically prevent the page to be cached on server side caching (Varnish) by adding a cache-control:no-cache Response Header."
+
+#: views/option-tabs/faq-tab.php:20
+msgid "FAQS"
+msgstr "FAQS"
+
+#: views/option-tabs/database-tab.php:277
+msgid "Clean Now"
+msgstr "Clean Now"
+
+#: views/option-tabs/database-tab.php:263
+msgid "Clean All"
+msgstr "Clean All"
+
+#: views/option-tabs/database-tab.php:214
+msgid "Remove all trackbacks/pingbakcs data from DB"
+msgstr "Remove all trackbacks/pingbakcs data from DB"
+
+#: views/option-tabs/database-tab.php:213
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: views/option-tabs/database-tab.php:132
+msgid "All Transients"
+msgstr "All Transients"
+
+#: views/option-tabs/database-tab.php:199
+msgid "Remove all the comments that are considered spam from DB"
+msgstr "Remove all the comments that are considered spam from DB"
+
+#: views/option-tabs/database-tab.php:198
+msgid "Spam Comments"
+msgstr "Spam Comments"
+
+#: views/option-tabs/database-tab.php:128
+msgid "Remove all post/pages auto drafts from DB"
+msgstr "Remove all post/pages auto drafts from DB"
+
+#: views/option-tabs/database-tab.php:127
+msgid "Auto Drafts"
+msgstr "Auto Drafts"
+
+#: views/option-tabs/database-tab.php:194
+msgid "Remove all post/pages revisions from DB"
+msgstr "Remove all post/pages revisions from DB"
+
+#: views/option-tabs/basic-tab.php:432
+msgid "Cache Logged-in Users"
+msgstr "Cache Logged-in Users"
+
+#: views/option-tabs/basic-tab.php:391
+msgid "This is not supported by all browsers."
+msgstr "This is not supported by all browsers."
+
+#: inc/breeze-configuration.php:1826 views/option-tabs/basic-tab.php:127
+#: views/option-tabs/basic-tab.php:343 views/option-tabs/basic-tab.php:366
+#: views/option-tabs/basic-tab.php:389 views/option-tabs/basic-tab.php:474
+#: views/option-tabs/cdn-tab.php:91 views/option-tabs/database-tab.php:271
+#: views/option-tabs/file-tab.php:78 views/option-tabs/file-tab.php:157
+#: views/option-tabs/file-tab.php:330 views/option-tabs/file-tab.php:421
+#: views/option-tabs/file-tab.php:551 views/option-tabs/file-tab.php:647
+#: views/option-tabs/file-tab.php:710 views/option-tabs/file-tab.php:770
+#: views/option-tabs/heartbeat-tab.php:116
+#: views/option-tabs/heartbeat-tab.php:158
+#: views/option-tabs/heartbeat-tab.php:200
+#: views/option-tabs/preload-tab.php:134
+msgid "Important: "
+msgstr "Important: "
+
+#: views/option-tabs/basic-tab.php:162
+msgid "1440"
+msgstr "1440"
+
+#: views/option-tabs/advanced-tab.php:150
+msgid "Disable the loading of emoji libraries and CSS"
+msgstr "Disable the loading of emoji libraries and CSS"
+
+#: views/option-tabs/advanced-tab.php:110
+msgid "Pages that contain the query strings added here, will be cached. Each entry must be added in a new line. For further details please refer to this "
+msgstr "Pages that contain the query strings added here, will be cached. Each entry must be added in a new line. For further details please refer to this "
+
+#: views/option-tabs/advanced-tab.php:49
+msgid "Specify URLs of Pages or posts that should never be cached (one per line)"
+msgstr "Specify URLs of Pages or posts that should never be cached (one per line)"
+
+#: views/option-tabs/advanced-tab.php:44
+msgid "Never Cache URL(s)"
+msgstr "Never Cache URL(s)"
+
+#: views/option-tabs/advanced-tab.php:27 views/option-tabs/basic-tab.php:39
+#: views/option-tabs/cdn-tab.php:28 views/option-tabs/file-tab.php:32
+#: views/option-tabs/heartbeat-tab.php:27 views/option-tabs/preload-tab.php:25
+#: views/option-tabs/tools-tab.php:33 views/option-tabs/varnish-tab.php:28
+msgid "Settings are inherited"
+msgstr "Settings are inherited"
+
+#: views/breeze-setting-views.php:96
+msgid "Open menu"
+msgstr "Open menu"
+
+#: views/breeze-setting-views.php:164
+msgid "Network Settings"
+msgstr "Network Settings"
+
+#: views/breeze-setting-views.php:55 views/option-tabs/tools-tab.php:42
+msgid "TOOLS"
+msgstr "TOOLS"
+
+#: views/breeze-setting-views.php:40 views/option-tabs/database-tab.php:251
+msgid "DATABASE OPTIONS"
+msgstr "DATABASE OPTIONS"
+
+#: views/breeze-setting-views.php:25 views/option-tabs/preload-tab.php:35
+msgid "PRELOAD"
+msgstr "PRELOAD"
+
+#: views/option-tabs/advanced-tab.php:125
+#: views/option-tabs/one-click-optimization-tab.php:62
+msgid "Disable Emoji"
+msgstr "Disable Emoji"
+
+#: views/option-tabs/advanced-tab.php:92
+msgid "Cache Query Strings"
+msgstr "Cache Query Strings"
+
+#: inc/class-breeze-file-permissions.php:77
+#: inc/class-breeze-file-permissions.php:310
+msgid "For reference please click on the KB"
+msgstr "For reference please click on the KB"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:85
+msgid "Breeze all cache has been purged on network level"
+msgstr "Breeze all cache has been purged on network level"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:59
+msgid "Specify a value for parameter --cache=<all|varnish|local>"
+msgstr "Specify a value for parameter --cache=<all|varnish|local>"
+
+#: inc/class-breeze-file-permissions.php:168
+#: inc/class-breeze-file-permissions.php:173
+#: inc/class-breeze-file-permissions.php:194
+#: inc/class-breeze-file-permissions.php:203
+#: inc/class-breeze-file-permissions.php:214
+#: inc/class-breeze-file-permissions.php:230
+#: inc/class-breeze-file-permissions.php:242
+#: inc/class-breeze-file-permissions.php:253
+#: inc/class-breeze-file-permissions.php:281
+msgid " folder is not writable."
+msgstr " folder is not writable."
+
+#: inc/class-breeze-file-permissions.php:163
+msgid "  folder is not writable."
+msgstr "  folder is not writable."
+
+#: inc/class-breeze-file-permissions.php:157
+#: inc/class-breeze-file-permissions.php:189
+#: inc/class-breeze-file-permissions.php:237
+#: inc/class-breeze-file-permissions.php:266
+msgid " file is not writable."
+msgstr " file is not writable."
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:199
+msgid "Parameter --cache=<all|varnish|local> is missing"
+msgstr "Parameter --cache=<all|varnish|local> is missing"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:192
+msgid "Breeze local cache has been purged."
+msgstr "Breeze local cache has been purged."
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:176
+msgid "Breeze local cache has been purged on network level"
+msgstr "Breeze local cache has been purged on network level"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:129
+msgid "Breeze Varnish cache has been purged."
+msgstr "Breeze Varnish cache has been purged."
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:115
+msgid "Breeze Varnish cache has been purged on network level."
+msgstr "Breeze Varnish cache has been purged on network level."
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:99
+msgid "Breeze all cache has been purged."
+msgstr "Breeze all cache has been purged."
+
+#: views/option-tabs/tools-tab.php:68
+msgid "Import Settings:"
+msgstr "Import Settings:"
+
+#: views/option-tabs/tools-tab.php:49
+msgid "Export Settings"
+msgstr "Export Settings"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:410
+msgid "The JSON file does not contain valid data"
+msgstr "The JSON file does not contain valid data"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:405
+msgid "Error improting the settings, check the JSON file"
+msgstr "Error improting the settings, check the JSON file"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:401
+msgid "Settings have been imported"
+msgstr "Settings have been imported"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:365
+msgid "The provided JSON is valid...importing data"
+msgstr "The provided JSON is valid...importing data"
+
+#. translators: %s The JSON had an issue
+#: inc/wp-cli/class-breeze-wp-cli-core.php:351
+msgid "There was an error running the action scheduler: %s"
+msgstr "There was an error running the action scheduler: %s"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:333
+msgid "The given file path is not valid or the file is not readable"
+msgstr "The given file path is not valid or the file is not readable"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:327
+msgid "Error importing remote JSON file"
+msgstr "Error importing remote JSON file"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:318
+msgid "You need to specify the full path to breeze JSON file"
+msgstr "You need to specify the full path to breeze JSON file"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:308
+msgid "You need to specify the --file-path=<full_path_to_file> parameter"
+msgstr "You need to specify the --file-path=<full_path_to_file> parameter"
+
+#. translators: %s Export file location
+#: inc/wp-cli/class-breeze-wp-cli-core.php:288
+msgid "File location: %s"
+msgstr "File location: %s"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:282
+msgid "Breeze settings have been exported to file"
+msgstr "Breeze settings have been exported to file"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:276
+msgid "Could not write to file"
+msgstr "Could not write to file"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:244
+#: inc/wp-cli/class-breeze-wp-cli-core.php:389
+msgid "Parameter --level=<network|blog_id> does not contain valid data"
+msgstr "Parameter --level=<network|blog_id> does not contain valid data"
+
+#: inc/wp-cli/class-breeze-wp-cli-core.php:234
+#: inc/wp-cli/class-breeze-wp-cli-core.php:381
+msgid "The blog ID is not valid, --level=<blog_id>"
+msgstr "The blog ID is not valid, --level=<blog_id>"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:287
+#: inc/wp-cli/class-breeze-settings-import-export.php:311
+#: inc/wp-cli/class-breeze-settings-import-export.php:334
+msgid "was not imported"
+msgstr "was not imported"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:113
+msgid "The JSON file is missing"
+msgstr "The JSON file is missing"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:109
+msgid "The JSON file is not valid"
+msgstr "The JSON file is not valid"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:106
+msgid "The JSON content is not valid"
+msgstr "The JSON content is not valid"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:104
+msgid ""
+"Settings imported successfully. \n"
+"Page will reload"
+msgstr ""
+"Settings imported successfully. \n"
+"Page will reload"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:99
+msgid "Could not read the options from the provided JSON file"
+msgstr "Could not read the options from the provided JSON file"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:46
+msgid "The provided file is not a JSON file."
+msgstr "The provided file is not a JSON file."
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:42
+msgid "The provided file is not a JSON"
+msgstr "The provided file is not a JSON"
+
+#: inc/wp-cli/class-breeze-settings-import-export.php:30
+msgid "Only administrator can import settings"
+msgstr "Only administrator can import settings"
+
+#: inc/wp-cli/class-breeze-cli-helpers.php:61
+msgid "Remote file could not be reached"
+msgstr "Remote file could not be reached"
+
+#: views/option-tabs/file-tab.php:150
+msgid "Font remain visible during load"
+msgstr "Font remain visible during load"
+
+#: views/option-tabs/basic-tab.php:422
+msgid "Apply \"noopener noreferrer\" to links which have target\"_blank\" attribute and the anchor leads to external websites"
+msgstr "Apply \"noopener noreferrer\" to links which have target\"_blank\" attribute and the anchor leads to external websites"
+
+#: views/option-tabs/basic-tab.php:405
+msgid "Cross-origin Safe Links"
+msgstr "Cross-origin Safe Links"
+
+#: views/option-tabs/file-tab.php:543 views/option-tabs/file-tab.php:638
+msgid "Please clear Varnish after applying the new settings."
+msgstr "Please clear Varnish after applying the new settings."
+
+#: views/option-tabs/file-tab.php:540
+msgid "More info here"
+msgstr "More info here"
+
+#: views/option-tabs/file-tab.php:538
+msgid "You can add specific keywords to identify the inline JavaScript to be delayed. Each script identifying keyword must be added on a new line."
+msgstr "You can add specific keywords to identify the inline JavaScript to be delayed. Each script identifying keyword must be added on a new line."
+
+#: views/option-tabs/file-tab.php:485
+msgid "Delay JS Inline Scripts"
+msgstr "Delay JS Inline Scripts"
+
+#: views/option-tabs/preload-tab.php:53 views/option-tabs/preload-tab.php:68
+msgid "Enter Font/CSS URL..."
+msgstr "Enter Font/CSS URL..."
+
+#: views/option-tabs/preload-tab.php:136
+msgid "This feature is supported by Chromium based browsers (Chrome, Opera, Microsoft Edge Chromimum, Brave...);"
+msgstr "This feature is supported by Chromium based browsers (Chrome, Opera, Microsoft Edge Chromimum, Brave...);"
+
+#: views/option-tabs/preload-tab.php:128
+msgid "When users hover over links, the cache is created in advance. The page will load faster upon link visiting."
+msgstr "When users hover over links, the cache is created in advance. The page will load faster upon link visiting."
+
+#: views/option-tabs/one-click-optimization-tab.php:82
+#: views/option-tabs/preload-tab.php:108
+msgid "Preload Links"
+msgstr "Preload Links"
+
+#: views/option-tabs/basic-tab.php:384
+msgid "Enable native browser lazy load"
+msgstr "Enable native browser lazy load"
+
+#: views/option-tabs/basic-tab.php:296
+msgid "This option requires the library PHP DOMDocument and PHP DOMXPath"
+msgstr "This option requires the library PHP DOMDocument and PHP DOMXPath"
+
+#: views/option-tabs/basic-tab.php:292
+msgid "Images will begin to load before being displayed on screen."
+msgstr "Images will begin to load before being displayed on screen."
+
+#: views/option-tabs/basic-tab.php:268
+#: views/option-tabs/one-click-optimization-tab.php:59
+msgid "Lazy Load Images"
+msgstr "Lazy Load Images"
+
+#: views/option-tabs/faq-tab.php:32
+msgid "- You can leave the option enabled and identify which line found in the textarea is causing the issue, then remove only that online that line."
+msgstr "- You can leave the option enabled and identify which line found in the textarea is causing the issue, then remove only that online that line."
+
+#: views/option-tabs/faq-tab.php:31
+msgid "- You can disable the option altogether."
+msgstr "- You can disable the option altogether."
+
+#: views/option-tabs/faq-tab.php:30
+msgid "If JavaScript errors show up in front-end you can try the following solutions."
+msgstr "If JavaScript errors show up in front-end you can try the following solutions."
+
+#: views/option-tabs/faq-tab.php:27
+msgid "Delay inline JavaScript issue"
+msgstr "Delay inline JavaScript issue"
+
+#: views/option-tabs/cdn-tab.php:118
+msgid "is not a valid CDN url."
+msgstr "is not a valid CDN URL."
+
+#: views/option-tabs/basic-tab.php:476
+msgid "This option might not work properly with some page builders."
+msgstr "This option might not work properly with some page builders."
+
+#: views/option-tabs/basic-tab.php:468
+msgid "Enable cache for WP standard user roles: Administrator, Editor, Author, Contributor."
+msgstr "Enable cache for WP standard user roles: Administrator, Editor, Author, Contributor."
+
+#: views/html-notice-plugin-screen-incompatibilities.php:41
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: views/html-notice-plugin-screen-incompatibilities.php:30
+msgid "We recommend deactivating these plugin(s) and installing a compatible version."
+msgstr "We recommend deactivating these plugin(s) and installing a compatible version."
+
+#: views/html-notice-plugin-screen-incompatibilities.php:29
+msgid "The following plugin(s) is not compatible with Breeze and could conflict with plugin options."
+msgstr "The following plugin(s) is not compatible with Breeze and could conflict with plugin options."
+
+#: views/html-notice-plugin-screen-incompatibilities.php:26
+msgid "Breeze Incompatible Plugins"
+msgstr "Breeze Incompatible Plugins"
+
+#: inc/plugin-incompatibility/class-breeze-incompatibility-plugins.php:184
+msgid "Network Only - deactivate from Network"
+msgstr "Network Only - deactivate from Network"
+
+#: inc/plugin-incompatibility/class-breeze-incompatibility-plugins.php:182
+msgid "Network Active - deactivate from Network"
+msgstr "Network Active - deactivate from Network"
+
+#: inc/plugin-incompatibility/class-breeze-incompatibility-plugins.php:159
+msgid "is not compatible"
+msgstr "is not compatible"
+
+#: inc/plugin-incompatibility/class-breeze-incompatibility-plugins.php:159
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/breeze-admin.php:651
+msgid "Purge Site Cache"
+msgstr "Purge Site Cache"
+
+#: views/breeze-setting-views.php:170
+msgid "This option allows subsite to have different settings/configuration from the network level. Use this option only if you wish to have separate settings for this subsite."
+msgstr "This option allows subsite to have different settings/configuration from the network level. Use this option only if you wish to have separate settings for this subsite."
+
+#: views/breeze-setting-views.php:165
+msgid "This option allows the subsite to inherit all the cache settings from network. To modify/update the settings please go to network site."
+msgstr "This option allows the subsite to inherit all the cache settings from network. To modify/update the settings please go to network site."
+
+#: views/option-tabs/basic-tab.php:209 views/option-tabs/basic-tab.php:255
+msgid "Enabling/disabling %s for subsites is only available for Apache 2.4 and above. For lower versions, the Network-level settings will apply."
+msgstr "Enabling/disabling %s for subsites is only available for Apache 2.4 and above. For lower versions, the Network-level settings will apply."
+
+#: views/option-tabs/file-tab.php:471
+msgid "One (or more) URL is incorrect. Please confirm that all URLs have the .js extension"
+msgstr "One (or more) URL is incorrect. Please confirm that all URLs have the .js extension"
+
+#: views/option-tabs/advanced-tab.php:80 views/option-tabs/file-tab.php:285
+#: views/option-tabs/file-tab.php:474 views/option-tabs/preload-tab.php:181
+msgid "One (or more) URL is invalid. Please check and correct the entry."
+msgstr "One (or more) URL is invalid. Please check and correct the entry."
+
+#: views/option-tabs/file-tab.php:282
+msgid "One (or more) URL is incorrect. Please confirm that all URLs have the .css extension"
+msgstr "One (or more) URL is incorrect. Please confirm that all URLs have the .css extension"
+
+#: views/option-tabs/file-tab.php:704
+msgid "Enter the complete URLs of JS files to be moved to the footer during minification process."
+msgstr "Enter the complete URLs of JS files to be moved to the footer during minification process."
+
+#: views/option-tabs/file-tab.php:697 views/option-tabs/file-tab.php:763
+#: views/option-tabs/preload-tab.php:80
+msgid "Add URL"
+msgstr "Add URL"
+
+#: views/option-tabs/file-tab.php:676 views/option-tabs/file-tab.php:691
+#: views/option-tabs/file-tab.php:742 views/option-tabs/file-tab.php:757
+#: views/option-tabs/preload-tab.php:59 views/option-tabs/preload-tab.php:74
+msgid "Remove"
+msgstr "Remove"
+
+#: views/option-tabs/file-tab.php:670 views/option-tabs/file-tab.php:685
+#: views/option-tabs/file-tab.php:736 views/option-tabs/file-tab.php:751
+msgid "Enter URL..."
+msgstr "Enter URL..."
+
+#: views/option-tabs/file-tab.php:659
+msgid "Move JS Files to Footer"
+msgstr "Move JS Files to Footer"
+
+#: views/option-tabs/faq-tab.php:179
+msgid "How can I test and verify the results?"
+msgstr "How can I test and verify the results?"
+
+#: views/option-tabs/faq-tab.php:191
+msgid "Does Breeze plugin work with Visual Builder?"
+msgstr "Does Breeze plugin work with Visual Builder?"
+
+#: views/option-tabs/file-tab.php:183
+#: views/option-tabs/one-click-optimization-tab.php:80
+msgid "Include Inline CSS"
+msgstr "Include Inline CSS"
+
+#: views/option-tabs/file-tab.php:712 views/option-tabs/file-tab.php:772
+msgid "You should add the URL of original files as URL of minified files are not supported."
+msgstr "You should add the URL of original files as URL of minified files are not supported."
+
+#: views/option-tabs/file-tab.php:724
+msgid "JS Files With Deferred Loading"
+msgstr "JS Files With Deferred Loading"
+
+#: views/option-tabs/file-tab.php:362
+msgid "Include Inline JS"
+msgstr "Include Inline JS"
+
+#: views/option-tabs/database-tab.php:322
+msgid "Optimize"
+msgstr "Optimise"
+
+#: views/option-tabs/advanced-tab.php:307 views/option-tabs/basic-tab.php:486
+#: views/option-tabs/cdn-tab.php:221 views/option-tabs/file-tab.php:785
+#: views/option-tabs/heartbeat-tab.php:213
+#: views/option-tabs/preload-tab.php:257 views/option-tabs/varnish-tab.php:133
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: views/option-tabs/faq-tab.php:220
+msgid "KnowledgeBase article for details."
+msgstr "KnowledgeBase article for details."
+
+#: views/option-tabs/faq-tab.php:89
+msgid "Breeze handles all WordPress multisite instances globally. All the settings for multisite are now handled on the network level."
+msgstr "Breeze handles all WordPress multisite instances globally. All the settings for multisite are now handled on the network level."
+
+#: views/option-tabs/faq-tab.php:87
+msgid "How does Breeze handle WordPress multisite?"
+msgstr "How does Breeze handle WordPress multisite?"
+
+#: views/option-tabs/faq-tab.php:165
+msgid "Breeze has been tested to work with all major hosting providers. In addition, major Breeze options such as Gzip, browser cache, minification, grouping, database optimization. CDN integration will work as expected on all hosting providers."
+msgstr "Breeze has been tested to work with all major hosting providers. In addition, major Breeze options such as Gzip, browser cache, minification, grouping, database optimisation. CDN integration will work as expected on all hosting providers."
+
+#: views/option-tabs/faq-tab.php:141
+msgid "Breeze's database optimization cleans out unwanted information in a single click."
+msgstr "Breeze's database optimisation cleans out unwanted information in a single click."
+
+#: views/option-tabs/faq-tab.php:228
+msgid "Using Gzip, Breeze compresses the request files, further reducing the size of the download files and speeding up the user experience."
+msgstr "Using Gzip, Breeze compresses the request files, further reducing the size of the download files and speeding up the user experience."
+
+#: views/option-tabs/faq-tab.php:226
+msgid "How Breeze cache uses Gzip?"
+msgstr "How Breeze cache uses Gzip?"
+
+#: views/option-tabs/faq-tab.php:219
+msgid "Yes. The process of setting up CloudFlare with Breeze is easy. Check out the following "
+msgstr "Yes. The process of setting up CloudFlare with Breeze is easy. Check out the following "
+
+#: views/option-tabs/faq-tab.php:217
+msgid "Does Breeze Work With CloudFlare?"
+msgstr "Does Breeze Work With CloudFlare?"
+
+#: views/option-tabs/faq-tab.php:212
+msgid "No, Breeze does not support Push CDN. However, you could use Breeze with Push CDNs using third party plugins."
+msgstr "No, Breeze does not support Push CDN. However, you could use Breeze with Push CDNs using third party plugins."
+
+#: views/option-tabs/faq-tab.php:210
+msgid "Does Breeze support Push CDN?"
+msgstr "Does Breeze support Push CDN?"
+
+#: views/option-tabs/faq-tab.php:204
+msgid "Amazon Cloudfront"
+msgstr "Amazon Cloudfront"
+
+#: views/option-tabs/faq-tab.php:203
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#: views/option-tabs/faq-tab.php:202
+msgid "MaxCDN"
+msgstr "MaxCDN"
+
+#: views/option-tabs/faq-tab.php:200
+msgid "Breeze supports the following three popular CDNs:"
+msgstr "Breeze supports the following three popular CDNs:"
+
+#: views/option-tabs/faq-tab.php:198
+msgid "What popular CDN are supported by Breeze Plugin?"
+msgstr "What popular CDN are supported by Breeze Plugin?"
+
+#: views/option-tabs/faq-tab.php:193
+msgid "Yes, Breeze Plugin is compatible with Visual Builder."
+msgstr "Yes, Breeze Plugin is compatible with Visual Builder."
+
+#: views/option-tabs/faq-tab.php:185
+msgid "Pingdom"
+msgstr "Pingdom"
+
+#: views/option-tabs/faq-tab.php:184
+msgid "WebPagetest"
+msgstr "WebPagetest"
+
+#: views/option-tabs/faq-tab.php:183
+msgid "Google Page Speed"
+msgstr "Google Page Speed"
+
+#: views/option-tabs/faq-tab.php:181
+msgid "You will be able to see the impact of the Breeze Cache Plugin almost immediately. We also recommend using the following tools for generating metrics:"
+msgstr "You will be able to see the impact of the Breeze Cache Plugin almost immediately. We also recommend using the following tools for generating metrics:"
+
+#: views/option-tabs/faq-tab.php:172
+msgid "You can get your questions answered on the WordPress support forums. If you are a Cloudways customer, please feel free to start a discussion at"
+msgstr "You can get your questions answered on the WordPress support forums. If you are a Cloudways customer, please feel free to start a discussion at"
+
+#: views/option-tabs/faq-tab.php:170
+msgid "Where can I get support for Breeze?"
+msgstr "Where can I get support for Breeze?"
+
+#: views/option-tabs/faq-tab.php:163
+msgid "Does it work with all hosting providers?"
+msgstr "Does it work with all hosting providers?"
+
+#: views/option-tabs/faq-tab.php:157
+msgid "this KB to exclude URLs from the Varnish cache."
+msgstr "this KB to exclude URLs from the Varnish cache."
+
+#: views/option-tabs/faq-tab.php:156
+msgid "If Varnish is active, you will need to exclude URLs and file type(s) in the Varnish configuration. If you are hosting WordPress websites on Cloudways servers, follow "
+msgstr "If Varnish is active, you will need to exclude URLs and file type(s) in the Varnish configuration. If you are hosting WordPress websites on Cloudways servers, follow "
+
+#: views/option-tabs/faq-tab.php:153
+msgid "Can I exclude URLs of individual files and pages from cache?"
+msgstr "Can I exclude URLs of individual files and pages from cache?"
+
+#: views/option-tabs/faq-tab.php:148
+msgid "Comments will appear upon moderation as per the comment system (or policy) set in place by the blog owner. Other dynamic changes such as any modifications in files will require a full cache purge."
+msgstr "Comments will appear upon moderation as per the comment system (or policy) set in place by the blog owner. Other dynamic changes such as any modifications in files will require a full cache purge."
+
+#: views/option-tabs/faq-tab.php:146
+msgid "Will comments and other dynamic parts of my blog appear immediately?"
+msgstr "Will comments and other dynamic parts of my blog appear immediately?"
+
+#: views/option-tabs/faq-tab.php:140
+msgid "WordPress databases are notorious for storing information like post revisions, spam comments and much more. Over time, databases l become bloated and it is a good practice to clear out unwanted information to reduce database size and improve optimization."
+msgstr "WordPress databases are notorious for storing information like post revisions, spam comments and much more. Over time, databases l become bloated and it is a good practice to clear out unwanted information to reduce database size and improve optimisation."
+
+#: views/option-tabs/faq-tab.php:138
+msgid "What does Breeze's Database Optimization feature do?"
+msgstr "What does Breeze's Database Optimisation feature do?"
+
+#: views/option-tabs/faq-tab.php:133
+msgid "Breeze supports CDN integration. It allows all static assets (such as images, CSS and JS files) to be served via CDN."
+msgstr "Breeze supports CDN integration. It allows all static assets (such as images, CSS and JS files) to be served via CDN."
+
+#: views/option-tabs/faq-tab.php:131
+msgid "Does Breeze support CDN?"
+msgstr "Does Breeze support CDN?"
+
+#: views/option-tabs/faq-tab.php:109
+msgid "Does Breeze have compatibility issues with other known plugins?"
+msgstr "Does Breeze have compatibility issues with other known plugins?"
+
+#: views/option-tabs/faq-tab.php:104
+msgid "Breeze does not require any special configuration to work with HTTP or HTTPS pages."
+msgstr "Breeze does not require any special configuration to work with HTTP or HTTPS pages."
+
+#: views/option-tabs/faq-tab.php:102
+msgid "Is Breeze compatible with HTTPS?"
+msgstr "Is Breeze compatible with HTTPS?"
+
+#: views/option-tabs/faq-tab.php:97
+msgid "We strongly recommend that you use Breeze as the only cache plugin for your website. If there are any other cache plugins installed, please ensure that you have disabled them prior to proceeding with the Breeze installation."
+msgstr "We strongly recommend that you use Breeze as the only cache plugin for your website. If there are any other cache plugins installed, please ensure that you have disabled them prior to proceeding with the Breeze installation."
+
+#: views/option-tabs/faq-tab.php:96
+msgid "We DO NOT recommend using two WordPress cache plugins at the same time on any WordPress website."
+msgstr "We DO NOT recommend using two WordPress cache plugins at the same time on any WordPress website."
+
+#: views/option-tabs/faq-tab.php:94
+msgid "Is Breeze compatible with other WordPress Cache plugins?"
+msgstr "Is Breeze compatible with other WordPress Cache plugins?"
+
+#: views/option-tabs/faq-tab.php:82
+msgid "Breeze is fully compatible with WordPress Multisite without the need for any extra configuration."
+msgstr "Breeze is fully compatible with WordPress Multisite without the need for any extra configuration."
+
+#: views/option-tabs/faq-tab.php:80
+msgid "Does Breeze support WordPress Multisite?"
+msgstr "Does Breeze support WordPress Multisite?"
+
+#: views/option-tabs/faq-tab.php:75
+msgid "Breeze is fully compatible with WooCommerce, out of the box. It does not require any special configurations."
+msgstr "Breeze is fully compatible with WooCommerce, out of the box. It does not require any special configurations."
+
+#: views/option-tabs/faq-tab.php:73
+msgid "Does Breeze support WooCommerce?"
+msgstr "Does Breeze support WooCommerce?"
+
+#: views/option-tabs/faq-tab.php:68
+msgid "Breeze, by default, supports Varnish. It has been tested to be fully compatible with Cloudways Servers that come with Varnish pre-installed. If you are using hosting providers other than Cloudways, we suggest you confirm Varnish support with your hosting provider."
+msgstr "Breeze, by default, supports Varnish. It has been tested to be fully compatible with Cloudways Servers that come with Varnish pre-installed. If you are using hosting providers other than Cloudways, we suggest you confirm Varnish support with your hosting provider."
+
+#: views/option-tabs/faq-tab.php:66
+msgid "Does Breeze support Varnish and to what extent?"
+msgstr "Does Breeze support Varnish and to what extent?"
+
+#: views/breeze-setting-views.php:65
+msgid "FAQs"
+msgstr "FAQs"
+
+#: views/option-tabs/cdn-tab.php:78
+msgid "CDN CNAME"
+msgstr "CDN CNAME"
+
+#: views/option-tabs/database-tab.php:133
+msgid "Delete expired and active transients from the WordPress database."
+msgstr "Delete expired and active transients from the WordPress database."
+
+#: views/option-tabs/database-tab.php:273
+msgid "Backup your database before using the following options!"
+msgstr "Backup your database before using the following options!"
+
+#: views/option-tabs/advanced-tab.php:76 views/option-tabs/advanced-tab.php:114
+msgid " article."
+msgstr " article."
+
+#: views/option-tabs/advanced-tab.php:76 views/option-tabs/advanced-tab.php:114
+#: views/option-tabs/varnish-tab.php:76
+msgid "Knowledge Base"
+msgstr "Knowledge Base"
+
+#: views/option-tabs/advanced-tab.php:72
+msgid "Add the URLs of the pages (one per line) you wish to exclude from the WordPress internal cache. To exclude URLs from the Varnish cache, please refer to this "
+msgstr "Add the URLs of the pages (one per line) you wish to exclude from the WordPress internal cache. To exclude URLs from the Varnish cache, please refer to this "
+
+#: views/option-tabs/faq-tab.php:173
+msgid "Cloudways Community Forum."
+msgstr "Cloudways Community Forum."
+
+#: views/breeze-setting-views.php:50
+msgid "VARNISH"
+msgstr "VARNISH"
+
+#: views/breeze-setting-views.php:30 views/option-tabs/advanced-tab.php:37
+msgid "ADVANCED OPTIONS"
+msgstr "ADVANCED OPTIONS"
+
+#: views/breeze-setting-views.php:15 views/option-tabs/basic-tab.php:49
+msgid "BASIC OPTIONS"
+msgstr "BASIC OPTIONS"
+
+#: inc/cache/purge-varnish.php:113
+msgid "Cache data has been purged: "
+msgstr "Cache data has been purged: "
+
+#: inc/breeze-admin.php:698
+msgid "Purge Internal Cache"
+msgstr "Purge Internal Cache"
+
+#: inc/breeze-admin.php:435
+msgid "Hide message"
+msgstr "Hide message"
+
+#: inc/breeze-admin.php:433
+msgid "Thanks for installing Breeze. It is always recommended not to use more than one caching plugin at the same time. We recommend you to purge cache if necessary."
+msgstr "Thanks for installing Breeze. It is always recommended not to use more than one caching plugin at the same time. We recommend you to purge cache if necessary."
+
+#: views/option-tabs/varnish-tab.php:65
+msgid "Keep this option enabled to automatically purge Varnish cache on actions like publishing new blog posts, pages and comments."
+msgstr "Keep this option enabled to automatically purge Varnish cache on actions like publishing new blog posts, pages and comments."
+
+#: views/option-tabs/varnish-tab.php:43
+msgid "Auto Purge Varnish"
+msgstr "Auto Purge Varnish"
+
+#: views/option-tabs/varnish-tab.php:35
+msgid "By default Varnish is enabled on all WordPress websites hosted on Cloudways."
+msgstr "By default Varnish is enabled on all WordPress websites hosted on Cloudways."
+
+#: views/option-tabs/database-tab.php:193
+msgid "Post Revisions"
+msgstr "Post Revisions"
+
+#: views/option-tabs/cdn-tab.php:212
+msgid "Keep this option enabled. Use this option to enable relative path for your CDN on your WordPress site."
+msgstr "Keep this option enabled. Use this option to enable relative path for your CDN on your WordPress site."
+
+#: views/option-tabs/cdn-tab.php:188
+msgid "Relative Path"
+msgstr "Relative Path"
+
+#: views/option-tabs/cdn-tab.php:176
+msgid "Exclude file types or directories from CDN. Example, enter .css to exclude the CSS files."
+msgstr "Exclude file types or directories from CDN. Example, enter .css to exclude the CSS files."
+
+#: views/option-tabs/cdn-tab.php:160
+msgid "Exclude Content"
+msgstr "Exclude Content"
+
+#: views/option-tabs/cdn-tab.php:147
+msgid "Enter the directories (comma separated) of which you want the CDN to serve the content."
+msgstr "Enter the directories (comma separated) of which you want the CDN to serve the content."
+
+#: views/option-tabs/cdn-tab.php:132
+msgid "CDN Content"
+msgstr "CDN Content"
+
+#: views/option-tabs/cdn-tab.php:108
+msgid "Use double slash '//' at the start of CDN CNAME, if you have some pages on  HTTP and some are on HTTPS."
+msgstr "Use double slash '//' at the start of CDN CNAME, if you have some pages on  HTTP and some are on HTTPS."
+
+#: views/option-tabs/cdn-tab.php:103
+msgid "https://www.domain.com"
+msgstr "https://www.domain.com"
+
+#: views/option-tabs/cdn-tab.php:67
+msgid "Enable to make CDN effective on your website."
+msgstr "Enable to make CDN effective on your website."
+
+#: views/option-tabs/cdn-tab.php:45
+msgid "Activate CDN"
+msgstr "Activate CDN"
+
+#: views/option-tabs/basic-tab.php:94
+msgid "Mobile Cache"
+msgstr "Mobile Cache"
+
+#: views/option-tabs/basic-tab.php:250
+msgid "Enable this to add expires headers to static files. This will ask browsers to either request a file from server or fetch from the browser's cache."
+msgstr "Enable this to add expires headers to static files. This will ask browsers to either request a file from server or fetch from the browser's cache."
+
+#: views/option-tabs/basic-tab.php:234
+#: views/option-tabs/one-click-optimization-tab.php:58
+msgid "Browser Cache"
+msgstr "Browser Cache"
+
+#: views/option-tabs/basic-tab.php:204
+msgid "Enable this to compress your files making HTTP requests fewer and faster."
+msgstr "Enable this to compress your files making HTTP requests fewer and faster."
+
+#: views/option-tabs/basic-tab.php:188
+#: views/option-tabs/one-click-optimization-tab.php:57
+msgid "Gzip Compression"
+msgstr "Gzip Compression"
+
+#: views/option-tabs/basic-tab.php:165
+msgid "Automatically purge internal cache after X minutes. By default this is set to 1440 minutes (1 day)"
+msgstr "Automatically purge internal cache after X minutes. By default this is set to 1440 minutes (1 day)"
+
+#: views/option-tabs/basic-tab.php:155
+msgid "Purge Cache After"
+msgstr "Purge Cache After"
+
+#: views/option-tabs/basic-tab.php:74
+msgid "This is the basic cache that we recommend should be kept enabled in all cases. Basic cache will build the internal and static caches for the WordPress websites."
+msgstr "This is the basic cache that we recommend should be kept enabled in all cases. Basic cache will build the internal and static caches for the WordPress websites."
+
+#: views/option-tabs/basic-tab.php:56
+msgid "Cache System"
+msgstr "Cache System"
+
+#: views/option-tabs/file-tab.php:466
+msgid "Use this option to exclude JS files from Minification and Grouping. Enter the URLs of JS files on each line."
+msgstr "Use this option to exclude JS files from Minification and Grouping. Enter the URLs of JS files on each line."
+
+#: views/option-tabs/file-tab.php:456
+msgid "Exclude JS"
+msgstr "Exclude JS"
+
+#: views/option-tabs/file-tab.php:277
+msgid "Use this option to exclude CSS files from Minification and Grouping. Enter the URLs of CSS files on each line."
+msgstr "Use this option to exclude CSS files from Minification and Grouping. Enter the URLs of CSS files on each line."
+
+#: views/option-tabs/file-tab.php:266
+msgid "Exclude CSS"
+msgstr "Exclude CSS"
+
+#: views/option-tabs/varnish-tab.php:33
+msgid "Varnish"
+msgstr "Varnish"
+
+#: views/breeze-setting-views.php:45 views/option-tabs/cdn-tab.php:38
+msgid "CDN"
+msgstr "CDN"
+
+#: inc/cache/purge-varnish.php:113
+msgid " Kb static cache cleaned"
+msgstr " Kb static cache cleaned"
+
+#: inc/cache/purge-per-time.php:101
+msgid "Cloudways Varnish Purge Interval"
+msgstr "Cloudways Varnish Purge Interval"
+
+#: inc/breeze-admin.php:724
+msgid "Support"
+msgstr "Support"
+
+#: inc/breeze-admin.php:714
+msgid "Settings"
+msgstr "Settings"
+
+#: inc/breeze-admin.php:666
+msgid "Purge Modules"
+msgstr "Purge Modules"
+
+#: inc/breeze-admin.php:651
+msgid "Purge All Cache"
+msgstr "Purge All Cache"
+
+#. Plugin Name of the plugin
+#: breeze.php inc/breeze-admin.php:550 inc/breeze-admin.php:551
+#: inc/breeze-admin.php:568 inc/breeze-admin.php:569 inc/breeze-admin.php:597
+msgid "Breeze"
+msgstr "Breeze"
+
+#. Author URI of the plugin
+#: breeze.php
+msgid "https://www.cloudways.com"
+msgstr "https://www.cloudways.com"
+
+#. Author of the plugin
+#: breeze.php
+msgid "Cloudways"
+msgstr "Cloudways"
+
+#. Description of the plugin
+#: breeze.php
+msgid "Breeze is a cache plugin with extensive options to speed up your website. All the options including Varnish Cache are compatible with Cloudways hosting."
+msgstr "Breeze is a cache plugin with extensive options to speed up your website. All the options including Varnish Cache are compatible with Cloudways hosting."
+
+#: views/option-tabs/varnish-tab.php:124
+msgid "Use this option to instantly Purge Varnish Cache on entire website."
+msgstr "Use this option to instantly Purge Varnish Cache on entire website."
+
+#: views/option-tabs/varnish-tab.php:118
+msgid "Purge"
+msgstr "Purge"
+
+#: inc/breeze-admin.php:689 views/option-tabs/varnish-tab.php:114
+msgid "Purge Varnish Cache"
+msgstr "Purge Varnish Cache"
+
+#: views/option-tabs/varnish-tab.php:102
+msgid "Keep this default if you are a Cloudways customer. Otherwise ask your hosting provider on what to set here."
+msgstr "Keep this default if you are a Cloudways customer. Otherwise ask your hosting provider on what to set here."
+
+#: views/option-tabs/varnish-tab.php:90
+msgid "Varnish Server"
+msgstr "Varnish Server"
+
+#: views/option-tabs/varnish-tab.php:73
+msgid "Seems Varnish is disabled on your Application. Please refer to this"
+msgstr "Seems Varnish is disabled on your Application. Please refer to this"

@@ -1,0 +1,41 @@
+@use 'steps-form';
+@use 'tooltip';
+
+.pisol-form-label-col.col-md-6, .pisol-form-setting-col.col-12, .pisol-form-setting-col.col-md-6{
+    max-width:100% !important;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.table-striped td, .table-striped th{
+    vertical-align: middle !important;
+}
+
+.pi-primary-border-left{
+    border-left:4px solid var(--pisol-primary-color);
+}
+
+.pisol-alert{
+    padding:10px 20px;
+    margin:10px !important;
+    background:#eef2ff;
+    border-radius:6px;
+    position:relative;
+    &.pisol-alert-warning{
+        box-shadow: inset 3px 0 0 #ff0000;
+    }
+
+    &.pisol-alert-info{
+        box-shadow: inset 3px 0 0#b1f1b1;
+    }
+
+    &.pisol-alert-danger{
+        box-shadow: inset 3px 0 0 #ff0000;
+    }
+
+    &.pisol-alert-success{
+        box-shadow: inset 3px 0 0#b1f1b1;
+    }
+}
