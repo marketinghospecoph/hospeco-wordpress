@@ -1,0 +1,3404 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-26 10:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: el\n"
+"Project-Id-Version: Plugins - Ajax Search for WooCommerce - Stable (latest "
+"release)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 12:04+0000\n"
+"Last-Translator: dev_nIXCkVKHG <admin@webtroter.pl>\n"
+"Language-Team: Greek\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/Admin/Troubleshooting.php:2419
+msgid "\"Out of stock\" relationships"
+msgstr "\"Δεν υπάρχει απόθεμα\" σχέσεις"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Logger.php:45
+msgid "%1$s was called with an invalid level \"%2$s\"."
+msgstr "το %1$s κλήθηκε με άκυρο επίπεδο \"%2$s\"."
+
+#: includes/Admin/Troubleshooting.php:871
+msgid "%1$s, current version: %2$s, minimum version: %3$s"
+msgstr "%1$s, τρέχουσα έκδοση: %2$s, ελάχιστη έκδοση: %3$s"
+
+#: includes/Admin/Troubleshooting.php:1572
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ajax-search-for-woocommerce.php:316
+msgid ""
+"%s is enabled but not effective. It is missing core files. Please reinstall "
+"the plugin."
+msgstr ""
+"το %s είναι ενεργοποιημένο, αλλά όχι αποτελεσματικό. Λείπουν τα βασικά "
+"αρχεία. Επανεγκαταστήστε το πρόσθετο."
+
+#: ajax-search-for-woocommerce.php:297
+msgid "%s is enabled but not effective. It requires %s in order to work."
+msgstr ""
+"το %s είναι ενεργοποιημένο, αλλά όχι αποτελεσματικό. Απαιτεί %s για να "
+"λειτουργήσει."
+
+#: includes/Abstracts/ThemeIntegration.php:76
+msgid "%s Theme"
+msgstr "%s Θέμα"
+
+#: ajax-search-for-woocommerce.php:277
+msgid ""
+"%s: You need PHP version at least 7.0 to run this plugin. You are currently "
+"using PHP version %s."
+msgstr ""
+"%s: Χρειάζεστε έκδοση PHP τουλάχιστον 7.0 για να εκτελέσετε αυτό το πρόσθετο."
+" Αυτή τη στιγμή χρησιμοποιείτε την έκδοση PHP %s."
+
+#: partials/themes/flatsome.php:265
+msgid ""
+"(FiboSearch settings) Go to <code>Autocomplete</code> tab and disable <code>"
+"Show Details Panel</code> option."
+msgstr ""
+"(Ρυθμίσεις FiboSearch) Μεταβείτε στην καρτέλα <κωδικός>Αυτόματη "
+"συμπλήρωση</κωδικός> και απενεργοποιήστε την επιλογή <κωδικός>Εμφάνιση "
+"πίνακα λεπτομερειών</κωδικός>."
+
+#: partials/themes/flatsome.php:267
+msgid ""
+"(Flatsome settings) Go to <code>Appearance -> <a href=\"%s\" "
+"target=\"_blank\">Customize</a> -> Header -> Cart</code> and change <code>"
+"Cart Style</code> option to <code>Dropdown</code> or <code>Link only</code>."
+msgstr ""
+"(Ρυθμίσεις Flatsome) Μεταβείτε στο <code>Εμφάνιση -> <a href=\"%s\" "
+"target=\"_blank\">Προσαρμογή</a> -> Κεφαλίδα -> Καλάθι</code> και αλλάξτε "
+"την επιλογή <code>Στυλ καλαθιού</code> σε <code>Αναδυόμενο</code> ή <code>"
+"Μόνο σύνδεσμος</code>."
+
+#: partials/themes/flatsome.php:266
+msgid ""
+"(Flatsome settings) Go to <code>Appearance -> <a href=\"%s\" "
+"target=\"_blank\">Customize</a> -> Header -> Search</code> and change <code>"
+"Search Icon Type</code> option to <code>Dropdown</code>."
+msgstr ""
+"(Ρυθμίσεις Flatsome) Μεταβείτε στην επιλογή <code>Εμφάνιση -> <a href=\"%s\" "
+"target=\"_blank\">Προσαρμογή</a> -> Κεφαλίδα -> Αναζήτηση</code> και αλλάξτε "
+"την επιλογή <code>Τύπος εικονιδίου αναζήτησης</code> σε <code>Αναδυόμενο "
+"εικονίδιο</code>."
+
+#: includes/Settings.php:800 includes/Settings.php:891
+msgid "-- Disabled"
+msgstr "-- Απενεργοποιημένη"
+
+#: partials/admin/stats/stats.php:171 partials/admin/stats/stats.php:225
+msgid "0 searches with results"
+msgstr "0 αναζητήσεις με αποτελέσματα"
+
+#: includes/Admin/Troubleshooting.php:1482
+msgid ""
+"1. Unblock the default endpoint or get around the restrictions. Learn how to "
+"solve the issue on our <a target=\"_blank\" href=\"%s\">documentation</a> "
+"and fix it as soon as possible."
+msgstr ""
+"1. Ξεμπλοκάρετε το προεπιλεγμένο τελικό σημείο ή παρακάμψτε τους "
+"περιορισμούς. Μάθετε πώς να επιλύσετε το πρόβλημα στην <a target=\"_blank\" "
+"href=\"%s\">έγγραφη τεκμηρίωση</a> και διορθώστε το το συντομότερο δυνατό."
+
+#: includes/Admin/Troubleshooting.php:1483
+msgid ""
+"2. Once you do that, turn off the safe mode by clicking the following button:"
+msgstr ""
+"2. Μόλις το κάνετε αυτό, απενεργοποιήστε την ασφαλή λειτουργία κάνοντας κλικ "
+"στο παρακάτω κουμπί:"
+
+#: includes/Settings.php:198
+msgid "<a target=\"_blank\" href=\"%s\">Read more</a> about this feature."
+msgstr ""
+"<a target=\"_blank\" href=\"%s\">Διαβάστε περισσότερα</a> σχετικά με αυτή τη "
+"λειτουργία."
+
+#: partials/admin/stats/stats.php:63
+msgid ""
+"<b>Adding the phrase to the product name</b> - just add the phrase to the "
+"product name, description, SKU, custom field, tag or anything else that's in "
+"your current search scope"
+msgstr ""
+"<b>Προσθήκη της φράσης στο όνομα του προϊόντος</b> - απλά προσθέστε τη φράση "
+"στο όνομα του προϊόντος, στην περιγραφή, στο SKU, στο προσαρμοσμένο πεδίο, "
+"στην ετικέτα ή σε οτιδήποτε άλλο βρίσκεται στο τρέχον πεδίο αναζήτησης"
+
+#: partials/admin/indexer-header.php:86
+msgid ""
+"<b>Maybe your server can’t send an HTTP requests to itself</b>. Visit the "
+"documentation and read the section <a target=\"_blank\" href=\"%s\">“Your "
+"server can’t send an HTTP request to itself”</a>."
+msgstr ""
+"<b>Μπορεί ο διακομιστής σας να μην μπορεί να στείλει αιτήσεις HTTP στον "
+"εαυτό του</b>. Επισκεφτείτε την τεκμηρίωση και διαβάστε την ενότητα <a "
+"target=\"_blank\" href=\"%s\">\"Ο διακομιστής σας δεν μπορεί να στείλει ένα "
+"αίτημα HTTP στον εαυτό του\"</a>."
+
+#: partials/admin/features.php:19
+msgid ""
+"<b>New Ultra-Fast Search Engine</b> – works very fast even with 100,000+ "
+"products "
+msgstr ""
+"<b>Νέα εξαιρετικά γρήγορη μηχανή αναζήτησης</b> - λειτουργεί πολύ γρήγορα "
+"ακόμα και με 100.000+ προϊόντα"
+
+#: partials/admin/stats/stats.php:64
+msgid ""
+"<b>Synonyms</b> - if the phrase is an alternate version of any other words, "
+"add it as a synonym. Learn more about <a href=\"%s\" target=\"_blank\">the "
+"synonyms feature."
+msgstr ""
+"<b>Συνώνυμα</b> - αν η φράση αποτελεί εναλλακτική εκδοχή οποιασδήποτε άλλης "
+"λέξης, προσθέστε την ως συνώνυμο. Μάθετε περισσότερα για τη λειτουργία <a "
+"href=\"%s\" target=\"_blank\">συνώνυμα."
+
+#: partials/admin/stats/stats.php:66
+msgid ""
+"<b>Varied naming convention</b> - this issue occurs when users may type a "
+"phrase in several different way – eg. you have SKU \"CB-978-8-7290\", but "
+"users might type it in a different way: \"CB978 8 7290\", \"CB/978/8/7290\", "
+"\"CB97887290\" and so on. To solve such problems, contact our <a href=\"%s\" "
+"target=\"_blank\">technical support</a>, because the solution may be "
+"different for each case."
+msgstr ""
+"<b>Διαφορετική σύμβαση ονοματοδοσίας</b> - αυτό το πρόβλημα εμφανίζεται όταν "
+"οι χρήστες ενδέχεται να πληκτρολογήσουν μια φράση με διάφορους διαφορετικούς "
+"τρόπους - π.χ. έχετε SKU \"CB-978-8-7290\", αλλά οι χρήστες ενδέχεται να την "
+"πληκτρολογήσουν με διαφορετικό τρόπο: \"CB978 8 7290\", \"CB/978/8/7290\", "
+"\"CB97887290\" και ούτω καθεξής. Για την επίλυση τέτοιων προβλημάτων, "
+"επικοινωνήστε με την <a href=\"%s\" target=\"_blank\">τεχνική υποστήριξη</a>,"
+" επειδή η λύση μπορεί να είναι διαφορετική για κάθε περίπτωση."
+
+#: includes/Admin/Troubleshooting.php:1575
+msgid ""
+"<strong>Important:</strong> After you rename plugins folders, you need to "
+"reactivate them in the Plugins screen."
+msgstr ""
+"<strong>Σημαντικό:</strong> Αφού μετονομάσετε φακέλους plugins, πρέπει να "
+"τους ενεργοποιήσετε ξανά στην οθόνη Plugins."
+
+#: includes/Admin/Troubleshooting.php:1489
+msgid ""
+"<strong>Warning:</strong> We have detected that the search endpoint is being "
+"overwritten by the filter and the alternative search endpoint will not work "
+"properly. Remove filters that override the search engine endpoint."
+msgstr ""
+"<strong>Προειδοποίηση:</strong> Εντοπίσαμε ότι το τελικό σημείο αναζήτησης "
+"έχει αντικατασταθεί από το φίλτρο και το εναλλακτικό τελικό σημείο "
+"αναζήτησης δεν θα λειτουργεί σωστά. Αφαιρέστε τα φίλτρα που αντικαθιστούν το "
+"τελικό σημείο της μηχανής αναζήτησης."
+
+#: includes/Admin/Troubleshooting.php:1097
+msgid ""
+"A real solution is to find the reason why the WP-Cron doesn’t work and fix "
+"it."
+msgstr ""
+"Μια πραγματική λύση είναι να βρείτε τον λόγο για τον οποίο το WP-Cron δεν "
+"λειτουργεί και να τον διορθώσετε."
+
+#: includes/Admin/Troubleshooting.php:1963
+msgid "A search engine's AJAX call did not return valid results"
+msgstr "Η κλήση AJAX μιας μηχανής αναζήτησης δεν επέστρεψε έγκυρα αποτελέσματα"
+
+#: includes/Admin/Troubleshooting.php:815
+msgid ""
+"Add <strong>Archive Products</strong> widget to the template <strong>"
+"%s</strong> or create a new template dedicated to the WooCommerce search "
+"results page. Learn how to do it in <a href=\"%s\" target=\"_blank\">our "
+"documentation</a>."
+msgstr ""
+"Προσθέστε το widget <strong>Archive Products</strong> στο πρότυπο <strong>"
+"%s</strong> ή δημιουργήστε ένα νέο πρότυπο αφιερωμένο στη σελίδα "
+"αποτελεσμάτων αναζήτησης του WooCommerce. Μάθετε πώς να το κάνετε στην <a "
+"href=\"%s\" target=\"_blank\">την τεκμηρίωσή μας</a>."
+
+#: includes/Admin/Troubleshooting.php:1259
+#: includes/Admin/Troubleshooting.php:1293
+#: includes/Admin/Troubleshooting.php:1534
+#: includes/Admin/Troubleshooting.php:1537
+#: includes/Admin/Troubleshooting.php:2250
+msgid "Add a constant <code>%s</code> to your <code>wp-config.php</code> file."
+msgstr ""
+"Προσθέστε μια σταθερά <code>%s</code> στο αρχείο <code>wp-config.php</code>."
+
+#: partials/admin/indexer-header.php:57
+msgid ""
+"Add below code to your child theme’s <em>functions.php</em> file or via a "
+"plugin that allows custom functions to be added, such as the <a href=\"https:"
+"//wordpress.org/plugins/code-snippets/\" target=\"_blank\">Code snippets</a> "
+"plugin."
+msgstr ""
+"Προσθέστε τον παρακάτω κώδικα στο αρχείο <em>functions.php</em> του παιδικού "
+"σας θέματος ή μέσω ενός πρόσθετου που επιτρέπει την προσθήκη προσαρμοσμένων "
+"συναρτήσεων, όπως το πρόσθετο <a href=\"https://wordpress.org/plugins/code-"
+"snippets/\" target=\"_blank\">Code snippets</a>."
+
+#: partials/admin/indexer-header.php:71
+msgid ""
+"Add below code to your child theme’s <em>functions.php</em> file or via a "
+"plugin that allows custom functions to be added, such as the <a href=\"https:"
+"//wordpress.org/plugins/code-snippets/\" target=\"_blank\">Code snippets</a> "
+"plugin. Please don’t add custom code directly to your parent theme’s "
+"functions.php file as this will be wiped entirely when you update the theme."
+msgstr ""
+"Προσθέστε τον παρακάτω κώδικα στο αρχείο <em>functions.php</em> του παιδικού "
+"σας θέματος ή μέσω ενός πρόσθετου που επιτρέπει την προσθήκη προσαρμοσμένων "
+"συναρτήσεων, όπως το πρόσθετο <a href=\"https://wordpress.org/plugins/code-"
+"snippets/\" target=\"_blank\">Code snippets</a>. Παρακαλούμε μην προσθέτετε "
+"προσαρμοσμένο κώδικα απευθείας στο αρχείο functions.php του γονικού σας "
+"θέματος, καθώς αυτό θα διαγραφεί εντελώς όταν ενημερώσετε το θέμα."
+
+#: includes/EmbeddingViaMenu.php:151
+msgid "Add FiboSearch as a menu item."
+msgstr "Προσθέστε το FiboSearch ως στοιχείο μενού."
+
+#: includes/Admin/SettingsAPI.php:536 includes/Admin/SettingsAPI.php:637
+msgid "Add new rule"
+msgstr "Προσθήκη νέου κανόνα"
+
+#: includes/Admin/Troubleshooting.php:989
+msgid ""
+"Add the following PHP code to your functions.php file in the child theme or "
+"use e.g. CodeSnippets plugin."
+msgstr ""
+"Προσθέστε τον ακόλουθο κώδικα PHP στο αρχείο functions.php του παιδικού "
+"θέματος ή χρησιμοποιήστε π.χ. το πρόσθετο CodeSnippets."
+
+#: includes/Admin/Troubleshooting.php:2130
+msgid "Add the following URL to the white list:"
+msgstr "Προσθέστε την ακόλουθη διεύθυνση URL στη λευκή λίστα:"
+
+#: includes/Admin/Troubleshooting.php:2078
+msgid ""
+"Adding extra rules to <code>/usr/local/nginx/conf/wpsecure_${vhostname}."
+"conf</code>"
+msgstr ""
+"Προσθήκη επιπλέον κανόνων στο <code>"
+"/usr/local/nginx/conf/wpsecure_${vhostname}.conf</code>"
+
+#: includes/Settings.php:431
+msgctxt "admin"
+msgid "No results label"
+msgstr "Δεν υπάρχει ετικέτα αποτελεσμάτων"
+
+#: includes/Admin/Troubleshooting.php:1710
+msgid ""
+"After adding the above snippet, the two custom fields \"My custom field 1\" "
+"and \"My custom field 2\" will now appear in the Search in custom fields "
+"option."
+msgstr ""
+"Μετά την προσθήκη του παραπάνω αποσπάσματος, τα δύο προσαρμοσμένα πεδία \"Το "
+"προσαρμοσμένο μου πεδίο 1\" και \"Το προσαρμοσμένο μου πεδίο 2\" θα "
+"εμφανίζονται τώρα στην επιλογή Αναζήτηση σε προσαρμοσμένα πεδία."
+
+#: includes/Admin/Troubleshooting.php:1544
+msgid ""
+"After following the above solutions, perform some search analytics table "
+"maintenance: %s"
+msgstr ""
+"Αφού ακολουθήσετε τις παραπάνω λύσεις, πραγματοποιήστε κάποια αναζήτηση για "
+"τη συντήρηση του πίνακα analytics: %s"
+
+#: widget.php:24
+msgid "AJAX (live) search form for WooCommerce"
+msgstr "Φόρμα αναζήτησης AJAX (live) για το WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:1536
+msgid ""
+"All analytics records are deleted after 30 days by default. You can change "
+"this limit to 14 days, for example, and reduce the database weight by about "
+"50%%."
+msgstr ""
+"Όλες οι εγγραφές ανάλυσης διαγράφονται μετά από 30 ημέρες από προεπιλογή. "
+"Μπορείτε να αλλάξετε αυτό το όριο σε 14 ημέρες, για παράδειγμα, και να "
+"μειώσετε το βάρος της βάσης δεδομένων κατά περίπου 50%%."
+
+#: partials/admin/indexer-header.php:21
+msgid "All product changes will be <strong>re-indexed automatically</strong>"
+msgstr ""
+"Όλες οι αλλαγές προϊόντων θα <strong>αναπροσδιοριστούν αυτόματα</strong>"
+
+#: includes/Admin/Troubleshooting.php:1487
+msgid "Alternative endpoint: <code>%s</code>"
+msgstr "Εναλλακτικό τελικό σημείο: <code>%s</code>"
+
+#: includes/Admin/Troubleshooting.php:2379
+msgid "Alternative search endpoint"
+msgstr "Εναλλακτικό τελικό σημείο αναζήτησης"
+
+#: includes/Abstracts/ThemeIntegration.php:107
+msgid "Alternative ways to embed a search bar"
+msgstr "Εναλλακτικοί τρόποι ενσωμάτωσης μιας γραμμής αναζήτησης"
+
+#: includes/Analytics/UserInterface.php:79
+msgid "Analytics"
+msgstr "Analytics"
+
+#: includes/Admin/Troubleshooting.php:2384
+msgid "Analytics optimization"
+msgstr "Βελτιστοποίηση Analytics"
+
+#: includes/Analytics/Widget.php:128
+msgid "Analytics tab"
+msgstr "Καρτέλα Analytics"
+
+#: partials/admin/features.php:31
+msgid "And more..."
+msgstr "Και άλλα..."
+
+#: includes/Admin/Promo/Upgrade.php:63
+msgid "and more..."
+msgstr "και πολλά άλλα..."
+
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:46
+#: includes/Settings.php:281
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: partials/admin/how-to-use.php:28
+msgid ""
+"Are there any difficulties? <b>We will do it for you!</b> We offer free of "
+"charge search bar implementation for Pro users. <a target=\"_blank\" "
+"href=\"%s\">Become one now!</a>"
+msgstr ""
+"Υπάρχουν δυσκολίες <b>Θα το κάνουμε εμείς για εσάς!</b> Προσφέρουμε δωρεάν "
+"υλοποίηση της γραμμής αναζήτησης για τους χρήστες Pro. <a target=\"_blank\" "
+"href=\"%s\">Γίνε ένας τώρα!</a>"
+
+#: includes/Analytics/UserInterface.php:149
+msgid "Are you sure you want to reset stats?"
+msgstr "Είστε σίγουροι ότι θέλετε να επαναφέρετε τα στατιστικά"
+
+#: partials/admin/how-to-use.php:22
+msgid "As a block"
+msgstr "Ως μπλοκ"
+
+#: partials/admin/how-to-use.php:21
+msgid ""
+"As a menu item - go to the %s and add the menu item “FiboSearch bar”. Done!"
+msgstr ""
+"Ως στοιχείο μενού - μεταβείτε στο %s και προσθέστε το στοιχείο μενού "
+"\"FiboSearch bar\". Έγινε!"
+
+#: partials/admin/how-to-use.php:24
+msgid "As a widget - go to the %s and choose “FiboSearch bar”"
+msgstr "Ως widget - πηγαίνετε στο %s και επιλέξτε \"FiboSearch bar\""
+
+#: partials/admin/how-to-use.php:19
+msgid "As an Elementor widget named “FiboSearch”"
+msgstr "Ως widget Elementor με όνομα \"FiboSearch\""
+
+#: includes/Admin/SettingsAPI.php:595
+msgid "Attributes: %s"
+msgstr "Χαρακτηριστικά: %s"
+
+#: includes/Settings.php:130 partials/admin/search-preview.php:22
+msgid "Autocomplete"
+msgstr "Αυτόματη συμπλήρωση"
+
+#: partials/admin/stats/stats.php:89
+msgid "autocomplete"
+msgstr "αυτόματη συμπλήρωση"
+
+#: includes/Settings.php:260
+msgid "Background color"
+msgstr "Χρώμα φόντου"
+
+#: includes/Integrations/Brands.php:193 includes/Integrations/Brands.php:215
+msgid "Based on the plugin %s"
+msgstr "Με βάση το πρόσθετο %s"
+
+#: includes/Settings.php:219 includes/Settings.php:417
+msgid "Basic"
+msgstr "Βασικό"
+
+#: build/blocks/search-nav/block.json build/blocks/search/block.json
+#: src/blocks/search-nav/block.json src/blocks/search/block.json
+msgctxt "block description"
+msgid "AJAX (live) search form for WooCommerce"
+msgstr "Φόρμα αναζήτησης AJAX (live) για το WooCommerce"
+
+#: build/blocks/search-nav/block.json build/blocks/search/block.json
+#: src/blocks/search-nav/block.json src/blocks/search/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr "προϊόν"
+
+#: build/blocks/search-nav/block.json build/blocks/search/block.json
+#: src/blocks/search-nav/block.json src/blocks/search/block.json
+msgctxt "block keyword"
+msgid "search"
+msgstr "αναζήτηση"
+
+#: build/blocks/search/block.json src/blocks/search/block.json
+msgctxt "block title"
+msgid "FiboSearch"
+msgstr "FiboSearch"
+
+#: build/blocks/search-nav/block.json src/blocks/search-nav/block.json
+msgctxt "block title"
+msgid "FiboSearch navigation item"
+msgstr "Στοιχείο πλοήγησης FiboSearch"
+
+#: includes/Admin/Troubleshooting.php:2409
+msgid "Blocked search endpoint test"
+msgstr "Δοκιμή αποκλεισμένου τελικού σημείου αναζήτησης"
+
+#: includes/Settings.php:595
+msgid "Border color"
+msgstr "Χρώμα περιγράμματος"
+
+#: includes/Integrations/Brands.php:324
+msgid "Brand"
+msgstr "Μάρκα"
+
+#: includes/Integrations/Brands.php:323
+msgid "Brands"
+msgstr "Μάρκες"
+
+#: includes/Settings.php:316 includes/Settings.php:342
+msgid "Breakpoint"
+msgstr "Σημείο διακοπής"
+
+#: partials/admin/indexer-body.php:42
+msgid "Build ID"
+msgstr "Αναγνωριστικό κατασκευής"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:874
+#: partials/admin/indexer-header-demo.php:15
+msgid "Build index"
+msgstr "Δείκτης κατασκευής"
+
+#: includes/Analytics/UserInterface.php:447
+msgid ""
+"Can't check the status. The search index hasn't been completed. Go to the "
+"Indexer tab and wait until the search index is completed."
+msgstr ""
+"Δεν μπορώ να ελέγξω την κατάσταση. Το ευρετήριο αναζήτησης δεν έχει "
+"ολοκληρωθεί. Μεταβείτε στην καρτέλα Indexer και περιμένετε μέχρι να "
+"ολοκληρωθεί το ευρετήριο αναζήτησης."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:794
+msgid "Canceling..."
+msgstr "Ακύρωση..."
+
+#: partials/admin/indexer-body.php:25
+msgid "Cancellation..."
+msgstr "Ακύρωση..."
+
+#: includes/Admin/Troubleshooting.php:1379
+msgid ""
+"Change the above-mentioned language codes to the correct format: <code>"
+"xx</code>, <code>xxx</code>, <code>xx-xx</code> or <code>xx-xxxx</code>."
+msgstr ""
+"Αλλάξτε τους προαναφερθέντες κωδικούς γλώσσας στη σωστή μορφή: <code>"
+"xx</code>, <code>xxx</code>, <code>xx-xx</code> ή <code>xx-xxxxxx</code>."
+
+#: partials/admin/stats/critical-searches-row.php:12
+msgid "Check"
+msgstr "Ελέγξτε το"
+
+#: includes/Admin/Troubleshooting.php:1885
+msgid ""
+"Check how to solve this issue in <a target=\"_blank\" href=\"%s\">our "
+"documentation.</a> Before you fix the problem, switch on the alternative "
+"search endpoint here: %s. This will allow the search engine to work again, "
+"but search speed may not be optimal. Activate the alternative endpoint only "
+"temporarily, and solve the source of the problem as soon as possible."
+msgstr ""
+"Ελέγξτε τον τρόπο επίλυσης αυτού του προβλήματος στην τεκμηρίωσή μας <a "
+"target=\"_blank\" href=\"%s\"></a> Πριν διορθώσετε το πρόβλημα, "
+"ενεργοποιήστε το εναλλακτικό τελικό σημείο αναζήτησης εδώ: %s. Αυτό θα "
+"επιτρέψει στη μηχανή αναζήτησης να λειτουργήσει ξανά, αλλά η ταχύτητα "
+"αναζήτησης ενδέχεται να μην είναι η βέλτιστη. Ενεργοποιήστε το εναλλακτικό "
+"τελικό σημείο μόνο προσωρινά και επιλύστε την πηγή του προβλήματος το "
+"συντομότερο δυνατό."
+
+#: partials/admin/stats/stats.php:26
+msgid "Check if it's been solved"
+msgstr "Ελέγξτε αν έχει λυθεί"
+
+#: includes/Analytics/UserInterface.php:448
+msgid "Check the indexer status"
+msgstr "Ελέγξτε την κατάσταση του δείκτη"
+
+#: partials/admin/embedding-in-theme.php:18
+msgid "child theme of <b>%s</b>"
+msgstr "παιδί θέμα του <b>%s</b>"
+
+#: includes/Helpers.php:1351
+msgid "Clear"
+msgstr "Σαφής"
+
+#: includes/Analytics/UserInterface.php:435
+msgid "Click the button below to remove this phrase from the list."
+msgstr ""
+"Κάντε κλικ στο παρακάτω κουμπί για να αφαιρέσετε αυτή τη φράση από τη λίστα."
+
+#: includes/Admin/Promo/FeedbackNotice.php:93
+msgid "Close"
+msgstr "Κλείστε το"
+
+#: build/blocks/search-nav/index.js:1 src/blocks/search-nav/edit.js:79
+msgid "Color"
+msgstr "Χρώμα"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:804
+msgid "Completed. Works."
+msgstr "Ολοκληρώθηκε. Έργα."
+
+#: includes/Admin/SettingsAPI.php:880
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: partials/admin/indexer-header.php:53
+msgid ""
+"Contact your hosting provider and ask for increasing the value of the <code>"
+"max_allowed_packet</code> variable in your MySQL server. It will definitely "
+"solve the problem."
+msgstr ""
+"Επικοινωνήστε με τον πάροχο φιλοξενίας σας και ζητήστε να αυξήσετε την τιμή "
+"της μεταβλητής <code>max_allowed_packet</code> στον MySQL server σας. Αυτό "
+"θα λύσει σίγουρα το πρόβλημα."
+
+#: partials/admin/indexer-header.php:64
+msgid ""
+"Contact your hosting provider and ask for increasing the value of the <code>"
+"max_connections</code> variable in your MySQL server. It will definitely "
+"solve the problem."
+msgstr ""
+"Επικοινωνήστε με τον πάροχο φιλοξενίας σας και ζητήστε να αυξήσετε την τιμή "
+"της μεταβλητής <code>max_connections</code> στον MySQL server σας. Αυτό θα "
+"λύσει σίγουρα το πρόβλημα."
+
+#: partials/admin/indexer-header.php:55
+msgid ""
+"Contact your hosting provider and ask for increasing the value of the <code>"
+"wait_timeout</code> variable in your MySQL server. It should solve the "
+"source of the problem. If your hosting provider isn't able to change MySQL "
+"variables, try to solve it in an alternative way. Follow steps below:"
+msgstr ""
+"Επικοινωνήστε με τον πάροχο φιλοξενίας σας και ζητήστε να αυξήσετε την τιμή "
+"της μεταβλητής <code>wait_timeout</code> στον MySQL server σας. Αυτό θα "
+"πρέπει να λύσει την πηγή του προβλήματος. Εάν ο πάροχος φιλοξενίας σας δεν "
+"είναι σε θέση να αλλάξει τις μεταβλητές MySQL, προσπαθήστε να το λύσετε με "
+"εναλλακτικό τρόπο. Ακολουθήστε τα παρακάτω βήματα:"
+
+#: includes/Helpers.php:1343
+msgid "continue reading"
+msgstr "συνεχίστε να διαβάζετε"
+
+#: includes/Admin/Troubleshooting.php:1060
+msgid ""
+"Could not load <code>wp-load.php</code> from the locations it normally is. "
+"To solve this issue, contact the <a target=\"_blank\" href=\"%s\">technical "
+"support</a>."
+msgstr ""
+"Δεν μπόρεσε να φορτώσει το <code>wp-load.php</code> από τις τοποθεσίες που "
+"είναι κανονικά. Για να λύσετε αυτό το πρόβλημα, επικοινωνήστε με την <a "
+"target=\"_blank\" href=\"%s\">τεχνική υποστήριξη</a>."
+
+#: includes/Settings.php:333
+msgid ""
+"Covers anything that is displayed on the screen and simplifies the view to "
+"search bar + results."
+msgstr ""
+"Καλύπτει οτιδήποτε εμφανίζεται στην οθόνη και απλοποιεί την προβολή στη "
+"γραμμή αναζήτησης + αποτελέσματα."
+
+#: includes/Analytics/Widget.php:95 partials/admin/stats/stats.php:8
+msgid "Critical searches without result"
+msgstr "Κρίσιμες αναζητήσεις χωρίς αποτέλεσμα"
+
+#: includes/Admin/Troubleshooting.php:1490
+msgid "Current endpoint: <code>%s</code>"
+msgstr "Τρέχον τελικό σημείο: <code>%s</code>"
+
+#: includes/Admin/Troubleshooting.php:1059
+msgid "Custom location of wp-load.php file"
+msgstr "Προσαρμοσμένη τοποθεσία του αρχείου wp-load.php"
+
+#: includes/Settings.php:758
+msgid "daily"
+msgstr "καθημερινά"
+
+#: includes/Settings.php:351 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:169
+#: src/blocks/search/edit.js:147
+msgid "Darkened background"
+msgstr "Σκουρόχρωμο φόντο"
+
+#: includes/Settings.php:352
+msgid ""
+"Darkening the page background while autocomplete is active gives it stronger "
+"emphasis, minimizing elements (e.g., ads, carousels, and other page content) "
+"that could distract users from considering autocomplete suggestions."
+msgstr ""
+"Το σκούρο φόντο της σελίδας όταν είναι ενεργή η αυτόματη συμπλήρωση δίνει "
+"μεγαλύτερη έμφαση, ελαχιστοποιώντας στοιχεία (π.χ. διαφημίσεις, καρουσέλ και "
+"άλλο περιεχόμενο της σελίδας) που θα μπορούσαν να αποσπάσουν την προσοχή των "
+"χρηστών από την εξέταση των προτάσεων αυτόματης συμπλήρωσης."
+
+#: partials/admin/indexer-body.php:46
+msgid "DB"
+msgstr "DB"
+
+#: partials/admin/debug/debug.php:19
+msgid "Debug page"
+msgstr "Σελίδα εντοπισμού σφαλμάτων"
+
+#: includes/EmbeddingViaMenu.php:187
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:57
+#: widget.php:37
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: includes/Admin/Troubleshooting.php:1486
+msgid "Default endpoint: <code>%s</code>"
+msgstr "Προεπιλεγμένο τελικό σημείο: <code>%s</code>"
+
+#: includes/Admin/Troubleshooting.php:1998
+msgid "Defender plugin by WPMU DEV blocks AJAX calls of the live search"
+msgstr ""
+"Το πρόσθετο Defender της WPMU DEV μπλοκάρει τις κλήσεις AJAX της ζωντανής "
+"αναζήτησης"
+
+#: includes/Admin/Troubleshooting.php:2389
+msgid "Detection of plugins folders renaming"
+msgstr "Ανίχνευση μετονομασίας φακέλων plugins"
+
+#: includes/Admin/Troubleshooting.php:808
+#: includes/Admin/Troubleshooting.php:931
+msgid "Dismiss"
+msgstr "Απορρίψτε το"
+
+#: includes/Admin/Troubleshooting.php:420
+msgid ""
+"Due to the way the TranslatePress - Multilingual plugin works, we can only "
+"provide support for it in the <a href=\"%s\" target=\"_blank\">Pro "
+"version</a>."
+msgstr ""
+"Λόγω του τρόπου λειτουργίας του πρόσθετου TranslatePress - Multilingual, "
+"μπορούμε να παρέχουμε υποστήριξη μόνο στην <a href=\"%s\" target=\"_blank\">"
+"Έκδοση Pro</a>."
+
+#: includes/Admin/Troubleshooting.php:2293
+msgid "Elementor search results template"
+msgstr "Πρότυπο αποτελεσμάτων αναζήτησης Elementor"
+
+#: includes/Integrations/Plugins/Elementor/PostsWidget.php:103
+msgctxt "elementor-widget"
+msgid "No search results for this post type."
+msgstr "Δεν υπάρχουν αποτελέσματα αναζήτησης για αυτόν τον τύπο δημοσίευσης."
+
+#: includes/Integrations/Plugins/Elementor/PostsWidget.php:101
+msgctxt "elementor-widget"
+msgid "Nothing Found Message"
+msgstr "Δεν βρέθηκε τίποτα Μήνυμα"
+
+#: includes/Admin/Troubleshooting.php:1874
+msgid "Enable alternative search endpoint"
+msgstr "Ενεργοποίηση εναλλακτικού σημείου αναζήτησης"
+
+#: includes/Settings.php:744
+msgid "Enable Scheduler"
+msgstr "Ενεργοποίηση χρονοπρογραμματιστή"
+
+#: includes/Analytics/UserInterface.php:105
+msgid "Enable search analytics"
+msgstr "Ενεργοποιήστε τα αναλυτικά στοιχεία αναζήτησης"
+
+#: partials/admin/indexer-body.php:76 partials/admin/indexer-body.php:99
+#: partials/admin/indexer-body.php:124
+msgid "End"
+msgstr "Τέλος"
+
+#: partials/admin/indexer-header.php:45
+msgid "Error code %s"
+msgstr "Κωδικός σφάλματος %s"
+
+#: includes/Admin/Troubleshooting.php:251
+msgid "Error!"
+msgstr "Σφάλμα!"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:809
+msgid "Errors"
+msgstr "Σφάλματα"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:835
+msgid ""
+"Even though the current index is being built, it doesn't affect your search "
+"engine."
+msgstr ""
+"Παρόλο που κατασκευάζεται το τρέχον ευρετήριο, αυτό δεν επηρεάζει τη μηχανή "
+"αναζήτησής σας."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:837
+msgid ""
+"Even though the current index wasn't built, it doesn't affect your search "
+"engine."
+msgstr ""
+"Παρόλο που το τρέχον ευρετήριο δεν κατασκευάστηκε, αυτό δεν επηρεάζει τη "
+"μηχανή αναζήτησης."
+
+#: includes/Settings.php:708 includes/Settings.php:822
+msgid "Exclude"
+msgstr "Εξαίρεση"
+
+#: includes/Settings.php:704 includes/Settings.php:818
+msgid ""
+"Exclude the product group from the search results or allow search only among "
+"the indicated product group."
+msgstr ""
+"Εξαιρέστε την ομάδα προϊόντων από τα αποτελέσματα αναζήτησης ή επιτρέψτε την "
+"αναζήτηση μόνο στην ενδεικνυόμενη ομάδα προϊόντων."
+
+#: includes/Settings.php:669
+msgid "Exclude “out of stock” products"
+msgstr "Εξαιρούνται τα προϊόντα \"εκτός αποθέματος\""
+
+#: includes/Settings.php:697 includes/Settings.php:811
+msgid "Exclude/include products"
+msgstr "Εξαιρούνται/περιλαμβάνονται προϊόντα"
+
+#: partials/admin/stats/stats.php:54 partials/admin/stats/stats.php:179
+#: partials/admin/stats/stats.php:233
+msgid "Export CSV"
+msgstr "Εξαγωγή CSV"
+
+#: includes/Admin/Troubleshooting.php:645
+#: includes/Admin/Troubleshooting.php:706
+msgid "Extensions should looks like the picture below:"
+msgstr "Οι επεκτάσεις θα πρέπει να μοιάζουν με την παρακάτω εικόνα:"
+
+#: includes/Settings.php:538
+msgid "Extra views"
+msgstr "Επιπλέον προβολές"
+
+#: includes/Analytics/Widget.php:172 partials/admin/stats/stats.php:75
+msgid ""
+"Fantastic! The FiboSearch analyzer hasn't found any critical search phrases "
+"for the last %d days."
+msgstr ""
+"Φανταστικό! Ο αναλυτής FiboSearch δεν έχει βρει κρίσιμες φράσεις αναζήτησης "
+"για τις τελευταίες %d ημέρες."
+
+#: includes/Admin/AdminMenu.php:71 includes/Admin/AdminMenu.php:72
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:21
+msgid "FiboSearch"
+msgstr "FiboSearch"
+
+#. Plugin Name of the plugin
+#: ajax-search-for-woocommerce.php
+msgid "FiboSearch - AJAX Search for WooCommerce"
+msgstr "FiboSearch - Αναζήτηση AJAX για το WooCommerce"
+
+#: includes/Analytics/Widget.php:59
+msgid "FiboSearch - Search Analytics"
+msgstr "FiboSearch - Αναζήτηση Analytics"
+
+#: includes/EmbeddingViaMenu.php:56 includes/EmbeddingViaMenu.php:157
+#: includes/EmbeddingViaMenu.php:332 widget.php:26
+msgid "FiboSearch bar"
+msgstr "FiboSearch bar"
+
+#: includes/EmbeddingViaMenu.php:179
+msgid "FiboSearch bar will be displayed here."
+msgstr "Εδώ θα εμφανιστεί η γραμμή FiboSearch."
+
+#: includes/Settings.php:302
+msgid "FiboSearch might be displayed as a search bar, icon, or mixed of them."
+msgstr ""
+"Η FiboSearch μπορεί να εμφανίζεται ως γραμμή αναζήτησης, εικονίδιο ή μεικτό "
+"από αυτά."
+
+#: includes/Integrations/Plugins/Elementor/PostsWidget.php:24
+msgid "FiboSearch Posts Search Results"
+msgstr "FiboSearch Posts Αποτελέσματα αναζήτησης"
+
+#: includes/Admin/Promo/Upgrade.php:54
+msgid "FiboSearch Pro - Upgrade Now"
+msgstr "FiboSearch Pro - Αναβάθμιση τώρα"
+
+#: includes/Settings.php:288
+msgid ""
+"FiboSearch provides two different styles of search bars: Solaris and Pirx. "
+"Solaris has a rectangular shape while Pirx is a bean-shaped bar with curvy "
+"and smooth edges. <a target=\"_blank\" href=\"%s\">See the differences</a> "
+"between Solaris and Pirx style."
+msgstr ""
+"Η FiboSearch παρέχει δύο διαφορετικά στυλ γραμμών αναζήτησης: Solaris και "
+"Pirx. Το Solaris έχει ορθογώνιο σχήμα, ενώ το Pirx είναι μια μπάρα σε σχήμα "
+"φασολιού με καμπύλες και λείες άκρες. <a target=\"_blank\" href=\"%s\">Δείτε "
+"τις διαφορές</a> μεταξύ των στυλ Solaris και Pirx."
+
+#. Author of the plugin
+#: ajax-search-for-woocommerce.php
+msgid "FiboSearch Team"
+msgstr "Ομάδα FiboSearch"
+
+#: includes/Settings.php:703 includes/Settings.php:817
+msgid "Filtering mode"
+msgstr "Λειτουργία φιλτραρίσματος"
+
+#: includes/Settings.php:715 includes/Settings.php:829
+msgid "Filters"
+msgstr "Φίλτρα"
+
+#: includes/Settings.php:716 includes/Settings.php:830
+msgid ""
+"Filters that specify the product group and taxonomy that will be affected by "
+"the above mode"
+msgstr ""
+"Φίλτρα που καθορίζουν την ομάδα προϊόντων και την ταξινομία που θα "
+"επηρεαστούν από την παραπάνω λειτουργία"
+
+#: partials/admin/indexer-body.php:21
+msgid "Finalization... Wait a moment. (%s products)"
+msgstr "Οριστικοποίηση... Περιμένετε μια στιγμή. (%s προϊόντα)"
+
+#: includes/Admin/Troubleshooting.php:2129
+msgid "Find section <code>Access Control -> whitelist URL</code>"
+msgstr "Εύρεση της ενότητας <code>Access Control -> whitelist URL</code>"
+
+#: includes/Admin/Troubleshooting.php:1638
+msgid "Fix “Out of stock“ relationships"
+msgstr "Διορθώστε τις σχέσεις \"Δεν υπάρχει απόθεμα\""
+
+#: includes/Admin/Troubleshooting.php:1569
+msgid ""
+"For the following plugins, rename their folders to the indicated one for the "
+"integration to work properly:"
+msgstr ""
+"Για τα παρακάτω πρόσθετα, μετονομάστε τους φακέλους τους στον υποδεικνυόμενο "
+"για να λειτουργήσει σωστά η ενσωμάτωση:"
+
+#: includes/Helpers.php:1236
+msgid ""
+"Furthermore, you can override this option for a specific search bar via "
+"shortcode params. <a href=\"%s\" target=\"_blank\">Learn more about "
+"shortcodes parameters</a>."
+msgstr ""
+"Επιπλέον, μπορείτε να παρακάμψετε αυτή την επιλογή για μια συγκεκριμένη "
+"γραμμή αναζήτησης μέσω των παραμέτρων του σύντομου κώδικα. <a href=\"%s\" "
+"target=\"_blank\">Μάθετε περισσότερα για τις παραμέτρους των συντομευτικών "
+"κωδικών</a>."
+
+#: includes/Settings.php:675
+msgid "Fuzziness"
+msgstr "Ασάφεια"
+
+#: includes/Settings.php:796 includes/Settings.php:886
+msgid "Fuzzy matching"
+msgstr "Ασαφές ταίριασμα"
+
+#: includes/Admin/Promo/Upgrade.php:49 partials/admin/features.php:21
+msgid "Fuzzy search"
+msgstr "Ασαφής αναζήτηση"
+
+#: includes/Admin/Troubleshooting.php:494
+msgid ""
+"Go to <a href=\"%s\" target=\"_blank\">Tools -> Site Health</a> in your "
+"WordPress. You should see issues related to REST API or Loopback request. "
+"Expand descriptions of these errors and follow the instructions. Probably "
+"you will need to contact your hosting provider to solve it."
+msgstr ""
+"Μεταβείτε στη διεύθυνση <a href=\"%s\" target=\"_blank\">Εργαλεία -> Υγεία "
+"ιστότοπου</a> στο WordPress σας. Θα πρέπει να δείτε θέματα που σχετίζονται "
+"με το REST API ή το αίτημα Loopback. Αναπτύξτε τις περιγραφές αυτών των "
+"σφαλμάτων και ακολουθήστε τις οδηγίες. Πιθανόν να χρειαστεί να "
+"επικοινωνήσετε με τον πάροχο φιλοξενίας σας για να το λύσετε."
+
+#: includes/EmbeddingViaMenu.php:333
+msgid ""
+"Go to <a href=\"%s\">Appearance -> Menus</a> to configure the FiboSearch bar."
+msgstr ""
+"Πηγαίνετε στο <a href=\"%s\">Εμφάνιση -> Μενού</a> για να ρυθμίσετε τη "
+"γραμμή FiboSearch."
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:30
+msgid ""
+"Go to <code>Appearance -> <a target=\"_blank\" href=\"%s\">Customize</a> -> "
+"Header -> Search</code> and enable <code>Predictive Search</code>"
+msgstr ""
+"Μεταβείτε στο <code>Εμφάνιση -> <a target=\"_blank\" href=\"%s\">"
+"Προσαρμογή</a> -> Κεφαλίδα -> Αναζήτηση</code> και ενεργοποιήστε την <code>"
+"Προβλεπτική αναζήτηση</code>"
+
+#: includes/Admin/Troubleshooting.php:2000
+msgid ""
+"Go to <code>Defender -> Security Tweaks -> <a href=\"%s\" target=\"_blank\">"
+"Resolved</a> -> Prevent PHP execution</code> and add following file path as "
+"exceptions: <code>%s</code>"
+msgstr ""
+"Μεταβείτε στο <code>Defender -> Security Tweaks -> <a href=\"%s\" "
+"target=\"_blank\">Resolved</a> -> Prevent PHP execution</code> και προσθέστε "
+"την ακόλουθη διαδρομή αρχείου ως εξαίρεση: <code>%s</code>"
+
+#: includes/Admin/Troubleshooting.php:993
+msgid ""
+"Go to <code>Security -> Settings -> Advanced -> <a href=\"%s\" "
+"target=\"_blank\">System Tweaks</a></code>."
+msgstr ""
+"Μεταβείτε στη διεύθυνση <code>Ασφάλεια -> Ρυθμίσεις -> Για προχωρημένους -> "
+"<a href=\"%s\" target=\"_blank\">Συστημικές ρυθμίσεις</a></code>."
+
+#: includes/Admin/Troubleshooting.php:594
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products (tab)</a></code> and check option <code>%s</code> and uncheck "
+"option <code>%s</code>."
+msgstr ""
+"Μεταβείτε στο <code>WooCommerce -> Ρυθμίσεις -> <a href=\"%s\" "
+"target=\"_blank\">Προϊόντα (καρτέλα)</a></code> και τσεκάρετε την επιλογή "
+"<code>%s</code> και καταργήστε την επιλογή <code>%s</code>."
+
+#: includes/Admin/Troubleshooting.php:700
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Advanced (tab) -> Options (tab)</code> -> "
+"scroll to the bottom to <code>Forcing disabling of functionality</code> "
+"option -> enter the value <code>by_text</code> and save changes."
+msgstr ""
+"Μεταβείτε στη διεύθυνση <code>WooCommerce -> Ρυθμίσεις -> <a href=\"%s\" "
+"target=\"_blank\">Φίλτρο προϊόντων (καρτέλα)</a> -> Σύνθετα (καρτέλα) -> "
+"Επιλογές (καρτέλα)</code> -> μετακινηθείτε προς τα κάτω στην επιλογή <code>"
+"Επιβολή απενεργοποίησης λειτουργιών</code> -> εισαγάγετε την τιμή <code>"
+"by_text</code> και αποθηκεύστε τις αλλαγές."
+
+#: includes/Admin/Troubleshooting.php:705
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>HUSKY - "
+"Advanced searching by Text</code> extension and save changes."
+msgstr ""
+"Μεταβείτε στο <code>WooCommerce -> Ρυθμίσεις -> <a href=\"%s\" "
+"target=\"_blank\">Φίλτρο προϊόντων (καρτέλα)</a> -> Επεκτάσεις (καρτέλα)"
+"</code>, καταργήστε την επιλογή της επέκτασης <code>HUSKY - Προηγμένη "
+"αναζήτηση με βάση το κείμενο</code> και αποθηκεύστε τις αλλαγές."
+
+#: includes/Admin/Troubleshooting.php:644
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>"
+"Searching by Text</code> extension and save changes."
+msgstr ""
+"Μεταβείτε στη διεύθυνση <code>WooCommerce -> Ρυθμίσεις -> <a href=\"%s\" "
+"target=\"_blank\">Φίλτρο προϊόντων (καρτέλα)</a> -> Επεκτάσεις (καρτέλα)"
+"</code>, καταργήστε την επιλογή της επέκτασης <code>Αναζήτηση με βάση το "
+"κείμενο</code> και αποθηκεύστε τις αλλαγές."
+
+#: includes/Admin/Troubleshooting.php:744
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Options (tab)</code>, set <code>Try to ajaxify "
+"the shop</code> option to <code>No</code> and save changes."
+msgstr ""
+"Μεταβείτε στο <code>WooCommerce -> Ρυθμίσεις -> <a href=\"%s\" "
+"target=\"_blank\">Φίλτρο προϊόντων (καρτέλα)</a> -> Επιλογές (καρτέλα)</code>"
+", ορίστε την επιλογή <code>Προσπάθεια ajaxify του καταστήματος</code> σε "
+"<code>Όχι</code> και αποθηκεύστε τις αλλαγές."
+
+#: includes/Analytics/Widget.php:128
+msgid "Go to FiboSearch Settings page → %s to see more."
+msgstr ""
+"Μεταβείτε στη σελίδα Ρυθμίσεις FiboSearch → %s για να δείτε περισσότερα."
+
+#: includes/Admin/Troubleshooting.php:1178
+msgid ""
+"Go to the <code>Jetpack settings page -> <a href=\"%s\" target=\"_blank\">"
+"Performance tab</a> -> disable the Search module</code>"
+msgstr ""
+"Μεταβείτε στη σελίδα ρυθμίσεων του <code>Jetpack -> <a href=\"%s\" "
+"target=\"_blank\">Καρτέλα απόδοσης</a> -> απενεργοποιήστε την ενότητα "
+"αναζήτησης</code>"
+
+#: includes/Admin/Troubleshooting.php:1146
+#: includes/Admin/Troubleshooting.php:1260
+#: includes/Admin/Troubleshooting.php:1294
+#: includes/Admin/Troubleshooting.php:1380
+#: includes/Admin/Troubleshooting.php:1413
+msgid "Go to the Indexer tab and click the button <i>%s</i>."
+msgstr "Μεταβείτε στην καρτέλα Indexer και κάντε κλικ στο κουμπί <i>%s</i>."
+
+#: includes/Admin/Troubleshooting.php:1378
+msgid ""
+"Go to the multilingual plugin settings page and find the section where you "
+"can edit the available languages."
+msgstr ""
+"Μεταβείτε στη σελίδα ρυθμίσεων του πολύγλωσσου πρόσθετου και βρείτε την "
+"ενότητα όπου μπορείτε να επεξεργαστείτε τις διαθέσιμες γλώσσες."
+
+#: includes/Admin/Troubleshooting.php:2128
+msgid "Go to the settings"
+msgstr "Μεταβείτε στις ρυθμίσεις"
+
+#: includes/Admin/Troubleshooting.php:555
+msgid "Great! Our plugin works great with this version of WordPress."
+msgstr ""
+"Υπέροχα! Το plugin μας λειτουργεί εξαιρετικά με αυτή την έκδοση του "
+"WordPress."
+
+#: partials/admin/troubleshooting.php:18
+msgid ""
+"Great! We have not detected any problems that could affect the correct "
+"functioning of our plugin."
+msgstr ""
+"Υπέροχα! Δεν έχουμε εντοπίσει κανένα πρόβλημα που θα μπορούσε να επηρεάσει "
+"την ορθή λειτουργία του πρόσθετου μας."
+
+#: includes/Settings.php:803 includes/Settings.php:894
+msgid "Hard"
+msgstr "Σκληρό"
+
+#: includes/Admin/Troubleshooting.php:2077
+msgid "Here are few samples NGINX config which helps other users:"
+msgstr "Εδώ είναι μερικά δείγματα ρυθμίσεων NGINX που βοηθούν άλλους χρήστες:"
+
+#: includes/Integrations/Themes/Impreza/Impreza.php:18
+msgid ""
+"Here is <a href=\"%s\" target=\"_blank\">article</a> about how to do it "
+"using Impreza child-theme."
+msgstr ""
+"Εδώ είναι το <a href=\"%s\" target=\"_blank\">άρθρο</a> σχετικά με το πώς να "
+"το κάνετε χρησιμοποιώντας το Impreza child-theme."
+
+#: partials/admin/stats/stats.php:187
+msgid ""
+"Here is the list of phrases that were typed by users who followed the "
+"pattern: type the phrase into the bar → clicked “See all results” or just "
+"hit enter/return (for Mac users)"
+msgstr ""
+"Εδώ είναι η λίστα των φράσεων που πληκτρολογήθηκαν από χρήστες που "
+"ακολούθησαν το μοτίβο: πληκτρολογήστε τη φράση στη γραμμή → κάντε κλικ στο "
+"\"Δείτε όλα τα αποτελέσματα\" ή απλά πατήστε enter/return (για χρήστες Mac)"
+
+#: includes/Admin/Promo/FeedbackNotice.php:73
+msgid ""
+"Hey %s, it's Damian Góra from %s. You have used this free plugin for some "
+"time now, and I hope you like it!"
+msgstr ""
+"Γεια σου %s, είμαι ο Damian Góra από το %s. Χρησιμοποιείτε αυτό το δωρεάν "
+"πρόσθετο εδώ και αρκετό καιρό και ελπίζω να σας αρέσει!"
+
+#: partials/admin/indexer-header.php:103
+msgid "Hide details"
+msgstr "Απόκρυψη λεπτομερειών"
+
+#: includes/Settings.php:588
+msgid "Highlight color"
+msgstr "Χρώμα επισήμανσης"
+
+#: includes/Settings.php:204
+msgid "How to add search bar in your theme?"
+msgstr "Πώς να προσθέσετε γραμμή αναζήτησης στο θέμα σας"
+
+#: includes/Settings.php:210
+msgid "How to add?"
+msgstr "Πώς να προσθέσετε"
+
+#: partials/admin/stats/stats.php:59
+msgid "How to fix it?"
+msgstr "Πώς να το διορθώσετε"
+
+#: includes/Admin/Troubleshooting.php:2215
+msgctxt "HTML button with text: \"dismiss\""
+msgid "If you do not want to receive such notifications, you can %s them."
+msgstr "Εάν δεν θέλετε να λαμβάνετε τέτοιες ειδοποιήσεις, μπορείτε να τις %s."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: ajax-search-for-woocommerce.php
+msgid ""
+"https://fibosearch.com?utm_source=wp-"
+"admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc"
+msgstr ""
+"https://fibosearch.com?utm_source=wp-"
+"admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc"
+
+#: includes/Admin/Troubleshooting.php:1472
+msgid "I've fixed it! Restore the default endpoint"
+msgstr "Το διόρθωσα! Επαναφέρετε το προεπιλεγμένο τελικό σημείο"
+
+#: build/blocks/search-nav/index.js:1 src/blocks/search-nav/edit.js:89
+msgid "Icon"
+msgstr "Εικονίδιο"
+
+#: includes/EmbeddingViaMenu.php:191
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:61
+#: includes/Settings.php:309 widget.php:41 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:143
+#: src/blocks/search/edit.js:121
+msgid "Icon on desktop, search bar on mobile"
+msgstr "Εικονίδιο στην επιφάνεια εργασίας, γραμμή αναζήτησης στο κινητό"
+
+#: includes/EmbeddingViaMenu.php:190
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:60
+#: includes/Settings.php:308 widget.php:40 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:136
+#: src/blocks/search/edit.js:114
+msgid "Icon on mobile, search bar on desktop"
+msgstr "Εικονίδιο στο κινητό, γραμμή αναζήτησης στην επιφάνεια εργασίας"
+
+#: includes/Admin/Troubleshooting.php:1325
+msgid ""
+"If the following errors are related to your theme or plugins, try to fix "
+"them yourself or contact your developers. Otherwise, please <a href=\"%s\" "
+"target=\"_blank\">create a support ticket</a>."
+msgstr ""
+"Αν τα παρακάτω σφάλματα σχετίζονται με το θέμα ή τα πρόσθετα σας, "
+"προσπαθήστε να τα διορθώσετε μόνοι σας ή επικοινωνήστε με τους "
+"προγραμματιστές σας. Διαφορετικά, παρακαλούμε <a href=\"%s\" "
+"target=\"_blank\">δημιουργήστε ένα εισιτήριο υποστήριξης</a>."
+
+#: partials/admin/indexer-header.php:89
+msgid ""
+"If the indexer still doesn't work, add a constant <code>"
+"define('DGWT_WCAS_INDEXER_MODE', 'sync');</code> to your <code>wp-config."
+"php</code> file and try to rebuild the search index again"
+msgstr ""
+"Αν ο δείκτης εξακολουθεί να μην λειτουργεί, προσθέστε μια σταθερά <code>"
+"define('DGWT_WCAS_INDEXER_MODE', 'sync');</code> στο αρχείο <code>wp-config."
+"php</code> και προσπαθήστε να ξαναχτίσετε το ευρετήριο αναζήτησης ξανά"
+
+#: partials/admin/features.php:14
+msgid ""
+"If users can’t find the product they’re searching for, they can’t buy it. "
+"Help your customers to find the right products even <span>10× faster</span>."
+msgstr ""
+"Εάν οι χρήστες δεν μπορούν να βρουν το προϊόν που αναζητούν, δεν μπορούν να "
+"το αγοράσουν. Βοηθήστε τους πελάτες σας να βρουν τα σωστά προϊόντα ακόμη "
+"<span>10× γρηγορότερα</span>."
+
+#: includes/Admin/Troubleshooting.php:2087
+msgid ""
+"If you can't solve it on the NGINX level, try alternative 100%% reliable "
+"solution described <a target=\"_blank\" href=\"%s\">in this article</a>."
+msgstr ""
+"Αν δεν μπορείτε να το λύσετε σε επίπεδο NGINX, δοκιμάστε την εναλλακτική "
+"100%% αξιόπιστη λύση που περιγράφεται <a target=\"_blank\" href=\"%s\">σε "
+"αυτό το άρθρο</a>."
+
+#: includes/Admin/Troubleshooting.php:939
+msgid ""
+"If you have regenerated the images or do not think it is necessary, you can "
+"ignore and dismiss this message: %s"
+msgstr ""
+"Εάν έχετε αναγεννήσει τις εικόνες ή δεν το θεωρείτε απαραίτητο, μπορείτε να "
+"αγνοήσετε και να απορρίψετε αυτό το μήνυμα: %s"
+
+#: partials/admin/indexer-header.php:66
+msgid ""
+"If you see the <b>Troubleshooting tab</b> above, click it and try to solve "
+"the issues mentioned there"
+msgstr ""
+"Αν δείτε την καρτέλα <b>Αποκατάσταση προβλημάτων</b> παραπάνω, κάντε κλικ σε "
+"αυτήν και προσπαθήστε να επιλύσετε τα προβλήματα που αναφέρονται εκεί"
+
+#: includes/Admin/Troubleshooting.php:818
+msgid ""
+"If you think the search results page is displaying your products correctly, "
+"you can ignore and dismiss this message: %s"
+msgstr ""
+"Εάν πιστεύετε ότι η σελίδα αποτελεσμάτων αναζήτησης εμφανίζει σωστά τα "
+"προϊόντα σας, μπορείτε να αγνοήσετε και να απορρίψετε αυτό το μήνυμα: %s"
+
+#: includes/Admin/Troubleshooting.php:1539
+msgid ""
+"If your current numbers of records in the <code>%s</code> table is not a "
+"issue, increase the limit to 500k, for example, and this alert will "
+"disappear."
+msgstr ""
+"Εάν ο τρέχων αριθμός εγγραφών στον πίνακα <code>%s</code> δεν είναι πρόβλημα,"
+" αυξήστε το όριο σε 500k, για παράδειγμα, και αυτή η ειδοποίηση θα "
+"εξαφανιστεί."
+
+#: includes/Helpers.php:1342
+msgctxt "in categories fe. in Books > Crime stories"
+msgid "in"
+msgstr "Στην"
+
+#: includes/Settings.php:745
+msgid ""
+"In most cases, you don't need to use the scheduler because the search index "
+"updates when you edit products. If you use import tools or custom code to "
+"refresh prices or bulk add/edit products, the indexing scheduler will be "
+"helpful."
+msgstr ""
+"Στις περισσότερες περιπτώσεις, δεν χρειάζεται να χρησιμοποιήσετε τον "
+"χρονοπρογραμματιστή, επειδή το ευρετήριο αναζήτησης ενημερώνεται όταν "
+"επεξεργάζεστε προϊόντα. Εάν χρησιμοποιείτε εργαλεία εισαγωγής ή "
+"προσαρμοσμένο κώδικα για την ανανέωση των τιμών ή τη μαζική "
+"προσθήκη/επεξεργασία προϊόντων, ο χρονοπρογραμματιστής ευρετηρίασης θα είναι "
+"χρήσιμος."
+
+#: includes/Settings.php:857
+msgid ""
+"In the autocomplete results, a variation may appear when there's an exact "
+"GUID match."
+msgstr ""
+"Στα αποτελέσματα της αυτόματης συμπλήρωσης, μπορεί να εμφανιστεί μια "
+"παραλλαγή όταν υπάρχει ακριβής αντιστοιχία GUID."
+
+#: includes/Settings.php:843
+msgid ""
+"In the autocomplete results, a variation may appear when there's an exact "
+"SKU match."
+msgstr ""
+"Στα αποτελέσματα της αυτόματης συμπλήρωσης, μπορεί να εμφανιστεί μια "
+"παραλλαγή όταν υπάρχει ακριβής αντιστοιχία SKU."
+
+#: includes/Settings.php:709 includes/Settings.php:823
+msgid "Include"
+msgstr "Συμπεριλάβετε το"
+
+#: includes/Admin/Troubleshooting.php:698
+msgid ""
+"Incompatible \"HUSKY - Advanced searching by Text\" extension from \"HUSKY - "
+"Products Filter Professional for WooCommerce\" is active"
+msgstr ""
+"Είναι ενεργή η επέκταση \"HUSKY - Προηγμένη αναζήτηση με βάση το κείμενο\" "
+"από το \"HUSKY - Επαγγελματικό φίλτρο προϊόντων για το WooCommerce\""
+
+#: includes/Admin/Troubleshooting.php:703
+msgid ""
+"Incompatible \"HUSKY - Advanced searching by Text\" extension from \"WOOF - "
+"WooCommerce Products Filter plugin\" is active"
+msgstr ""
+"Είναι ενεργή η επέκταση \"HUSKY - Προηγμένη αναζήτηση με βάση το κείμενο\" "
+"από το \"WOOF - WooCommerce Products Filter plugin\""
+
+#: includes/Admin/Troubleshooting.php:2285
+msgid ""
+"Incompatible \"HUSKY - Advanced searching by Text\" extension in WOOF - "
+"WooCommerce Products Filter"
+msgstr ""
+"Μη συμβατή επέκταση \"HUSKY - Προηγμένη αναζήτηση με βάση το κείμενο\" στο "
+"WOOF - Φίλτρο προϊόντων WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:642
+msgid ""
+"Incompatible \"Searching by Text\" extension from \"WOOF - WooCommerce "
+"Products Filter plugin\" is active"
+msgstr ""
+"Είναι ενεργή η επέκταση \"Αναζήτηση με βάση το κείμενο\" από το \"WOOF - "
+"WooCommerce Products Filter plugin\""
+
+#: includes/Admin/Troubleshooting.php:2281
+msgid ""
+"Incompatible \"Searching by Text\" extension in WOOF - WooCommerce Products "
+"Filter"
+msgstr ""
+"Μη συμβατή επέκταση \"Αναζήτηση με βάση το κείμενο\" στο WOOF - Φίλτρο "
+"προϊόντων WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:742
+msgid ""
+"Incompatible \"Try to ajaxify the shop\" option from WOOF - WooCommerce "
+"Products Filter plugin is enabled"
+msgstr ""
+"Μη συμβατή επιλογή \"Προσπαθήστε να ajaxify το κατάστημα\" από το WOOF - Το "
+"πρόσθετο WooCommerce Products Filter είναι ενεργοποιημένο"
+
+#: includes/Admin/Troubleshooting.php:2289
+msgid ""
+"Incompatible \"Try to ajaxify the shop\" option in WOOF - WooCommerce "
+"Products Filter"
+msgstr ""
+"Μη συμβατή επιλογή \"Προσπαθήστε να ajaxify το κατάστημα\" στο WOOF - Φίλτρο "
+"προϊόντων WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:1374
+msgid "Incompatible multilingual plugin setting"
+msgstr "Μη συμβατή ρύθμιση πολύγλωσσου πρόσθετου"
+
+#: includes/Admin/Troubleshooting.php:2273
+msgid "Incompatible plugins"
+msgstr "Μη συμβατά plugins"
+
+#: includes/Admin/Troubleshooting.php:1290
+msgid "Incompatible Polylang plugin setting"
+msgstr "Μη συμβατή ρύθμιση του πρόσθετου Polylang"
+
+#: includes/Admin/Troubleshooting.php:1256
+msgid "Incompatible WPML Multilingual CMS plugin setting"
+msgstr "Μη συμβατή ρύθμιση του πολυγλωσσικού πρόσθετου CMS WPML"
+
+#: includes/Admin/Troubleshooting.php:592
+#: includes/Admin/Troubleshooting.php:2277
+msgid "Incorrect \"Add to cart\" behaviour in WooCommerce settings"
+msgstr ""
+"Εσφαλμένη συμπεριφορά \"Προσθήκη στο καλάθι\" στις ρυθμίσεις του WooCommerce"
+
+#: includes/Settings.php:160
+msgid "Increase sales"
+msgstr "Αύξηση των πωλήσεων"
+
+#: includes/Settings.php:774
+msgid "Increases sales conversions."
+msgstr "Αυξάνει τις μετατροπές πωλήσεων."
+
+#: partials/admin/indexer-body.php:18
+msgid "Index build progress"
+msgstr "Πρόοδος κατασκευής δείκτη"
+
+#: partials/admin/indexer-body.php:50
+msgid "Index build start"
+msgstr "Έναρξη κατασκευής ευρετηρίου"
+
+#: includes/Admin/Troubleshooting.php:2334
+msgid "Index completeness test"
+msgstr "Δοκιμή πληρότητας ευρετηρίου"
+
+#: includes/Settings.php:868 includes/Settings.php:902
+msgid "Index status"
+msgstr "Κατάσταση δείκτη"
+
+#: partials/admin/indexer-header.php:16
+msgid "Indexed <strong>100%%</strong>, <strong>%d products</strong>."
+msgstr "Ευρετήριο <strong>100%%</strong>, <strong>%d προϊόντα</strong>."
+
+#: includes/Settings.php:154
+msgid "Indexer"
+msgstr "Indexer"
+
+#: includes/Admin/Troubleshooting.php:2394
+msgid "Indexer Error"
+msgstr "Σφάλμα δείκτη"
+
+#: partials/admin/indexer-body.php:16
+msgid ""
+"Indexing... This process will continue in the background. You can leave this "
+"page without any worries."
+msgstr ""
+"Ευρετηρίαση... Αυτή η διαδικασία θα συνεχιστεί στο παρασκήνιο. Μπορείτε να "
+"εγκαταλείψετε αυτή τη σελίδα χωρίς καμία ανησυχία."
+
+#: partials/admin/features.php:30
+msgid "Individual customization of the search bar (simple CSS improvements)"
+msgstr "Ατομική προσαρμογή της γραμμής αναζήτησης (απλές βελτιώσεις CSS)"
+
+#: includes/Admin/Promo/Upgrade.php:52
+msgid "Individual tips and support from the FiboSearch team"
+msgstr "Ατομικές συμβουλές και υποστήριξη από την ομάδα της FiboSearch"
+
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:104 src/blocks/search/edit.js:82
+msgid "Inherit global plugin settings"
+msgstr "Κληρονομήστε τις παγκόσμιες ρυθμίσεις του πρόσθετου"
+
+#: includes/Admin/Troubleshooting.php:2374
+msgid "InnoDB support"
+msgstr "Υποστήριξη InnoDB"
+
+#: includes/Admin/Troubleshooting.php:1094
+msgid ""
+"Install the <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/advanced-cron-manager/\">Advanced Cron Manager</a> plugin to "
+"verify if WP-Cron works correctly. You should see some of the actions "
+"related to the Indexer:"
+msgstr ""
+"Εγκαταστήστε το πρόσθετο <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/advanced-cron-manager/\">Advanced Cron Manager</a> για να "
+"ελέγξετε αν το WP-Cron λειτουργεί σωστά. Θα πρέπει να δείτε ορισμένες από "
+"τις ενέργειες που σχετίζονται με τον δείκτη:"
+
+#: includes/Admin/Troubleshooting.php:558
+msgid ""
+"Install the latest version of WordPress for our plugin for optimal "
+"performance!"
+msgstr ""
+"Εγκαταστήστε την τελευταία έκδοση του WordPress για το πρόσθετό μας για "
+"βέλτιστη απόδοση!"
+
+#: includes/Settings.php:754
+msgid "Interval"
+msgstr "Διάστημα"
+
+#: includes/Admin/Troubleshooting.php:1376
+msgid "Invalid language code: <code>%s</code>"
+msgid_plural "Invalid language codes: <code>%s</code>"
+msgstr[0] "Μη έγκυρος κωδικός γλώσσας: <code>%s</code>"
+msgstr[1] "Μη έγκυροι κωδικοί γλώσσας: <code>%s</code>"
+
+#: partials/admin/indexer-header.php:92
+msgid ""
+"Is it still not working? Visit the <a target=\"_blank\" href=\"%s\">"
+"documentation</a> or write a <a target=\"_blank\" href=\"%s\">support "
+"request</a>"
+msgstr ""
+"Εξακολουθεί να μην λειτουργεί Επισκεφθείτε την <a target=\"_blank\" "
+"href=\"%s\">εγγραφή τεκμηρίωσης</a> ή γράψτε ένα <a target=\"_blank\" "
+"href=\"%s\">αίτημα υποστήριξης</a>"
+
+#: includes/Admin/Troubleshooting.php:503
+msgid ""
+"Is it still not working? Write a <a target=\"_blank\" href=\"%s\">support "
+"request</a>"
+msgstr ""
+"Εξακολουθεί να μην λειτουργεί Γράψτε ένα <a target=\"_blank\" href=\"%s\">"
+"αίτημα υποστήριξης</a>"
+
+#: includes/Admin/Troubleshooting.php:497
+msgid ""
+"Is your website publicly available only for whitelisted IPs? <b>Add your "
+"server IP to the whitelist</b>. That’s all. This is a common mistake when "
+"access is blocked by a <code>.htaccess</code> file. Developers add a list of "
+"allowed IPs, but they forget to add the IP of the server to allow it to make "
+"HTTP requests to itself."
+msgstr ""
+"Είναι ο ιστότοπός σας διαθέσιμος στο κοινό μόνο για τις IPs που "
+"περιλαμβάνονται στη λευκή λίστα <b>Προσθέστε την IP του διακομιστή σας στη "
+"λευκή λίστα</b>. Αυτό είναι όλο. Αυτό είναι ένα συνηθισμένο λάθος όταν η "
+"πρόσβαση εμποδίζεται από ένα αρχείο <code>.htaccess</code>. Οι "
+"προγραμματιστές προσθέτουν μια λίστα με τις επιτρεπόμενες IP, αλλά ξεχνούν "
+"να προσθέσουν την IP του διακομιστή για να του επιτρέψουν να κάνει αιτήσεις "
+"HTTP στον εαυτό του."
+
+#: includes/Admin/Troubleshooting.php:1074
+#: includes/Admin/Troubleshooting.php:2329
+msgid "Issue with WP-Cron"
+msgstr "Θέμα με το WP-Cron"
+
+#: includes/Admin/Troubleshooting.php:936
+msgid ""
+"It is recommended to generate a special small image size for existing "
+"products to ensure a better user experience. This is a one-time action."
+msgstr ""
+"Συνιστάται η δημιουργία ενός ειδικού μικρού μεγέθους εικόνας για τα "
+"υπάρχοντα προϊόντα, ώστε να εξασφαλίζεται καλύτερη εμπειρία χρήσης. "
+"Πρόκειται για ενέργεια μιας χρήσης."
+
+#: includes/Admin/Troubleshooting.php:2203
+msgid ""
+"It is very important that we can review these errors to be able to improve "
+"the plugin. That’s why we kindly ask for your help to make FiboSearch even "
+"more useful, not only for you but also for the other 150&nbsp;000+&nbsp;"
+"users."
+msgstr ""
+"Είναι πολύ σημαντικό να μπορούμε να επανεξετάσουμε αυτά τα σφάλματα για να "
+"μπορέσουμε να βελτιώσουμε το πρόσθετο. Αυτός είναι ο λόγος για τον οποίο "
+"ζητάμε ευγενικά τη βοήθειά σας για να κάνουμε το FiboSearch ακόμα πιο "
+"χρήσιμο, όχι μόνο για εσάς αλλά και για τους άλλους 150&nbsp;000+&nbsp;"
+"χρήστες."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:839
+msgid "It works well based on the last properly built index from %s"
+msgstr ""
+"Λειτουργεί καλά με βάση το τελευταίο σωστά κατασκευασμένο ευρετήριο από το %s"
+
+#: includes/Analytics/UserInterface.php:433
+msgid "It's sorted."
+msgstr "Είναι τακτοποιημένο."
+
+#: includes/Admin/Troubleshooting.php:987
+msgid ""
+"iThemes Security plugin blocks AJAX requests. Take a look at the solution."
+msgstr ""
+"το πρόσθετο iThemes Security μπλοκάρει τα αιτήματα AJAX. Ρίξτε μια ματιά στη "
+"λύση."
+
+#: includes/Admin/Troubleshooting.php:2339
+msgid "Jetpack search module"
+msgstr "Μονάδα αναζήτησης Jetpack"
+
+#: includes/Settings.php:253
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: includes/Analytics/Widget.php:98 partials/admin/stats/langs.php:10
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: partials/admin/indexer-header.php:20
+msgid "Last build %s"
+msgstr "Τελευταία κατασκευή %s"
+
+#: includes/EmbeddingViaMenu.php:75
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:55
+#: includes/Settings.php:301 widget.php:43 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:118
+#: src/blocks/search/edit.js:96
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: partials/admin/how-to-use.php:12
+msgid "learn how to use blocks"
+msgstr "μάθετε πώς να χρησιμοποιείτε μπλοκ"
+
+#: includes/Settings.php:423
+msgid "Limit"
+msgstr "Όριο"
+
+#: includes/Analytics/UserInterface.php:263 partials/admin/stats/stats.php:42
+msgid "load another %d phrase"
+msgid_plural "load another %d phrases"
+msgstr[0] "φορτώστε άλλη μια φράση %d"
+msgstr[1] "φορτώστε άλλες %d φράσεις"
+
+#: includes/Admin/Troubleshooting.php:1533
+msgid ""
+"Log only critical phrases. This will reduce the growth of records in the "
+"database by about 70%%."
+msgstr ""
+"Καταγράψτε μόνο κρίσιμες φράσεις. Αυτό θα μειώσει την αύξηση των εγγραφών "
+"στη βάση δεδομένων κατά περίπου 70%%."
+
+#: partials/admin/indexer-body.php:143
+msgid "Logs"
+msgstr "Ημερολόγια"
+
+#: includes/Admin/Troubleshooting.php:2404
+msgid "Loopback request"
+msgstr "Αίτημα Loopback"
+
+#: partials/admin/search-preview.php:202 partials/admin/search-preview.php:246
+msgid ""
+"Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. "
+"Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin "
+"pharetra imperdiet neque, non varius."
+msgstr ""
+"Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. "
+"Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin "
+"pharetra imperdiet neque, non varius."
+
+#: includes/Admin/Troubleshooting.php:1523
+msgid "Maintain the search analytics table"
+msgstr "Διατήρηση του πίνακα αναλυτικών στοιχείων αναζήτησης"
+
+#: partials/admin/stats/stats.php:243
+msgid "Maintenance"
+msgstr "Συντήρηση"
+
+#: includes/Settings.php:662 includes/Settings.php:786
+msgid "Make your custom fields searchable from our search bar."
+msgstr "Κάντε τα προσαρμοσμένα πεδία σας αναζητήσιμα από τη γραμμή αναζήτησης."
+
+#: includes/Settings.php:631 includes/Settings.php:853
+msgid ""
+"Make your products searchable by their Global Unique Identifier (GTIN, UPC, "
+"EAN or ISBN)."
+msgstr ""
+"Κάντε τα προϊόντα σας αναζητήσιμα με βάση το παγκόσμιο μοναδικό "
+"αναγνωριστικό τους (GTIN, UPC, EAN ή ISBN)."
+
+#: includes/Analytics/UserInterface.php:436
+msgid "Mark this phrase as resolved"
+msgstr "Σημειώστε αυτή τη φράση ως επιλυθείσα"
+
+#: includes/Integrations/Marketplace/Marketplace.php:163
+msgid "Marketplace"
+msgstr "Αγορά"
+
+#: includes/Integrations/Marketplace/Marketplace.php:173
+msgid "Marketplace third-party integration"
+msgstr "Ενσωμάτωση τρίτων στην αγορά"
+
+#: includes/Settings.php:236
+msgid "Max form width"
+msgstr "Μέγιστο πλάτος φόρμας"
+
+#: includes/Settings.php:426
+msgid "maximum number of suggestions"
+msgstr "μέγιστος αριθμός προτάσεων"
+
+#: includes/Admin/Troubleshooting.php:1884
+msgid ""
+"Maybe your server blocks it with the Apache module <code>mod_security</code>."
+" Contact your hosting provider and ask what might block the URL you see "
+"above."
+msgstr ""
+"Ίσως ο διακομιστής σας το μπλοκάρει με το module του Apache <code>"
+"mod_security</code>. Επικοινωνήστε με τον πάροχο φιλοξενίας σας και ρωτήστε "
+"τι μπορεί να μπλοκάρει τη διεύθυνση URL που βλέπετε παραπάνω."
+
+#: partials/admin/how-to-use.php:21
+msgid "Menu Screen"
+msgstr "Οθόνη μενού"
+
+#: includes/Settings.php:231
+msgid "Min characters to show autocomplete"
+msgstr "Ελάχιστοι χαρακτήρες για την εμφάνιση αυτόματης συμπλήρωσης"
+
+#: includes/Settings.php:225
+msgid "Minimum characters"
+msgstr "Ελάχιστοι χαρακτήρες"
+
+#: includes/Admin/Troubleshooting.php:2297
+msgid "Minimum theme version"
+msgstr "Ελάχιστη έκδοση θέματος"
+
+#: includes/Admin/Troubleshooting.php:2301
+msgid "Minimum theme versions"
+msgstr "Ελάχιστες εκδόσεις θέματος"
+
+#: includes/Admin/Troubleshooting.php:1212
+msgid "Missing plugin: WooCommerce Multilingual"
+msgstr "Λείπει το πρόσθετο: WooCommerce Multilingual"
+
+#: includes/Admin/Promo/Upgrade.php:48
+msgid ""
+"Modern search engine based on an inverted index and advanced matching "
+"algorithms"
+msgstr ""
+"Σύγχρονη μηχανή αναζήτησης που βασίζεται σε ανεστραμμένο ευρετήριο και "
+"προηγμένους αλγορίθμους αντιστοίχισης"
+
+#: includes/Settings.php:485
+msgid "More results label"
+msgstr "Περισσότερα αποτελέσματα ετικέτα"
+
+#: includes/Admin/Troubleshooting.php:2364
+msgid "Multilingual slugs"
+msgstr "Πολύγλωσσα slugs"
+
+#: includes/Admin/SettingsAPI.php:889
+msgid "My Account"
+msgstr "Ο λογαριασμός μου"
+
+#: includes/Admin/Troubleshooting.php:2074
+msgid "NGINX configurations may block search requests"
+msgstr "Οι ρυθμίσεις του NGINX ενδέχεται να μπλοκάρουν τις αιτήσεις αναζήτησης"
+
+#: ajax-search-for-woocommerce.php:432
+msgid "No interaction! This is only a preview."
+msgstr "Καμία αλληλεπίδραση! Αυτό είναι μόνο μια προεπισκόπηση."
+
+#: includes/Helpers.php:1329 includes/Helpers.php:1345
+#: includes/Settings.php:438
+msgid "No results"
+msgstr "Κανένα αποτέλεσμα"
+
+#: includes/Admin/SettingsAPI.php:533 includes/Admin/SettingsAPI.php:633
+msgid "No rules"
+msgstr "Δεν υπάρχουν κανόνες"
+
+#: includes/Admin/Promo/FeedbackNotice.php:89
+msgid "No thanks"
+msgstr "Όχι ευχαριστώ"
+
+#: includes/Admin/Troubleshooting.php:2359
+msgid "Non Critical Indexer Errors"
+msgstr "Μη κρίσιμα σφάλματα ευρετηρίου"
+
+#: partials/admin/indexer-body.php:63
+msgid "Non-products"
+msgstr "Μη προϊόντα"
+
+#: includes/Settings.php:492
+msgid "Non-products in autocomplete"
+msgstr "Μη προϊόντα στην αυτόματη συμπλήρωση"
+
+#: includes/Settings.php:802 includes/Settings.php:893
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:815
+msgid "Not exist"
+msgstr "Δεν υπάρχει"
+
+#: includes/Admin/Troubleshooting.php:2307
+msgid "Not regenerated images"
+msgstr "Μη αναγεννημένες εικόνες"
+
+#: includes/Integrations/Themes/DFDRonneby/DFDRonneby.php:18
+msgid "Note: We currently only support the header type: \"Header 10\""
+msgstr ""
+"Σημείωση: Προς το παρόν υποστηρίζουμε μόνο τον τύπο κεφαλίδας: \"Header 10\""
+
+#: includes/Shortcode.php:102
+msgid "Nothing found"
+msgstr "Δεν βρέθηκε τίποτα"
+
+#: includes/Admin/Troubleshooting.php:2369
+msgid "Old index"
+msgstr "Παλιό ευρετήριο"
+
+#: partials/admin/search-preview.php:29 partials/admin/search-preview.php:69
+msgid "On desktop"
+msgstr "Στην επιφάνεια εργασίας"
+
+#: partials/admin/search-preview.php:28 partials/admin/search-preview.php:68
+msgid "On mobile"
+msgstr "Στο κινητό"
+
+#: includes/Admin/Troubleshooting.php:1685
+msgid ""
+"Once this SQL query is disabled, the \"Search in custom fields\" option will "
+"no longer display any available custom fields. If you want to search by "
+"custom fields, you must define the list of searchable custom fields manually."
+msgstr ""
+"Μόλις απενεργοποιηθεί αυτό το ερώτημα SQL, η επιλογή \"Αναζήτηση σε "
+"προσαρμοσμένα πεδία\" δεν θα εμφανίζει πλέον τα διαθέσιμα προσαρμοσμένα "
+"πεδία. Αν θέλετε να κάνετε αναζήτηση με βάση προσαρμοσμένα πεδία, πρέπει να "
+"ορίσετε χειροκίνητα τη λίστα των αναζητήσιμων προσαρμοσμένων πεδίων."
+
+#: includes/Admin/Troubleshooting.php:519
+msgid "One or more required PHP extensions are missing on your server"
+msgstr ""
+"Μία ή περισσότερες απαιτούμενες επεκτάσεις PHP λείπουν από το διακομιστή σας"
+
+#: partials/search-form.php:34
+msgid "Open search bar"
+msgstr "Ανοίξτε τη γραμμή αναζήτησης"
+
+#: includes/Helpers.php:1352
+msgid "Open search in the mobile overlay"
+msgstr "Άνοιγμα αναζήτησης στην επικάλυψη κινητού"
+
+#: includes/Settings.php:361
+msgid "Other colors"
+msgstr "Άλλα χρώματα"
+
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:71
+#: includes/Settings.php:332 widget.php:48 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:184
+#: src/blocks/search/edit.js:162
+msgid "Overlay on mobile"
+msgstr "Επικάλυψη στο κινητό"
+
+#: includes/Admin/Troubleshooting.php:2195
+msgid "Past error diagnostics"
+msgstr "Διαγνωστικά σφάλματος στο παρελθόν"
+
+#: includes/Analytics/UserInterface.php:432
+msgid "Perfect!"
+msgstr "Τέλεια!"
+
+#: includes/Admin/Troubleshooting.php:2269
+msgid "PHP extensions"
+msgstr "Επεκτάσεις PHP"
+
+#: includes/Analytics/Widget.php:148 partials/admin/stats/stats.php:24
+#: partials/admin/stats/stats.php:140 partials/admin/stats/stats.php:194
+msgid "Phrase"
+msgstr "Φράση"
+
+#: includes/Settings.php:293
+msgctxt "Pirx (compact) is proper name."
+msgid "Pirx (compact version)"
+msgstr "Pirx (συμπαγής έκδοση)"
+
+#: includes/Settings.php:292
+msgctxt "Pirx is proper name."
+msgid "Pirx"
+msgstr "Pirx"
+
+#: includes/Admin/Troubleshooting.php:2354
+msgid "Polylang with disabled translations for products"
+msgstr "Polylang με μεταφράσεις με ειδικές ανάγκες για προϊόντα"
+
+#: includes/Analytics/UserInterface.php:441
+msgid "Poor!"
+msgstr "Φτωχέ!"
+
+#: includes/Settings.php:395
+msgid "Preloader"
+msgstr "Preloader"
+
+#: partials/admin/search-preview.php:20
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: includes/Helpers.php:613 includes/Helpers.php:617
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/Settings.php:725
+msgid "Pro features"
+msgstr "Χαρακτηριστικά Pro"
+
+#: partials/admin/troubleshooting.php:11
+msgid "Processing asynchronous tests..."
+msgstr "Επεξεργασία ασύγχρονων δοκιμών..."
+
+#: includes/Admin/SettingsAPI.php:590
+msgid "Product categories"
+msgstr "Κατηγορίες προϊόντων"
+
+#: includes/Admin/SettingsAPI.php:592
+msgid "Product tags"
+msgstr "Ετικέτες προϊόντος"
+
+#: includes/Settings.php:442 partials/admin/indexer-body.php:58
+msgid "Products"
+msgstr "Προϊόντα"
+
+#: partials/admin/search-preview.php:37 partials/admin/search-preview.php:79
+#: partials/search-form.php:41
+msgid "Products search"
+msgstr "Αναζήτηση προϊόντων"
+
+#: includes/Settings.php:604
+msgid "Products search scope"
+msgstr "Πεδίο αναζήτησης προϊόντων"
+
+#: partials/admin/features.php:20
+msgid ""
+"Professional and fast <b>help to embed</b> or <b>replacing</b> the search "
+"bar in your theme"
+msgstr ""
+"Επαγγελματική και γρήγορη <b>βοήθεια για την ενσωμάτωση</b> ή <b>"
+"αντικατάσταση</b> της γραμμής αναζήτησης στο θέμα σας"
+
+#: includes/Settings.php:317 includes/Settings.php:343
+msgid "px"
+msgstr "px"
+
+#: includes/Admin/Troubleshooting.php:502
+msgid ""
+"Read more about indexer issues on <a target=\"_blank\" href=\"%s\">our "
+"documentation</a> and read the “Your server can’t send an HTTP request to "
+"itself” section."
+msgstr ""
+"Διαβάστε περισσότερα σχετικά με τα προβλήματα ευρετηρίου στην ενότητα <a "
+"target=\"_blank\" href=\"%s\">η τεκμηρίωσή μας</a> και διαβάστε την ενότητα "
+"\"Ο διακομιστής σας δεν μπορεί να στείλει ένα αίτημα HTTP στον εαυτό του\"."
+
+#: includes/Admin/Troubleshooting.php:996
+msgid ""
+"Read more about this issue in <a href=\"%s\" target=\"_blank\">our "
+"documentation</a>."
+msgstr ""
+"Διαβάστε περισσότερα σχετικά με αυτό το θέμα στην <a href=\"%s\" "
+"target=\"_blank\">την τεκμηρίωσή μας</a>."
+
+#: partials/admin/indexer-body.php:90
+msgid "Readable"
+msgstr "Αναγνώσιμο"
+
+#: includes/Admin/Troubleshooting.php:1140
+#: includes/Admin/Troubleshooting.php:1253
+#: includes/Admin/Troubleshooting.php:1287
+#: includes/Admin/Troubleshooting.php:1371
+#: includes/Admin/Troubleshooting.php:1409
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:865
+msgid "Rebuild index"
+msgstr "Δείκτης ανακατασκευής"
+
+#: partials/admin/troubleshooting.php:22
+msgid "Recheck the status"
+msgstr "Ελέγξτε εκ νέου την κατάσταση"
+
+#: includes/Admin/Troubleshooting.php:935
+msgid "Regenerate images"
+msgstr "Αναγέννηση εικόνων"
+
+#: includes/Admin/Troubleshooting.php:932
+msgid "Regenerate WooCommerce images"
+msgstr "Αναγέννηση εικόνων WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:117
+msgid ""
+"Regeneration of images started. The process will continue in the background."
+msgstr ""
+"Ξεκίνησε η αναγέννηση των εικόνων. Η διαδικασία θα συνεχιστεί στο παρασκήνιο."
+
+#: includes/Analytics/Widget.php:149 partials/admin/stats/stats.php:25
+#: partials/admin/stats/stats.php:141 partials/admin/stats/stats.php:195
+msgid "Repetitions"
+msgstr "Επαναλήψεις"
+
+#: includes/Abstracts/ThemeIntegration.php:67
+msgid "Replace the search bars"
+msgstr "Αντικαταστήστε τις μπάρες αναζήτησης"
+
+#: includes/Abstracts/ThemeIntegration.php:92
+msgid "Replace them"
+msgstr "Αντικαταστήστε τους"
+
+#: includes/Abstracts/ThemeIntegration.php:90
+msgid "Replace your theme's default search bars."
+msgstr "Αντικαταστήστε τις προεπιλεγμένες μπάρες αναζήτησης του θέματός σας."
+
+#: includes/Admin/Troubleshooting.php:529
+msgid "Required PHP extension: %s"
+msgstr "Απαιτούμενη επέκταση PHP: %s"
+
+#: partials/admin/stats/stats.php:254
+msgid "reset your stats"
+msgstr "επαναφέρετε τα στατιστικά σας"
+
+#: includes/Admin/Troubleshooting.php:1965
+msgid "Response body"
+msgstr "Σώμα απάντησης"
+
+#: partials/admin/stats/stats.php:111
+msgid "returning results"
+msgstr "επιστρέφοντας αποτελέσματα"
+
+#: includes/Settings.php:775
+msgid ""
+"Returns suggestions based on likely relevance, even though a search keyword "
+"may not exactly match. E.g if you type “ipho<b>m</b>e” you get the same "
+"results as for “iphone”. <a target=\"_blank\" href=\"%s\">Read more</a> "
+"about the fuzzy search feature."
+msgstr ""
+"Επιστρέφει προτάσεις με βάση την πιθανή συνάφεια, ακόμη και αν μια λέξη-"
+"κλειδί αναζήτησης μπορεί να μην ταιριάζει ακριβώς. Π.χ. αν πληκτρολογήσετε "
+"\"ipho<b>m</b>e\" θα λάβετε τα ίδια αποτελέσματα με το \"iphone\". <a "
+"target=\"_blank\" href=\"%s\">Διαβάστε περισσότερα</a> σχετικά με τη "
+"λειτουργία ασαφούς αναζήτησης."
+
+#: includes/Admin/Promo/FeedbackNotice.php:85
+msgid "Review %s"
+msgstr "Ανασκόπηση %s"
+
+#: partials/admin/search-preview.php:181
+msgid "Sample %s <strong>name</strong>"
+msgstr "Δείγμα %s <strong>όνομα</strong>"
+
+#: partials/admin/search-preview.php:123
+msgid "Sample brand <strong>name</strong>"
+msgstr "Δείγμα μάρκας <strong>όνομα</strong>"
+
+#: partials/admin/search-preview.php:138
+msgid "Sample category <strong>name</strong>"
+msgstr "Δείγμα κατηγορίας <strong>όνομα</strong>"
+
+#: partials/admin/search-preview.php:200
+msgid "Sample product <strong>name</strong>"
+msgstr "Δείγμα προϊόντος <strong>όνομα</strong>"
+
+#: partials/admin/search-preview.php:235
+msgid "Sample product name"
+msgstr "Ονομασία δείγματος προϊόντος"
+
+#: partials/admin/search-preview.php:150
+msgid "Sample tag <strong>name</strong>"
+msgstr "Δείγμα ετικέτας <strong>όνομα</strong>"
+
+#: includes/Settings.php:765
+msgid "Schedule time"
+msgstr "Χρόνος προγραμματισμού"
+
+#: includes/Settings.php:738
+msgid "Scheduling indexing"
+msgstr "Προγραμματισμός ευρετηρίασης"
+
+#: includes/Settings.php:256 partials/search-form.php:59
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: includes/Analytics/UserInterface.php:99
+msgid "Search Analytics"
+msgstr "Αναζήτηση Analytics"
+
+#: includes/Analytics/UserInterface.php:106
+msgid ""
+"Search analytics system helps to eliminate search phrases that don’t return "
+"any results. Also, allows to explore trending keywords. <a target=\"_blank\" "
+"href=\"%s\">Find our more</a> how to use and customize FiboSearch Analytics."
+msgstr ""
+"Το σύστημα ανάλυσης αναζήτησης βοηθά στην εξάλειψη των φράσεων αναζήτησης "
+"που δεν επιστρέφουν αποτελέσματα. Επίσης, επιτρέπει τη διερεύνηση των "
+"τρεχουσών λέξεων-κλειδιών. <a target=\"_blank\" href=\"%s\">Βρείτε "
+"περισσότερα</a> για το πώς να χρησιμοποιείτε και να προσαρμόζετε το "
+"FiboSearch Analytics."
+
+#: includes/EmbeddingViaMenu.php:188 includes/EmbeddingViaMenu.php:249
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:58
+#: includes/Settings.php:126 includes/Settings.php:306
+#: partials/admin/search-preview.php:21 widget.php:38
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:122 src/blocks/search/edit.js:100
+msgid "Search bar"
+msgstr "Γραμμή αναζήτησης"
+
+#: includes/Settings.php:367
+msgid "Search bar underlay"
+msgstr "Μπάρα αναζήτησης"
+
+#: includes/Abstracts/ThemeIntegration.php:98
+msgid "Search bars"
+msgstr "Μπάρες αναζήτησης"
+
+#: partials/admin/features.php:26
+msgid "Search by variation product SKU"
+msgstr "Αναζήτηση ανά παραλλαγή προϊόντος SKU"
+
+#: includes/Settings.php:134
+msgid "Search config"
+msgstr "Ρύθμιση αναζήτησης"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:826
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:832
+msgid "Search engine status:"
+msgstr "Κατάσταση μηχανών αναζήτησης:"
+
+#: partials/admin/features.php:28
+msgid "Search for posts and pages"
+msgstr "Αναζήτηση για αναρτήσεις και σελίδες"
+
+#: includes/Helpers.php:1348 includes/Settings.php:277
+msgid "Search for products..."
+msgstr "Αναζήτηση προϊόντων..."
+
+#: includes/EmbeddingViaMenu.php:189
+#: includes/Integrations/Plugins/Elementor/FiboSearchWidget.php:59
+#: includes/Settings.php:307 widget.php:39 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:129
+#: src/blocks/search/edit.js:107
+msgid "Search icon"
+msgstr "Εικονίδιο αναζήτησης"
+
+#: includes/EmbeddingViaMenu.php:87 includes/Settings.php:267
+#: includes/Settings.php:325
+msgid "Search icon color"
+msgstr "Χρώμα εικονιδίου αναζήτησης"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:212
+msgid "Search in %s"
+msgstr "Αναζήτηση σε %s"
+
+#: includes/Settings.php:641 partials/admin/features.php:23
+msgid "Search in attributes"
+msgstr "Αναζήτηση σε χαρακτηριστικά"
+
+#: includes/Admin/Promo/Upgrade.php:51
+msgid "Search in attributes and variation products SKUs (option)"
+msgstr "Αναζήτηση σε χαρακτηριστικά και παραλλαγές προϊόντων SKUs (επιλογή)"
+
+#: includes/Integrations/Brands.php:198
+msgid "Search in brands"
+msgstr "Αναζήτηση σε μάρκες"
+
+#: partials/admin/features.php:27
+msgid "Search in brands (WooCommerce Brands or YITH WooCommerce Brands)"
+msgstr "Αναζήτηση σε μάρκες (WooCommerce Brands ή YITH WooCommerce Brands)"
+
+#: includes/Settings.php:648 partials/admin/features.php:24
+msgid "Search in categories"
+msgstr "Αναζήτηση σε κατηγορίες"
+
+#: includes/Settings.php:662 includes/Settings.php:786
+#: partials/admin/features.php:22
+msgid "Search in custom fields"
+msgstr "Αναζήτηση σε προσαρμοσμένα πεδία"
+
+#: includes/Settings.php:610
+msgid "Search in description"
+msgstr "Αναζήτηση στην περιγραφή"
+
+#: includes/Settings.php:631 includes/Settings.php:850
+msgid "Search in GUID"
+msgstr "Αναζήτηση στο GUID"
+
+#: includes/Settings.php:616
+msgid "Search in short description"
+msgstr "Αναζήτηση σε σύντομη περιγραφή"
+
+#: includes/Settings.php:622
+msgid "Search in SKU"
+msgstr "Αναζήτηση σε SKU"
+
+#: includes/Settings.php:655 partials/admin/features.php:25
+msgid "Search in tags"
+msgstr "Αναζήτηση σε ετικέτες"
+
+#: includes/Integrations/Marketplace/Marketplace.php:203
+msgid "Search in vendors"
+msgstr "Αναζήτηση σε προμηθευτές"
+
+#: includes/Settings.php:374
+msgid "Search input background"
+msgstr "Φόντο εισόδου αναζήτησης"
+
+#: includes/Settings.php:388
+msgid "Search input border"
+msgstr "Σύνορα εισόδου αναζήτησης"
+
+#: includes/Settings.php:274
+msgid "Search input placeholder"
+msgstr "Τοποθετητής εισόδου αναζήτησης"
+
+#: includes/Settings.php:381
+msgid "Search input text"
+msgstr "Αναζήτηση κειμένου εισόδου"
+
+#. translators: %s: Post type name in plural form e.g. Posts, Pages
+#: includes/Shortcode.php:116
+msgid "Search results for %s:"
+msgstr "Αποτελέσματα αναζήτησης για %s:"
+
+#: partials/admin/stats/stats.php:100
+msgid "search results page"
+msgstr "σελίδα αποτελεσμάτων αναζήτησης"
+
+#: partials/admin/indexer-body.php:68
+msgid "Searchable"
+msgstr "Αναζήτηση στο"
+
+#: partials/admin/stats/stats.php:110
+msgid "Searches"
+msgstr "Αναζητήσεις"
+
+#: partials/admin/stats/stats.php:83
+msgid "Searches stats (last %d days)"
+msgstr "Στατιστικά αναζητήσεων (τελευταίες %d ημέρες)"
+
+#: includes/Settings.php:633
+msgid "searching also in variable products GUID"
+msgstr "αναζήτηση επίσης σε μεταβλητά προϊόντα GUID"
+
+#: includes/Settings.php:624
+msgid "searching also in variable products SKU"
+msgstr "αναζήτηση επίσης σε μεταβλητά προϊόντα SKU"
+
+#: includes/Settings.php:634
+msgid ""
+"Searching in variable products GUID is available only in <a "
+"target=\"_blank\" href=\"%s\">the pro version</a>."
+msgstr ""
+"Η αναζήτηση σε μεταβλητή GUID προϊόντων είναι διαθέσιμη μόνο στην <a "
+"target=\"_blank\" href=\"%s\">την έκδοση pro</a>."
+
+#: includes/Settings.php:625
+msgid ""
+"Searching in variable products SKU is available only in <a target=\"_blank\" "
+"href=\"%s\">the pro version</a>."
+msgstr ""
+"Η αναζήτηση σε μεταβλητές SKU προϊόντων είναι διαθέσιμη μόνο στην <a "
+"target=\"_blank\" href=\"%s\">την έκδοση pro</a>."
+
+#: includes/Admin/Promo/Upgrade.php:63 partials/admin/features.php:31
+msgid "See a comparison of all free and premium features!"
+msgstr "Δείτε μια σύγκριση όλων των δωρεάν και premium χαρακτηριστικών!"
+
+#: includes/Helpers.php:1332 includes/Settings.php:488
+msgid "See all products..."
+msgstr "Δείτε όλα τα προϊόντα..."
+
+#: includes/Settings.php:433
+msgid ""
+"See an example of a more complex \"No results\" message in <a href=\"%s\" "
+"target=\"_blank\">our documentation</a>."
+msgstr ""
+"Δείτε ένα παράδειγμα ενός πιο σύνθετου μηνύματος \"Δεν υπάρχουν "
+"αποτελέσματα\" στην <a href=\"%s\" target=\"_blank\">την τεκμηρίωσή μας</a>."
+
+#: includes/Settings.php:303
+msgid "See what each of these layouts looks like"
+msgstr "Δείτε πώς μοιάζει κάθε μία από αυτές τις διατάξεις"
+
+#: includes/Admin/SettingsAPI.php:588
+msgid "Select filter type"
+msgstr "Επιλέξτε τύπο φίλτρου"
+
+#: includes/Settings.php:790
+msgid "select the custom fields you want to add to the search scope"
+msgstr ""
+"επιλέξτε τα προσαρμοσμένα πεδία που θέλετε να προσθέσετε στο πεδίο αναζήτησης"
+
+#: includes/Admin/Troubleshooting.php:2168
+msgid "Send the report"
+msgstr "Αποστολή της έκθεσης"
+
+#: includes/Admin/Troubleshooting.php:2210
+msgid "Send this report automatically should any errors occur in the future."
+msgstr ""
+"Αποστολή αυτής της αναφοράς αυτόματα σε περίπτωση που προκύψουν σφάλματα στο "
+"μέλλον."
+
+#: includes/Admin/Troubleshooting.php:2554
+msgid "Server environment"
+msgstr "Περιβάλλον διακομιστή"
+
+#: includes/Admin/Troubleshooting.php:1877
+#: includes/Admin/Troubleshooting.php:1964
+msgid ""
+"Server response with message <code>%s</code> and status code <code>%s</code>."
+msgstr ""
+"Απάντηση διακομιστή με μήνυμα <code>%s</code> και κωδικό κατάστασης <code>"
+"%s</code>."
+
+#: includes/Integrations/Marketplace/Marketplace.php:196
+#: partials/admin/settings.php:27 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:100
+#: src/blocks/search/edit.js:78
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/PostTypes.php:193
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:258
+msgid "Show %s"
+msgstr "Εμφάνιση %s"
+
+#: partials/admin/settings.php:32 partials/admin/settings.php:34
+msgid "Show advanced settings"
+msgstr "Εμφάνιση προηγμένων ρυθμίσεων"
+
+#: includes/Integrations/Brands.php:220
+msgid "Show brands"
+msgstr "Εμφάνιση εμπορικών σημάτων"
+
+#: includes/Settings.php:498
+msgid "Show categories"
+msgstr "Εμφάνιση κατηγοριών"
+
+#: partials/admin/indexer-header-demo.php:16
+#: partials/admin/indexer-header.php:102
+msgid "Show details"
+msgstr "Εμφάνιση λεπτομερειών"
+
+#: includes/Settings.php:544
+msgid "Show Details Panel"
+msgstr "Εμφάνιση πίνακα λεπτομερειών"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/PostTypes.php:205
+#: includes/Engines/TNTSearchMySQL/Indexer/PostTypes.php:209
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:224
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:228
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:269
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:273
+#: includes/Integrations/Brands.php:230 includes/Integrations/Brands.php:234
+#: includes/Settings.php:506 includes/Settings.php:510
+msgid "show images"
+msgstr "προβολή εικόνων"
+
+#: includes/Settings.php:531
+msgid "Show pages"
+msgstr "Εμφάνιση σελίδων"
+
+#: includes/Settings.php:524
+msgid "Show posts"
+msgstr "Εμφάνιση θέσεων"
+
+#: includes/Settings.php:401
+msgid "Show preloader"
+msgstr "Εμφάνιση προφόρτωσης"
+
+#: includes/Settings.php:454
+msgid "Show price"
+msgstr "Εμφάνιση τιμής"
+
+#: includes/Settings.php:460
+msgid "Show product description"
+msgstr "Εμφάνιση περιγραφής προϊόντος"
+
+#: includes/Settings.php:448
+msgid "Show product image"
+msgstr "Εμφάνιση εικόνας προϊόντος"
+
+#: includes/Settings.php:467
+msgid "Show SKU"
+msgstr "Εμφάνιση SKU"
+
+#: includes/Settings.php:245
+msgid "Show submit button"
+msgstr "Εμφάνιση κουμπιού υποβολής"
+
+#: includes/Settings.php:516
+msgid "Show tags"
+msgstr "Εμφάνιση ετικετών"
+
+#: partials/admin/stats/stats.php:160 partials/admin/stats/stats.php:214
+msgid "show top 100 phrases"
+msgstr "εμφάνιση των 100 κορυφαίων φράσεων"
+
+#: includes/Integrations/Marketplace/Marketplace.php:210
+msgid "Show vendors next to products"
+msgstr "Εμφάνιση πωλητών δίπλα στα προϊόντα"
+
+#: includes/Analytics/UserInterface.php:114
+msgid "Show widget with critical searches in Dashboard"
+msgstr "Εμφάνιση widget με κρίσιμες αναζητήσεις στο Dashboard"
+
+#: includes/Admin/SettingsAPI.php:884
+msgid "Showcase"
+msgstr "Βιτρίνα"
+
+#: partials/admin/stats/langs.php:11
+msgid "Shows stats only for the selected language."
+msgstr "Εμφανίζει στατιστικά στοιχεία μόνο για την επιλεγμένη γλώσσα."
+
+#: includes/Admin/Troubleshooting.php:2424
+msgid "Slow getting of searchable custom fields"
+msgstr "Αργή λήψη προσαρμοσμένων πεδίων με δυνατότητα αναζήτησης"
+
+#: includes/Settings.php:801 includes/Settings.php:892
+msgid "Soft"
+msgstr "Μαλακό"
+
+#: includes/Settings.php:294
+msgctxt "Solaris is proper name."
+msgid "Solaris"
+msgstr "Solaris"
+
+#: includes/Helpers.php:1340
+msgid "Sold by:"
+msgstr "Πωλείται από:"
+
+#: includes/Admin/Troubleshooting.php:593
+#: includes/Admin/Troubleshooting.php:643
+#: includes/Admin/Troubleshooting.php:699
+#: includes/Admin/Troubleshooting.php:704
+#: includes/Admin/Troubleshooting.php:743
+#: includes/Admin/Troubleshooting.php:814
+#: includes/Admin/Troubleshooting.php:1093
+#: includes/Admin/Troubleshooting.php:1258
+#: includes/Admin/Troubleshooting.php:1292
+#: includes/Admin/Troubleshooting.php:1377
+#: includes/Admin/Troubleshooting.php:1681
+#: includes/Admin/Troubleshooting.php:1999
+#: includes/Admin/Troubleshooting.php:2046
+#: includes/Admin/Troubleshooting.php:2126
+#: includes/Admin/Troubleshooting.php:2249
+msgid "Solution"
+msgstr "Λύση"
+
+#: includes/Admin/Troubleshooting.php:1882
+msgid "Solutions"
+msgstr "Λύσεις"
+
+#: partials/themes/flatsome.php:264
+msgid "Solutions (you only need to use one of them)"
+msgstr "Λύσεις (χρειάζεται να χρησιμοποιήσετε μόνο μία από αυτές)"
+
+#: includes/Admin/Troubleshooting.php:490
+msgid "Solutions:"
+msgstr "Λύσεις:"
+
+#: includes/Admin/Troubleshooting.php:2075
+msgid ""
+"Some NGINX configurations may block executing PHP files included directly in "
+"the plugin's directory. There is no one solution. It depends on your NGINX "
+"configuration. We recommend you contact your hosting provider and ask for "
+"the following file to be run: %s"
+msgstr ""
+"Ορισμένες ρυθμίσεις NGINX ενδέχεται να εμποδίζουν την εκτέλεση αρχείων PHP "
+"που περιλαμβάνονται απευθείας στον κατάλογο του πρόσθετου. Δεν υπάρχει μία "
+"λύση. Εξαρτάται από τη διαμόρφωση του NGINX σας. Σας συνιστούμε να "
+"επικοινωνήσετε με τον πάροχο φιλοξενίας σας και να ζητήσετε να εκτελεστεί το "
+"ακόλουθο αρχείο: %s"
+
+#: includes/Analytics/UserInterface.php:453
+msgid "Something went wrong"
+msgstr "Κάτι πήγε στραβά"
+
+#: includes/Settings.php:731
+msgid "Speed up search!"
+msgstr "Επιταχύνετε την αναζήτηση!"
+
+#: includes/Admin/Promo/Upgrade.php:47
+msgid "Speed up search! (even 10× faster) - users love it!"
+msgstr ""
+"Επιταχύνετε την αναζήτηση! (ακόμη και 10× ταχύτερη) - οι χρήστες το "
+"λατρεύουν!"
+
+#: partials/admin/indexer-body.php:72 partials/admin/indexer-body.php:95
+#: partials/admin/indexer-body.php:120
+msgid "Start"
+msgstr "Έναρξη"
+
+#: includes/Settings.php:122
+msgid "Starting"
+msgstr "Ξεκινώντας"
+
+#: partials/admin/indexer-body.php:54
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: includes/Admin/Troubleshooting.php:988
+#: includes/Admin/Troubleshooting.php:991
+msgid "Step %d"
+msgstr "Βήμα %d"
+
+#: includes/Admin/Troubleshooting.php:1682
+msgid "Step 1: Disable the slow SQL query"
+msgstr "Βήμα 1: Απενεργοποιήστε το αργό ερώτημα SQL"
+
+#: includes/Admin/Troubleshooting.php:1688
+msgid "Step 2: Manually define custom fields"
+msgstr "Βήμα 2: Χειροκίνητος ορισμός προσαρμοσμένων πεδίων"
+
+#: includes/Admin/Troubleshooting.php:1708
+msgid "Step 3: Use the custom fields in the \"Search in Custom Fields\" option"
+msgstr ""
+"Βήμα 3: Χρησιμοποιήστε τα προσαρμοσμένα πεδία στην επιλογή \"Αναζήτηση σε "
+"προσαρμοσμένα πεδία\""
+
+#: includes/Analytics/UserInterface.php:442
+msgid "Still this phrase doesn't return any results. Learn how to fix it."
+msgstr ""
+"Ακόμα αυτή η φράση δεν επιστρέφει κανένα αποτέλεσμα. Μάθετε πώς να το "
+"διορθώσετε."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:862
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:871
+msgid "Stop process"
+msgstr "Διακοπή διαδικασίας"
+
+#: includes/Settings.php:287
+msgid "Style"
+msgstr "Στυλ"
+
+#: includes/Admin/Troubleshooting.php:251
+msgid "Success!"
+msgstr "Επιτυχία!"
+
+#: includes/Admin/Troubleshooting.php:2125
+msgid "Sucuri Security firewall may block AJAX calls of the live search"
+msgstr ""
+"Το τείχος προστασίας Sucuri Security μπορεί να μπλοκάρει τις κλήσεις AJAX "
+"της ζωντανής αναζήτησης"
+
+#: includes/Settings.php:567
+msgid "Suggestion background"
+msgstr "Υπόβαθρο πρότασης"
+
+#: includes/Settings.php:574
+msgid "Suggestion selected"
+msgstr "Επιλεγμένη πρόταση"
+
+#: includes/Settings.php:561
+msgid "Suggestions colors"
+msgstr "Προτάσεις χρωμάτων"
+
+#: includes/Admin/Promo/Upgrade.php:50 includes/Settings.php:681
+#: includes/Settings.php:687 partials/admin/features.php:29
+msgid "Synonyms"
+msgstr "Συνώνυμα"
+
+#: includes/Settings.php:691
+msgid ""
+"Synonyms should be separated by a comma. Each new synonyms group is entered "
+"in a new line. You can use a phrase instead of a single word. <br /> <br />"
+"Sample list:<br /> <br /><span class=\"dgwt-wcas-synonyms-sample\">sofa, "
+"couch, davenport, divan, settee<br />big, grand, great, large, outsize</span>"
+msgstr ""
+"Τα συνώνυμα πρέπει να διαχωρίζονται με κόμμα. Κάθε νέα ομάδα συνωνύμων "
+"εισάγεται σε νέα γραμμή. Μπορείτε να χρησιμοποιήσετε μια φράση αντί για μια "
+"λέξη. <br /> <br />Λίστα παραδειγμάτων:<br /> <br /><span class=\"dgwt-wcas-"
+"synonyms-sample\">sofa, couch, davenport, divan, settee<br />big, grand, "
+"great, large, outsize</span>"
+
+#: partials/admin/indexer-body.php:115
+msgid "Taxonomies"
+msgstr "Ταξινομίες"
+
+#: includes/Settings.php:267 includes/Settings.php:581
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: includes/Admin/Troubleshooting.php:2045
+msgid "The .htaccess file(s) may block AJAX calls of the live search"
+msgstr ""
+"Το αρχείο .htaccess μπορεί να μπλοκάρει τις κλήσεις AJAX της ζωντανής "
+"αναζήτησης"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:828
+msgid ""
+"The best speed and all pro features will be available after the index has "
+"been built."
+msgstr ""
+"Η καλύτερη ταχύτητα και όλα τα επαγγελματικά χαρακτηριστικά θα είναι "
+"διαθέσιμα μετά την κατασκευή του ευρετηρίου."
+
+#: includes/Admin/Troubleshooting.php:2182
+msgid "the content of the report"
+msgstr "το περιεχόμενο της έκθεσης"
+
+#: includes/Settings.php:553
+msgid ""
+"The current search history is presented when the user clicked/taped on the "
+"search bar, but hasn't yet typed the query. The history includes the last "
+"searched products and phrases."
+msgstr ""
+"Το τρέχον ιστορικό αναζήτησης παρουσιάζεται όταν ο χρήστης κάνει "
+"κλικ/κοντάρει στη γραμμή αναζήτησης, αλλά δεν έχει πληκτρολογήσει ακόμη το "
+"ερώτημα. Το ιστορικό περιλαμβάνει τα προϊόντα και τις φράσεις που "
+"αναζητήθηκαν τελευταία."
+
+#: includes/Admin/Troubleshooting.php:1481
+msgid ""
+"The default search endpoint has been blocked and you have decided to switch "
+"on the alternative endpoint to make the search work in emergency mode. What "
+"should you do next?"
+msgstr ""
+"Το προεπιλεγμένο τελικό σημείο αναζήτησης έχει μπλοκαριστεί και αποφασίσατε "
+"να ενεργοποιήσετε το εναλλακτικό τελικό σημείο για να λειτουργήσει η "
+"αναζήτηση σε κατάσταση έκτακτης ανάγκης. Τι πρέπει να κάνετε στη συνέχεια"
+
+#: includes/Engines/TNTSearchMySQL/TNTSearch.php:616
+msgid ""
+"The deleting of objects in the search index should be performed at the "
+"earliest on the action \"init\" with priority 11."
+msgstr ""
+"Η διαγραφή αντικειμένων στο ευρετήριο αναζήτησης θα πρέπει να "
+"πραγματοποιείται το νωρίτερο στην ενέργεια \"init\" με προτεραιότητα 11."
+
+#: includes/Settings.php:545
+msgid ""
+"The Details Panel is an additional container for extended information. The "
+"details change dynamically when the cursor hovers over one of the "
+"suggestions."
+msgstr ""
+"Ο Πίνακας λεπτομερειών είναι ένας πρόσθετος περιέκτης για εκτεταμένες "
+"πληροφορίες. Οι λεπτομέρειες αλλάζουν δυναμικά όταν ο κέρσορας περνάει πάνω "
+"από μία από τις προτάσεις."
+
+#: includes/Analytics/Widget.php:137 partials/admin/stats/stats.php:11
+msgid "The FiboSearch analyzer found <b>1 critical search phrase</b>."
+msgid_plural "The FiboSearch analyzer found <b>%d critical search phrases</b>."
+msgstr[0] "Ο αναλυτής FiboSearch βρήκε <b>1 κρίσιμη φράση αναζήτησης</b>."
+msgstr[1] "Ο αναλυτής FiboSearch βρήκε <b>%d κρίσιμες φράσεις αναζήτησης</b>."
+
+#: includes/Admin/Promo/FeedbackNotice.php:78
+msgid ""
+"The FiboSearch team have spent countless hours developing it, and it would "
+"mean a lot to me if you %ssupport it with a quick review on WordPress.org.%s"
+msgstr ""
+"Η ομάδα της FiboSearch έχει ξοδέψει αμέτρητες ώρες για την ανάπτυξή της, και "
+"θα σήμαινε πολλά για μένα αν %ssupport it with a quick review on WordPress."
+"org.%s"
+
+#: partials/admin/indexer-header.php:43
+msgid "The following error caused the index to be canceled:"
+msgstr "Το ακόλουθο σφάλμα προκάλεσε την ακύρωση του ευρετηρίου:"
+
+#: includes/Settings.php:432
+msgid "The following HTML tags are allowed:<br /> %s."
+msgstr "Επιτρέπονται οι ακόλουθες ετικέτες HTML:<br /> %s."
+
+#: includes/Admin/Troubleshooting.php:1412
+msgid "The index was built by the previous plugin version"
+msgstr "Το ευρετήριο κατασκευάστηκε από την προηγούμενη έκδοση του πρόσθετου"
+
+#: includes/Admin/Troubleshooting.php:486
+msgid ""
+"The Indexer uses the WordPress function <code>wp_remote_post()</code> to "
+"build the index in the background. Sometimes the server can block this kind "
+"of request and responses with HTTP 401 Unauthorized or 403 Forbidden errors."
+msgstr ""
+"Ο Indexer χρησιμοποιεί τη συνάρτηση του WordPress <code>wp_remote_post()"
+"</code> για να δημιουργήσει το ευρετήριο στο παρασκήνιο. Μερικές φορές ο "
+"διακομιστής μπορεί να μπλοκάρει αυτό το είδος αίτησης και να απαντά με "
+"σφάλματα HTTP 401 Unauthorized ή 403 Forbidden."
+
+#: includes/Admin/Troubleshooting.php:1442
+msgid ""
+"The InnoDB engine within the MySQL server must be enabled for our plugin to "
+"work properly. Contact your hosting provider and ask for enabling InnoDB "
+"engine in your MySQL server."
+msgstr ""
+"Η μηχανή InnoDB στον διακομιστή MySQL πρέπει να είναι ενεργοποιημένη για να "
+"λειτουργήσει σωστά το πρόσθετό μας. Επικοινωνήστε με τον πάροχο φιλοξενίας "
+"σας και ζητήστε την ενεργοποίηση της μηχανής InnoDB στον διακομιστή MySQL."
+
+#: includes/Admin/Troubleshooting.php:874
+msgid ""
+"The integrations will not be activated unless the plugins are updated to the "
+"minimum required versions."
+msgstr ""
+"Οι ενσωματώσεις δεν θα ενεργοποιηθούν αν τα πρόσθετα δεν ενημερωθούν στις "
+"ελάχιστες απαιτούμενες εκδόσεις."
+
+#: includes/Admin/Troubleshooting.php:1177
+msgid "The Jetpack Search module is incompatible with the %s plugin."
+msgstr "Η ενότητα Jetpack Search δεν είναι συμβατή με το πρόσθετο %s."
+
+#: partials/admin/stats/stats.php:257
+msgctxt "The last placeholder is a button with text \"reset your stats\""
+msgid ""
+"The stats older than %d days are removed from your database on a daily basis."
+" Now you have %d records in the DB that weigh %.2fMB. You can %s now and "
+"start collecting them all over again."
+msgstr ""
+"Τα στατιστικά στοιχεία που είναι παλαιότερα από %d ημέρες αφαιρούνται από τη "
+"βάση δεδομένων σας σε καθημερινή βάση. Τώρα έχετε %d εγγραφές στη ΒΔ που "
+"ζυγίζουν %.2fMB. Μπορείτε να %s τώρα και να ξεκινήσετε τη συλλογή τους από "
+"την αρχή."
+
+#: partials/admin/stats/stats.php:134
+msgid ""
+"The list of phrases with results is displayed to users as a drop down list "
+"with auto suggestions."
+msgstr ""
+"Ο κατάλογος των φράσεων με τα αποτελέσματα εμφανίζεται στους χρήστες ως "
+"αναπτυσσόμενη λίστα με αυτόματες προτάσεις."
+
+#: includes/Admin/Troubleshooting.php:2190
+msgid "the logs"
+msgstr "τα αρχεία καταγραφής"
+
+#. Description of the plugin
+#: ajax-search-for-woocommerce.php
+msgid ""
+"The most popular WooCommerce product search. Gives your users a well-"
+"designed advanced AJAX search bar with live search suggestions."
+msgstr ""
+"Η πιο δημοφιλής αναζήτηση προϊόντων WooCommerce. Παρέχει στους χρήστες σας "
+"μια καλά σχεδιασμένη προηγμένη γραμμή αναζήτησης AJAX με ζωντανές προτάσεις "
+"αναζήτησης."
+
+#: includes/Admin/Troubleshooting.php:1441
+msgid "The MySQL server has the InnoDB engine turned off"
+msgstr "Ο διακομιστής MySQL έχει απενεργοποιήσει τη μηχανή InnoDB"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Scheduler.php:285
+msgid "the next index rebuild: %s"
+msgstr "η επόμενη αναδημιουργία ευρετηρίου: %s"
+
+#: includes/Admin/Troubleshooting.php:2205
+msgid "The report will be sent via mail to %s."
+msgstr "Η έκθεση θα αποσταλεί μέσω ηλεκτρονικού ταχυδρομείου στη διεύθυνση %s."
+
+#: includes/Admin/Troubleshooting.php:1526
+msgid "The search analytics module significantly expands the database"
+msgstr "Η ενότητα ανάλυσης αναζήτησης επεκτείνει σημαντικά τη βάση δεδομένων"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:808
+msgid "The search index could not be built."
+msgstr "Το ευρετήριο αναζήτησης δεν μπόρεσε να δημιουργηθεί."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:814
+#: partials/admin/indexer-header-demo.php:11
+msgid "The search index does not exist yet. Build it now."
+msgstr "Το ευρετήριο αναζήτησης δεν υπάρχει ακόμα. Φτιάξτε το τώρα."
+
+#: includes/Admin/Troubleshooting.php:1144
+msgid "The search index structure isn't complete"
+msgstr "Η δομή του ευρετηρίου αναζήτησης δεν είναι πλήρης"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:802
+msgid ""
+"The search index was built successfully, but some non-critical errors "
+"occurred."
+msgstr ""
+"Το ευρετήριο αναζήτησης δημιουργήθηκε με επιτυχία, αλλά εμφανίστηκαν "
+"ορισμένα μη κρίσιμα σφάλματα."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:800
+msgid "The search index was built successfully."
+msgstr "Το ευρετήριο αναζήτησης δημιουργήθηκε με επιτυχία."
+
+#: includes/Admin/Troubleshooting.php:1324
+msgid ""
+"The search index was built, but some significant errors occurred during this "
+"process. There is a risk that some products may not be available during the "
+"search."
+msgstr ""
+"Το ευρετήριο αναζήτησης κατασκευάστηκε, αλλά κατά τη διαδικασία αυτή "
+"προέκυψαν ορισμένα σημαντικά σφάλματα. Υπάρχει κίνδυνος κάποια προϊόντα να "
+"μην είναι διαθέσιμα κατά την αναζήτηση."
+
+#: includes/Admin/Troubleshooting.php:1879
+msgid ""
+"The search uses a dedicated URL to make queries. In your case, this URL is "
+"blocked for some reason. Visit it directly in your browser:"
+msgstr ""
+"Η αναζήτηση χρησιμοποιεί μια ειδική διεύθυνση URL για την πραγματοποίηση "
+"ερωτημάτων. Στην περίπτωσή σας, αυτή η διεύθυνση URL είναι μπλοκαρισμένη για "
+"κάποιο λόγο. Επισκεφτείτε την απευθείας στο πρόγραμμα περιήγησής σας:"
+
+#: includes/Settings.php:335
+msgid "The search will open as an overlay on mobile"
+msgstr "Η αναζήτηση θα ανοίξει ως επικάλυψη στα κινητά τηλέφωνα"
+
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:196 src/blocks/search/edit.js:174
+msgid "The search will open in overlay on mobile"
+msgstr "Η αναζήτηση θα ανοίξει σε επικάλυψη στο κινητό"
+
+#: includes/Admin/Troubleshooting.php:1876
+msgid ""
+"The server returns an incorrect response for the search engine's AJAX calls"
+msgstr ""
+"Ο διακομιστής επιστρέφει εσφαλμένη απάντηση για τις κλήσεις AJAX της μηχανής "
+"αναζήτησης"
+
+#: includes/Settings.php:688
+msgid ""
+"The synonyms feature allows your users to find more relevant results. If "
+"your products have alternative names and users often misspell them, consider "
+"adding synonyms. <a target=\"_blank\" href=\"%s\">Read more</a> about this "
+"feature."
+msgstr ""
+"Η λειτουργία συνωνύμων επιτρέπει στους χρήστες σας να βρίσκουν πιο συναφή "
+"αποτελέσματα. Εάν τα προϊόντα σας έχουν εναλλακτικές ονομασίες και οι "
+"χρήστες τις γράφουν συχνά λάθος, σκεφτείτε να προσθέσετε συνώνυμα. <a "
+"target=\"_blank\" href=\"%s\">Διαβάστε περισσότερα</a> σχετικά με αυτή τη "
+"λειτουργία."
+
+#: includes/Engines/TNTSearchMySQL/TNTSearch.php:633
+msgid ""
+"The updating of objects in the search index should be performed at the "
+"earliest on the action \"init\" with priority 11."
+msgstr ""
+"Η ενημέρωση των αντικειμένων στο ευρετήριο αναζήτησης θα πρέπει να "
+"πραγματοποιείται το νωρίτερο στην ενέργεια \"init\" με προτεραιότητα 11."
+
+#: partials/admin/how-to-use.php:16
+msgid "There are %s easy ways to display the search bar in your theme"
+msgstr ""
+"Υπάρχουν %s εύκολοι τρόποι για να εμφανίσετε τη γραμμή αναζήτησης στο θέμα "
+"σας"
+
+#: includes/Admin/Troubleshooting.php:2206
+msgctxt ""
+"There are links. The first: \"the content of the report\" and second \"the "
+"logs\"."
+msgid "You can preview %s and %s that will be sent as an attachment."
+msgstr ""
+"Μπορείτε να κάνετε προεπισκόπηση των %s και %s που θα αποσταλούν ως "
+"συνημμένο."
+
+#: partials/admin/stats/stats.php:61
+msgid ""
+"There are several ways to solve these problems. Every phrase may require a "
+"different approach. See what methods you could use:"
+msgstr ""
+"Υπάρχουν διάφοροι τρόποι επίλυσης αυτών των προβλημάτων. Κάθε φράση μπορεί "
+"να απαιτεί διαφορετική προσέγγιση. Δείτε ποιες μεθόδους θα μπορούσατε να "
+"χρησιμοποιήσετε:"
+
+#: partials/themes/flatsome.php:262
+msgid "There is a conflict between Flatsome theme settings and our plugin"
+msgstr ""
+"Υπάρχει σύγκρουση μεταξύ των ρυθμίσεων του θέματος Flatsome και του plugin "
+"μας"
+
+#: includes/Admin/Troubleshooting.php:1640
+msgid ""
+"There is a problem with the visibility of products with “Out of stock“ status"
+msgstr ""
+"Υπάρχει πρόβλημα με την ορατότητα των προϊόντων με κατάσταση \"Δεν υπάρχει "
+"απόθεμα\""
+
+#: partials/themes/flatsome.php:263
+msgid ""
+"There is a rare combination of <b>FiboSearch</b> and <b>Flatsome</b> "
+"settings that might cause issues when adding a product to the cart from the "
+"autocomplete search results. Unfortunately, you have this combination. You "
+"can't use <b>Off-Canvas Sidebar</b> as <b>Cart Style (Flatsome)</b>, <b>"
+"Search Icon Type</b> as <b>Search Icon Type (Flatsome)</b>, and <b>Details "
+"Panel (FiboSearch)</b> at the same time. The solution is to resign from one "
+"of these options."
+msgstr ""
+"Υπάρχει ένας σπάνιος συνδυασμός των ρυθμίσεων <b>FiboSearch</b> και <b>"
+"Flatsome</b> που μπορεί να προκαλέσει προβλήματα κατά την προσθήκη ενός "
+"προϊόντος στο καλάθι από τα αποτελέσματα της αυτόματης συμπλήρωσης "
+"αναζήτησης. Δυστυχώς, έχετε αυτόν τον συνδυασμό. Δεν μπορείτε να "
+"χρησιμοποιήσετε το <b>Off-Canvas Sidebar</b> ως <b>Στυλ καλαθιού (Flatsome)"
+"</b>, το <b>Τύπος εικονιδίου αναζήτησης</b> ως <b>Τύπος εικονιδίου "
+"αναζήτησης (Flatsome)</b> και το <b>Πίνακας λεπτομερειών (FiboSearch)</b> "
+"ταυτόχρονα. Η λύση είναι να παραιτηθείτε από μία από αυτές τις επιλογές."
+
+#: includes/Admin/Troubleshooting.php:812
+msgid ""
+"There is no correct template in the Elementor Theme Builder for the "
+"WooCommerce search results page."
+msgstr ""
+"Δεν υπάρχει σωστό πρότυπο στο Elementor Theme Builder για τη σελίδα "
+"αποτελεσμάτων αναζήτησης του WooCommerce."
+
+#: includes/Analytics/Widget.php:141 partials/admin/stats/stats.php:15
+msgid "These phrases don`t return any search results. It's time to fix it."
+msgstr ""
+"Αυτές οι φράσεις δεν επιστρέφουν κανένα αποτέλεσμα αναζήτησης. Ήρθε η ώρα να "
+"το διορθώσετε."
+
+#: includes/Analytics/Widget.php:139 partials/admin/stats/stats.php:13
+msgid "These phrases have been typed by users over the last 1 day."
+msgid_plural "These phrases have been typed by users over the last %d days."
+msgstr[0] ""
+"Αυτές οι φράσεις έχουν πληκτρολογηθεί από χρήστες κατά τη διάρκεια της "
+"τελευταίας 1 ημέρας."
+msgstr[1] ""
+"Αυτές οι φράσεις έχουν πληκτρολογηθεί από χρήστες τις τελευταίες %d ημέρες."
+
+#: includes/Admin/Troubleshooting.php:1883
+msgid ""
+"Think about what can block the execution of PHP scripts inside <code>wp-"
+"content</code> or <code>wp-content/plugins</code> directory. Maybe you use "
+"some security plugins or you have custom code that may block it."
+msgstr ""
+"Σκεφτείτε τι μπορεί να μπλοκάρει την εκτέλεση των σεναρίων PHP μέσα στον "
+"κατάλογο <code>wp-content</code> ή <code>wp-content/plugins</code>. Ίσως "
+"χρησιμοποιείτε κάποια πρόσθετα ασφαλείας ή έχετε προσαρμοσμένο κώδικα που "
+"μπορεί να το μπλοκάρει."
+
+#: includes/Admin/Troubleshooting.php:485
+msgid ""
+"This issue may affect the building of the search index. The indexer may be "
+"stuck at 0%."
+msgstr ""
+"Αυτό το ζήτημα μπορεί να επηρεάσει τη δημιουργία του ευρετηρίου αναζήτησης. "
+"Ο δείκτης μπορεί να κολλήσει στο 0%."
+
+#: includes/Helpers.php:1234
+msgid ""
+"This option is <b>overridden</b> by the seamless integration with the %s "
+"theme. If you want to change the value of this option, disable the "
+"integration in <br /><b>WooCommerce -> FiboSearch -> Starting (tab)</b>."
+msgstr ""
+"Αυτή η επιλογή <b>αντικαθίσταται</b> από την απρόσκοπτη ενσωμάτωση με το "
+"θέμα %s. Αν θέλετε να αλλάξετε την τιμή αυτής της επιλογής, απενεργοποιήστε "
+"την ενσωμάτωση στο <br /><b>WooCommerce -> FiboSearch -> Έναρξη (καρτέλα)</b>"
+"."
+
+#: includes/Analytics/UserInterface.php:484
+msgid ""
+"This phrase has been resolved! This row will disappear after refreshing the "
+"page."
+msgstr ""
+"Αυτή η φράση έχει επιλυθεί! Αυτή η σειρά θα εξαφανιστεί μετά την ανανέωση "
+"της σελίδας."
+
+#: includes/Analytics/UserInterface.php:434
+msgid "This phrase returns some results."
+msgstr "Αυτή η φράση επιστρέφει μερικά αποτελέσματα."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:782
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:788
+msgid "This process will continue in the background. You can leave this page!"
+msgstr ""
+"Αυτή η διαδικασία θα συνεχιστεί στο παρασκήνιο. Μπορείτε να εγκαταλείψετε "
+"αυτή τη σελίδα!"
+
+#: includes/Integrations/Plugins/Elementor/PostsWidget.php:93
+msgid ""
+"This widget displays relevant posts or pages. Learn more in our <a "
+"target=\"_blank\" href=\"%s\">documentation</a>."
+msgstr ""
+"Αυτό το widget εμφανίζει σχετικές αναρτήσεις ή σελίδες. Μάθετε περισσότερα "
+"στο <a target=\"_blank\" href=\"%s\">εγχειρίδιο τεκμηρίωσης</a>."
+
+#: partials/admin/indexer-body.php:81 partials/admin/indexer-body.php:104
+#: partials/admin/indexer-body.php:129
+msgid "Time"
+msgstr "Χρόνος"
+
+#: widget.php:31
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/Admin/Troubleshooting.php:1683
+msgid ""
+"To address the slow SQL query issue, you need to disable it using the "
+"following filter:"
+msgstr ""
+"Για να αντιμετωπίσετε το πρόβλημα του αργού ερωτήματος SQL, πρέπει να το "
+"απενεργοποιήσετε χρησιμοποιώντας το ακόλουθο φίλτρο:"
+
+#: includes/Settings.php:253
+msgid "To display the magnifier icon leave this field empty."
+msgstr ""
+"Για την εμφάνιση του εικονιδίου μεγεθυντικού φακού αφήστε αυτό το πεδίο κενό."
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:29
+msgid ""
+"To replace the search bar you have to enable the \"Predictive Search\" "
+"option in the Shopkeeper settings."
+msgstr ""
+"Για να αντικαταστήσετε τη γραμμή αναζήτησης πρέπει να ενεργοποιήσετε την "
+"επιλογή \"Προβλεπτική αναζήτηση\" στις ρυθμίσεις του Shopkeeper."
+
+#: includes/Settings.php:239
+msgid "To set 100% width leave blank"
+msgstr "Για να ορίσετε πλάτος 100% αφήστε το κενό"
+
+#: partials/admin/stats/stats.php:133
+msgid "Top searches - autocomplete"
+msgstr "Κορυφαίες αναζητήσεις - αυτόματη συμπλήρωση"
+
+#: partials/admin/stats/stats.php:186
+msgid "Top searches - WooCommerce search results page"
+msgstr ""
+"Κορυφαίες αναζητήσεις - Σελίδα αποτελεσμάτων αναζήτησης του WooCommerce"
+
+#: partials/admin/stats/stats.php:88 partials/admin/stats/stats.php:99
+msgid "Total searches"
+msgstr "Συνολικές αναζητήσεις"
+
+#: includes/Admin/Troubleshooting.php:1643
+msgid ""
+"Total “out of stock“ products calculated by SQL query on <code>%s</code> and "
+"<code>%s</code>: <b>%d</b>"
+msgstr ""
+"Συνολικά προϊόντα \"εκτός αποθέματος\" που υπολογίζονται από ερώτημα SQL στα "
+"<code>%s</code> και <code>%s</code>: <b>%d</b>"
+
+#: includes/Admin/Troubleshooting.php:1644
+msgid ""
+"Total “out of stock“ products calculated by SQL query on <code>%s</code>: <b>"
+"%d</b>"
+msgstr ""
+"Σύνολο προϊόντων \"εκτός αποθέματος\" που υπολογίστηκε από SQL ερώτημα στο "
+"<code>%s</code>: <b>%d</b>"
+
+#: includes/Admin/Troubleshooting.php:2316
+msgid "TranslatePress"
+msgstr "TranslatePress"
+
+#: includes/Admin/Troubleshooting.php:71 includes/Admin/Troubleshooting.php:90
+#: partials/admin/indexer-header.php:40
+msgid "Troubleshooting"
+msgstr "Αντιμετώπιση προβλημάτων"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:868
+msgid "Try to rebuild the index"
+msgstr "Προσπαθήστε να ξαναχτίσετε το ευρετήριο"
+
+#: includes/Admin/Troubleshooting.php:1678
+msgid "Unable to list custom fields in the \"Search in Custom Fields: option."
+msgstr ""
+"Δεν είναι δυνατή η απαρίθμηση προσαρμοσμένων πεδίων στην επιλογή \"Αναζήτηση "
+"σε προσαρμοσμένα πεδία:\"."
+
+#: includes/Admin/Troubleshooting.php:994
+msgid ""
+"Uncheck the option <code>Disable PHP in Plugins</code>. Save settings. Right "
+"after that <b>check this option again</b> and save the settings one more "
+"time."
+msgstr ""
+"Απενεργοποιήστε την επιλογή <code>Απενεργοποίηση της PHP στα πρόσθετα</code>."
+" Αποθηκεύστε τις ρυθμίσεις. Αμέσως μετά <b>επιλέξτε ξανά αυτή την επιλογή</b>"
+" και αποθηκεύστε τις ρυθμίσεις άλλη μια φορά."
+
+#: includes/Admin/Troubleshooting.php:867
+msgid "Unsupported plugin versions"
+msgstr "Μη υποστηριζόμενες εκδόσεις πρόσθετων"
+
+#: includes/Admin/Troubleshooting.php:842
+msgid "Unsupported theme version"
+msgstr "Μη υποστηριζόμενη έκδοση θέματος"
+
+#: partials/admin/features.php:16
+msgid ""
+"Update now and boost your sales. You will receive a <b>30-day satisfaction "
+"guarantee</b>.  A return on investment will come very quickly."
+msgstr ""
+"Ενημερώστε τώρα και ενισχύστε τις πωλήσεις σας. Θα λάβετε εγγύηση "
+"ικανοποίησης <b>30 ημερών</b>.  Η απόδοση της επένδυσης θα έρθει πολύ "
+"γρήγορα."
+
+#: includes/Admin/Promo/Upgrade.php:58
+msgid ""
+"Update now and increase your sales. You will receive a 30-day satisfaction "
+"guarantee.  A return on investment will come very quickly."
+msgstr ""
+"Ενημερώστε τώρα και αυξήστε τις πωλήσεις σας. Θα λάβετε εγγύηση ικανοποίησης "
+"30 ημερών.  Η απόδοση της επένδυσης θα έρθει πολύ γρήγορα."
+
+#: includes/Admin/Promo/Upgrade.php:65
+msgid "Upgrade Now"
+msgstr "Αναβάθμιση τώρα"
+
+#: partials/admin/features.php:33
+msgid "Upgrade Now!"
+msgstr "Αναβαθμίστε τώρα!"
+
+#: includes/Settings.php:408
+msgid "Upload preloader image"
+msgstr "Ανέβασμα εικόνας preloader"
+
+#: includes/Settings.php:552
+msgid "User search history"
+msgstr "Ιστορικό αναζήτησης χρήστη"
+
+#: partials/admin/how-to-use.php:23
+msgid "Using a shortcode - %s"
+msgstr "Χρήση ενός σύντομου κωδικού - %s"
+
+#: partials/admin/how-to-use.php:25
+msgid "Using PHP - %s"
+msgstr "Χρήση PHP - %s"
+
+#: includes/Admin/Troubleshooting.php:2414
+msgid "Valid search results test"
+msgstr "Δοκιμή έγκυρων αποτελεσμάτων αναζήτησης"
+
+#: includes/Helpers.php:1336
+msgid "Vendor"
+msgstr "Προμηθευτής"
+
+#: includes/Helpers.php:1337
+msgid "Vendors"
+msgstr "Προμηθευτές"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:787
+msgid "Wait... Indexing in progress"
+msgstr "Περίμενε... Ευρετηρίαση σε εξέλιξη"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:781
+msgid "Wait... Preparing indexing in progress"
+msgstr "Περίμενε... Προετοιμασία ευρετηρίασης σε εξέλιξη"
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:793
+msgid "Wait... The index build process is canceling"
+msgstr "Περίμενε... Η διαδικασία δημιουργίας του ευρετηρίου ακυρώνεται"
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:35
+msgid "Warning!"
+msgstr "Προειδοποίηση!"
+
+#: partials/admin/stats/stats.php:246
+msgid "Warning:"
+msgstr "Προειδοποίηση:"
+
+#: includes/Admin/Troubleshooting.php:1529
+msgid "We have 3 solutions for this situation:"
+msgstr "Έχουμε 3 λύσεις για αυτή την κατάσταση:"
+
+#: includes/Admin/Troubleshooting.php:868
+msgid ""
+"We have detected that you are using plugins that we integrate with, but in "
+"versions that we do not support:"
+msgstr ""
+"Εντοπίσαμε ότι χρησιμοποιείτε πρόσθετα που ενσωματώνουμε, αλλά σε εκδόσεις "
+"που δεν υποστηρίζουμε:"
+
+#: includes/Admin/Troubleshooting.php:2248
+msgid ""
+"We have detected that you are using WP Engine hosting, and for performance "
+"reasons WP Engine <a href=\"%s\" target=\"_blank\">limits the length of "
+"database queries</a>, which may have a negative impact on the way our search "
+"engine works. This may manifest as some products are missing from the search "
+"results or the search results page is empty. We recommend disabling this "
+"database query limiting mechanism to ensure that the search engine works "
+"properly."
+msgstr ""
+"Εντοπίσαμε ότι χρησιμοποιείτε τη φιλοξενία WP Engine και για λόγους απόδοσης "
+"η WP Engine <a href=\"%s\" target=\"_blank\">περιορίζει το μήκος των "
+"ερωτημάτων βάσης δεδομένων</a>, γεγονός που μπορεί να έχει αρνητικό "
+"αντίκτυπο στον τρόπο λειτουργίας της μηχανής αναζήτησης. Αυτό μπορεί να "
+"εκδηλωθεί ως το ότι ορισμένα προϊόντα λείπουν από τα αποτελέσματα αναζήτησης "
+"ή ότι η σελίδα αποτελεσμάτων αναζήτησης είναι κενή. Συνιστούμε να "
+"απενεργοποιήσετε αυτόν τον μηχανισμό περιορισμού των ερωτημάτων βάσης "
+"δεδομένων για να διασφαλίσετε ότι η μηχανή αναζήτησης λειτουργεί σωστά."
+
+#: includes/Admin/Troubleshooting.php:1679
+msgid ""
+"We have identified slow MySQL query execution when fetching custom fields "
+"for the \"Search in custom fields\" option in the Search Config settings."
+msgstr ""
+"Εντοπίσαμε αργή εκτέλεση ερωτημάτων MySQL κατά την ανάκτηση προσαρμοσμένων "
+"πεδίων για την επιλογή \"Αναζήτηση σε προσαρμοσμένα πεδία\" στις ρυθμίσεις "
+"Διαμόρφωση αναζήτησης."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:833
+msgid "We have some good news!"
+msgstr "Έχουμε καλά νέα!"
+
+#: includes/Admin/Troubleshooting.php:2047
+msgid ""
+"We recommend contacting your hosting provider and asking them to check <code>"
+"%s</code> file(s) on your server."
+msgstr ""
+"Συνιστούμε να επικοινωνήσετε με τον πάροχο φιλοξενίας σας και να του "
+"ζητήσετε να ελέγξει τα αρχεία <code>%s</code> στον διακομιστή σας."
+
+#: includes/Integrations/Marketplace/Marketplace.php:179
+msgid "We support this plugin."
+msgstr "Υποστηρίζουμε αυτό το πρόσθετο."
+
+#: partials/admin/embedding-in-theme.php:23
+msgid ""
+"We support this theme so you can easily replace all default search bars."
+msgstr ""
+"Υποστηρίζουμε αυτό το θέμα, ώστε να μπορείτε εύκολα να αντικαταστήσετε όλες "
+"τις προεπιλεγμένες μπάρες αναζήτησης."
+
+#: includes/Admin/Troubleshooting.php:1568
+msgid ""
+"We've detected that some plugin folders have a different name than we expect "
+"in order for our integration with them to work properly"
+msgstr ""
+"Εντοπίσαμε ότι ορισμένοι φάκελοι πρόσθετων έχουν διαφορετικό όνομα από αυτό "
+"που περιμένουμε, προκειμένου να λειτουργήσει σωστά η ενσωμάτωσή μας με αυτά"
+
+#: includes/Admin/Troubleshooting.php:1641
+msgid ""
+"We've detected that some products with a status “Out of Stock“ may have "
+"something wrong with relationships in the database. It affects visibility of "
+"products in the search engine. This error is often the result of migrating "
+"from a different WordPress."
+msgstr ""
+"Εντοπίσαμε ότι ορισμένα προϊόντα με κατάσταση \"Δεν υπάρχει απόθεμα\" μπορεί "
+"να έχουν κάποιο πρόβλημα με τις σχέσεις στη βάση δεδομένων. Αυτό επηρεάζει "
+"την ορατότητα των προϊόντων στη μηχανή αναζήτησης. Αυτό το σφάλμα είναι "
+"συχνά το αποτέλεσμα της μετάβασης από ένα διαφορετικό WordPress."
+
+#: includes/Settings.php:759
+msgid "weekly"
+msgstr "εβδομαδιαία"
+
+#: includes/Admin/Troubleshooting.php:843
+msgid ""
+"We’ve detected that you’re using the %1$s theme, which we support, but your "
+"current version (%2$s) is not compatible with our integration. To activate "
+"and use our integration properly, please update the theme to at least "
+"version %3$s."
+msgstr ""
+"Εντοπίσαμε ότι χρησιμοποιείτε το θέμα %1$s, το οποίο υποστηρίζουμε, αλλά η "
+"τρέχουσα έκδοσή σας (%2$s) δεν είναι συμβατή με την ενσωμάτωσή μας. Για να "
+"ενεργοποιήσετε και να χρησιμοποιήσετε σωστά την ενσωμάτωσή μας, ενημερώστε "
+"το θέμα τουλάχιστον στην έκδοση %3$s."
+
+#: includes/Admin/Troubleshooting.php:1878
+msgid "What's wrong?"
+msgstr "Τι συμβαίνει"
+
+#: includes/Admin/Troubleshooting.php:2172
+msgctxt ""
+"Whole phrase: If you do not want to receive such notifications, you can "
+"{DISMISS} them."
+msgid "dismiss"
+msgstr "απορρίψτε το"
+
+#: partials/admin/how-to-use.php:24
+msgid "Widgets Screen"
+msgstr "Οθόνη Widgets"
+
+#: includes/Settings.php:162
+msgid "with simple tricks"
+msgstr "με απλά κόλπα"
+
+#: includes/Admin/Troubleshooting.php:2344
+msgid "WooCommerce Multilingual"
+msgstr "Πολυγλωσσικό WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:1217
+msgid "WooCommerce Multilingual plugin is enabled but not effective"
+msgstr ""
+"Το WooCommerce Multilingual plugin είναι ενεργοποιημένο αλλά δεν είναι "
+"αποτελεσματικό"
+
+#: includes/Admin/Troubleshooting.php:2324
+msgid "WordPress loading problem"
+msgstr "Πρόβλημα φόρτωσης WordPress"
+
+#: includes/Admin/Troubleshooting.php:546
+#: includes/Admin/Troubleshooting.php:2265
+msgid "WordPress version"
+msgstr "Έκδοση WordPress"
+
+#: includes/Admin/Troubleshooting.php:2399
+msgid "WP Engine query limit"
+msgstr "Όριο ερωτημάτων WP Engine"
+
+#: includes/Admin/Troubleshooting.php:2349
+msgid "WPML with disabled translations for products"
+msgstr "WPML με μεταφράσεις με ειδικές ανάγκες για προϊόντα"
+
+#: includes/Integrations/Marketplace/Marketplace.php:178
+msgid "You are using %s plugin version %s"
+msgstr "Χρησιμοποιείτε την έκδοση %s του πρόσθετου %s"
+
+#: includes/Admin/Troubleshooting.php:813
+msgid ""
+"You are using Elementor and we noticed that the template used in the search "
+"results page titled <strong>%s</strong> does not include the <strong>Archive "
+"Products</strong> widget."
+msgstr ""
+"Χρησιμοποιείτε το Elementor και παρατηρήσαμε ότι το πρότυπο που "
+"χρησιμοποιείται στη σελίδα αποτελεσμάτων αναζήτησης με τίτλο <strong>"
+"%s</strong> δεν περιλαμβάνει το widget <strong>Archive Products</strong>."
+
+#: includes/Admin/Troubleshooting.php:359
+msgid "You are using one or more incompatible plugins"
+msgstr "Χρησιμοποιείτε ένα ή περισσότερα ασύμβατα plugins"
+
+#: includes/Admin/Troubleshooting.php:1291
+msgid ""
+"You are using Polylang, but you have the product translations disabled, so "
+"for the search engine to function properly, you must disable its multi-"
+"language support feature."
+msgstr ""
+"Χρησιμοποιείτε την Polylang, αλλά έχετε απενεργοποιήσει τις μεταφράσεις του "
+"προϊόντος, οπότε για να λειτουργήσει σωστά η μηχανή αναζήτησης, πρέπει να "
+"απενεργοποιήσετε τη λειτουργία υποστήριξης πολλαπλών γλωσσών."
+
+#: includes/Admin/Troubleshooting.php:370
+#: includes/Admin/Troubleshooting.php:374
+msgid "You are using the %s plugin. The %s does not support this plugin."
+msgstr "Χρησιμοποιείτε το πρόσθετο %s. Το %s δεν υποστηρίζει αυτό το πρόσθετο."
+
+#: partials/admin/embedding-in-theme.php:22
+msgid "You are using the <b>%s</b> theme%s. Fantastic!"
+msgstr "Χρησιμοποιείτε το θέμα <b>%s</b> theme%s. Φανταστικό!"
+
+#: includes/Admin/Troubleshooting.php:1375
+msgid ""
+"You are using the multilingual plugin, but one or more of the language codes "
+"have the wrong format. This needs to be corrected or the index will not be "
+"able to build properly."
+msgstr ""
+"Χρησιμοποιείτε το πολύγλωσσο πρόσθετο, αλλά ένας ή περισσότεροι από τους "
+"κωδικούς γλώσσας έχουν λανθασμένη μορφή. Αυτό πρέπει να διορθωθεί, αλλιώς το "
+"ευρετήριο δεν θα μπορεί να δημιουργηθεί σωστά."
+
+#: includes/Admin/Troubleshooting.php:1218
+msgid ""
+"You are using the WPML Multilingual CMS and WooCommerce Multilingual plugins,"
+" but the latter requires action to be fully functional. Check <a href=\"%s\" "
+"target=\"_blank\">WooCommerce Multilingual status</a>."
+msgstr ""
+"Χρησιμοποιείτε τα πρόσθετα WPML Multilingual CMS και WooCommerce "
+"Multilingual, αλλά το τελευταίο απαιτεί δράση για να είναι πλήρως "
+"λειτουργικό. Ελέγξτε την κατάσταση του <a href=\"%s\" target=\"_blank\">"
+"WooCommerce Multilingual status</a>."
+
+#: includes/Admin/Troubleshooting.php:1213
+msgid ""
+"You are using the WPML Multilingual CMS plugin and to correctly search for "
+"products in multiple languages, you must also install the <a href=\"%s\" "
+"target=\"_blank\">WooCommerce Multilingual</a> plugin."
+msgstr ""
+"Χρησιμοποιείτε το πρόσθετο WPML Multilingual CMS και για να αναζητήσετε "
+"σωστά προϊόντα σε πολλές γλώσσες, πρέπει επίσης να εγκαταστήσετε το πρόσθετο "
+"<a href=\"%s\" target=\"_blank\">WooCommerce Multilingual</a>."
+
+#: includes/Admin/Troubleshooting.php:409
+msgid "You are using TranslatePress with Free version of our plugin"
+msgstr "Χρησιμοποιείτε το TranslatePress με την δωρεάν έκδοση του plugin μας"
+
+#: includes/Admin/Troubleshooting.php:1257
+msgid ""
+"You are using WPML Multilingual CMS, but you have product translations "
+"disabled, so for the search engine to function properly, you must disable "
+"its multi-language support feature."
+msgstr ""
+"Χρησιμοποιείτε το πολυγλωσσικό CMS WPML, αλλά έχετε απενεργοποιήσει τις "
+"μεταφράσεις προϊόντων, οπότε για να λειτουργήσει σωστά η μηχανή αναζήτησης, "
+"πρέπει να απενεργοποιήσετε τη λειτουργία υποστήριξης πολλαπλών γλωσσών."
+
+#: includes/Admin/Troubleshooting.php:937
+msgid "You can do it by clicking %s or use an external plugin such as %s."
+msgstr ""
+"Μπορείτε να το κάνετε κάνοντας κλικ στο %s ή να χρησιμοποιήσετε ένα "
+"εξωτερικό πρόσθετο όπως το %s."
+
+#: includes/Admin/Troubleshooting.php:1645
+msgid "You can fix it by clicking on this button: %s"
+msgstr "Μπορείτε να το διορθώσετε κάνοντας κλικ σε αυτό το κουμπί: %s"
+
+#: includes/Admin/Troubleshooting.php:1689
+msgid ""
+"You can manually specify the custom fields to be used in the \"Search in "
+"Custom Fields: option."
+msgstr ""
+"Μπορείτε να καθορίσετε χειροκίνητα τα προσαρμοσμένα πεδία που θα "
+"χρησιμοποιηθούν στην επιλογή \"Αναζήτηση σε προσαρμοσμένα πεδία:\"."
+
+#: includes/Admin/Troubleshooting.php:1096
+msgid ""
+"You can run these actions manually via Advanced Cron Manager. Then the "
+"Indexer should run. If the index gets stuck again, run these actions "
+"manually one more time until the finished index."
+msgstr ""
+"Μπορείτε να εκτελέσετε αυτές τις ενέργειες χειροκίνητα μέσω του Advanced "
+"Cron Manager. Στη συνέχεια, ο δείκτης θα πρέπει να εκτελεστεί. Εάν το "
+"ευρετήριο κολλήσει ξανά, εκτελέστε αυτές τις ενέργειες χειροκίνητα άλλη μια "
+"φορά μέχρι να ολοκληρωθεί το ευρετήριο."
+
+#: includes/Admin/Troubleshooting.php:1480
+msgid "You have activated the alternative search endpoint"
+msgstr "Έχετε ενεργοποιήσει το τελικό σημείο εναλλακτικής αναζήτησης"
+
+#. Translators: %s PHP constant name.
+#: partials/admin/stats/stats.php:249
+msgid ""
+"You have defined %s constant and it's set to <code>true</code>. It means "
+"only critical searches will be stored in the database. Other modules than "
+"Critical Searches are not visible in this mode."
+msgstr ""
+"Έχετε ορίσει τη σταθερά %s και έχει οριστεί σε <code>true</code>. Αυτό "
+"σημαίνει ότι μόνο οι κρίσιμες αναζητήσεις θα αποθηκεύονται στη βάση "
+"δεδομένων. Άλλες ενότητες εκτός από τις κρίσιμες αναζητήσεις δεν είναι "
+"ορατές σε αυτή τη λειτουργία."
+
+#: includes/Admin/Troubleshooting.php:1528
+msgid "You have reached <b>%s records</b> in the <code>%s</code> table."
+msgstr "Έχετε φτάσει σε <b>%s εγγραφές</b> στον πίνακα <code>%s</code>."
+
+#: includes/Settings.php:1206
+msgid ""
+"You have selected the <b>Appearance -> Style -> Pirx</b> option. Pirx style "
+"forces a submit button to be enabled. You can find this option a few rows "
+"below. That's why this option is blocked."
+msgstr ""
+"Έχετε επιλέξει την επιλογή <b>Εμφάνιση -> Στυλ -> Pirx</b>. Το στυλ Pirx "
+"επιβάλλει την ενεργοποίηση ενός κουμπιού υποβολής. Μπορείτε να βρείτε αυτή "
+"την επιλογή μερικές σειρές πιο κάτω. Αυτός είναι ο λόγος για τον οποίο αυτή "
+"η επιλογή είναι μπλοκαρισμένη."
+
+#: includes/Admin/Troubleshooting.php:2247
+msgid "You may experience search problems due to your hosting limitations"
+msgstr ""
+"Ενδέχεται να αντιμετωπίσετε προβλήματα αναζήτησης λόγω των περιορισμών της "
+"φιλοξενίας σας"
+
+#: includes/Admin/Troubleshooting.php:2127
+msgid ""
+"You need to log in to your <a href=\"https://login.sucuri.net\" "
+"target=\"_blank\">Sucuri panel</a>."
+msgstr ""
+"Θα πρέπει να συνδεθείτε στον <a href=\"https://login.sucuri.net\" "
+"target=\"_blank\">Πίνακα τουSucuri</a>."
+
+#: includes/Admin/Troubleshooting.php:1881
+msgid ""
+"You should see the <code>pong</code> word as a response. Probably you see "
+"something else."
+msgstr ""
+"Θα πρέπει να δείτε τη λέξη <code>pong</code> ως απάντηση. Πιθανόν να βλέπετε "
+"κάτι άλλο."
+
+#: includes/Admin/Troubleshooting.php:379
+#: includes/Admin/Troubleshooting.php:381
+#: includes/Admin/Troubleshooting.php:387
+#: includes/Admin/Troubleshooting.php:391
+msgid ""
+"You use the %s plugin, which may cause errors in the search results returned "
+"by our plugin."
+msgstr ""
+"Χρησιμοποιείτε το πρόσθετο %s, το οποίο μπορεί να προκαλέσει σφάλματα στα "
+"αποτελέσματα αναζήτησης που επιστρέφει το πρόσθετό μας."
+
+#: includes/Admin/Troubleshooting.php:2202
+msgid ""
+"Your index has been <b>successfully built</b> and your <b>search engine "
+"works properly</b>. However, we’ve noticed that some PHP or MySQL errors "
+"occurred during previous index-building tasks."
+msgstr ""
+"Το ευρετήριό σας έχει <b>κατασκευαστεί επιτυχώς</b> και η <b>μηχανή "
+"αναζήτησης λειτουργεί σωστά</b>. Ωστόσο, παρατηρήσαμε ότι εμφανίστηκαν "
+"κάποια σφάλματα PHP ή MySQL κατά τη διάρκεια προηγούμενων εργασιών "
+"δημιουργίας ευρετηρίου."
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:827
+msgid ""
+"Your search engine does not work optimally because the index hasn't been "
+"built yet."
+msgstr ""
+"Η μηχανή αναζήτησής σας δεν λειτουργεί βέλτιστα επειδή το ευρετήριο δεν έχει "
+"ακόμη δημιουργηθεί."
+
+#: includes/Helpers.php:1350
+msgid "Your search history"
+msgstr "Το ιστορικό των αναζητήσεών σας"
+
+#: includes/Admin/Troubleshooting.php:492
+msgid "Your server can't send an HTTP request to itself"
+msgstr "Ο διακομιστής σας δεν μπορεί να στείλει ένα αίτημα HTTP στον εαυτό του"
+
+#: includes/Admin/Troubleshooting.php:595
+msgid "Your settings should look like the picture below:"
+msgstr "Οι ρυθμίσεις σας θα πρέπει να μοιάζουν με την παρακάτω εικόνα:"
+
+#: includes/Admin/Troubleshooting.php:433
+msgid "Your site can perform loopback requests"
+msgstr "Ο ιστότοπός σας μπορεί να εκτελέσει αιτήσεις loopback"
+
+#: includes/Admin/Troubleshooting.php:482
+msgid "Your site could not complete a loopback request"
+msgstr "Ο ιστότοπός σας δεν μπόρεσε να ολοκληρώσει ένα αίτημα loopback"

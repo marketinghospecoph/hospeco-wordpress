@@ -1,0 +1,19 @@
+{
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes"
+  },
+  "module": {
+    "brands": "brands.innerContent.*",
+    "per_page": "per_page.innerContent.*",
+    "columns": "columns.innerContent.*",
+    "orderby": "orderby.innerContent.*",
+    "order": "order.innerContent.*",
+    "slider": "slider.innerContent.*",
+    "hide_brands": "hide_brands.innerContent.*",
+    "hide_pagination": "hide_pagination.innerContent.*",
+    "hide_labels": "hide_labels.innerContent.*"
+  }
+}

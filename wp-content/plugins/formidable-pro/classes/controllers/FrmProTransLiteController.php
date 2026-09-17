@@ -1,0 +1,66 @@
+<?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+	die( 'You are not allowed to call this page directly.' );
+}
+
+/**
+ * @since 6.8
+ */
+class FrmProTransLiteController {
+
+	/**
+	 * Include embedded form ids in field options for Name / Address customer information settings.
+	 *
+	 * @since 6.8
+	 *
+	 * @param int|int[] $form_id
+	 *
+	 * @return array
+	 */
+	public static function trans_action_get_field_options_form_id( $form_id ) {
+		if ( is_array( $form_id ) ) {
+			return $form_id;
+		}
+
+		$form_ids   = FrmProFormsHelper::get_embedded_form_ids( $form_id );
+		$form_ids[] = absint( $form_id );
+		return $form_ids;
+	}
+
+	/**
+	 * Hide the visibility setting for gateway fields.
+	 *
+	 * @since 6.22.1
+	 *
+	 * @param array $options
+	 *
+	 * @return array
+	 */
+	public static function display_field_options( $options ) {
+		if ( 'gateway' === ( $options['field_data']->type ?? '' ) ) {
+			unset( $options['visibility'] );
+		}
+		return $options;
+	}
+
+	/**
+	 * Allow more than one Stripe or Square action on a form.
+	 *
+	 * Lite caps both gateways at a single action per form because it has no way to keep two of
+	 * them from running on the same submission. Pro adds conditional logic to form actions, so
+	 * the site owner can decide which action runs, and the cap is no longer needed.
+	 *
+	 * Hooked to the 'frm_stripe_action_options' and 'frm_square_action_options' filters.
+	 *
+	 * @since 6.35
+	 *
+	 * @param array $options Action options for the Stripe or Square action control.
+	 *
+	 * @return array
+	 */
+	public static function allow_multiple_gateway_actions( $options ) {
+		$options['limit'] = 99;
+		return $options;
+	}
+}

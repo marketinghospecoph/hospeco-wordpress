@@ -1,0 +1,162 @@
+<?php
+/**
+ * My Library Shortcode
+ *
+ * @package   Ocean_Extra
+ * @category  Core
+ * @author    OceanWP
+ */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+if ( ! class_exists( 'OceanWP_Library_Shortcode' ) ) {
+
+	class OceanWP_Library_Shortcode {
+
+		/**
+		 * Start things up
+		 */
+		public function __construct() {
+			add_shortcode( 'oceanwp_library', array( $this, 'library_shortcode' ) );
+		}
+
+		/**
+		 * Registers the function as a shortcode
+		 */
+		public function library_shortcode( $atts, $content = null ) {
+
+			static $rendering_ids = array();
+
+			// Attributes.
+			$atts = shortcode_atts(
+				array(
+					'id' => '',
+				),
+				$atts,
+				'oceanwp_library'
+			);
+
+			$id = absint( $atts['id'] );
+
+			if ( ! $id ) {
+				return '';
+			}
+
+			$owp_post_type   = get_post_type( $id );
+			$owp_post_status = get_post_status( $id );
+
+			if (
+				'oceanwp_library' !== $owp_post_type
+				|| 'publish' !== $owp_post_status
+			) {
+				return '';
+			}
+
+			/**
+			 * Prevent direct or indirect recursive rendering.
+			 *
+			 * Examples:
+			 * Library A -> Library A
+			 * Library A -> Library B -> Library A
+			 */
+			if ( isset( $rendering_ids[ $id ] ) ) {
+				return '';
+			}
+
+			$rendering_ids[ $id ] = true;
+
+			ob_start();
+
+			// Check if the template is created with Elementor.
+			$elementor = get_post_meta(
+				$id,
+				'_elementor_edit_mode',
+				true
+			);
+
+			// If Elementor.
+			if ( class_exists( 'Elementor\Plugin' ) && $elementor ) {
+
+				echo Elementor\Plugin::instance()
+					->frontend
+					->get_builder_content_for_display( $id );
+
+			}
+
+			// If Beaver Builder.
+			elseif ( class_exists( 'FLBuilder' ) && ! empty( $id ) ) {
+
+				echo do_shortcode(
+					'[fl_builder_insert_layout id="' . esc_attr( $id ) . '"]'
+				);
+
+			}
+
+			// If SiteOrigin.
+			elseif (
+				class_exists( 'SiteOrigin_Panels' )
+				&& get_post_meta( $id, 'panels_data', true )
+			) {
+
+				echo SiteOrigin_Panels::renderer()->render( $id );
+
+			}
+
+			// Else.
+			else {
+
+				$content = '';
+
+				if ( ! empty( $id ) ) {
+
+					$template = get_post( $id );
+
+					if (
+						is_object( $template )
+						&& ! is_wp_error( $template )
+					) {
+						$content = $template->post_content;
+					}
+
+					// If Gutenberg.
+					$is_block_template = (
+						function_exists( 'ocean_is_block_template' )
+						&& ocean_is_block_template( $id )
+					);
+
+					if ( $is_block_template ) {
+						/*
+						 * Process shortcodes from the stored Library template before
+						 * rendering dynamic blocks. This prevents shortcode syntax
+						 * introduced by dynamic block output (for example comments)
+						 * from being executed in a second pass.
+						 */
+						$content = do_shortcode( $content );
+
+						$content = apply_filters(
+							'oe_library_shortcode_template_content',
+							do_blocks( $content )
+						);
+					}
+				}
+
+				// Display template content.
+				if ( ! empty( $content ) ) {
+					echo $is_block_template ? $content : do_shortcode( $content );
+				}
+			}
+
+			$output = ob_get_clean();
+
+			unset( $rendering_ids[ $id ] );
+
+			return $output;
+		}
+
+	}
+
+}
+new OceanWP_Library_Shortcode();

@@ -1,0 +1,251 @@
+*** GTM Kit ***
+
+2026-09-14 - version 2.19.0
+* Fix: A Google tag loading beside your container is no longer reported as duplicate tracking in the dashboard. It is now a notice, since the tag is only counted twice when it also fires inside your container. Two containers, or the same container loaded twice, are still reported as problems.
+* Fix: When settings will not save, the settings screen now tells you why instead of quietly showing your old values again. It names any rejected setting, and on a site with a persistent object cache it names the cache as the likely cause.
+* Fix: Password managers no longer fill in GTM Kit's settings fields. A filled-in value could previously be saved without you typing it, and came back after you removed it.
+* Add: Site Health now checks that GTM Kit's settings can be saved, and shows the error it got back when they cannot.
+* Add: When Google for WooCommerce adds a Google tag beside your container, GTM Kit now names it as the source instead of saying it could not tell.
+* Add: When sending your system data from the Support screen cannot get through, the screen now says so instead of claiming your ticket was not found. With GTM Kit Premium you can then copy the data or download it to email instead.
+* Add: You can now serve the Google tag from your own domain, so ad blockers and browser tracking restrictions interfere less with your measurement. If it stops working, GTM Kit falls back to the standard loader and tells you. It is off by default, and an alternative to your own sGTM container domain.
+* Fix: Event names such as purchase and add_to_cart can no longer be renamed by translations in the settings screens, where they disagreed with the events GTM Kit actually sends.
+* Dev: New `gtmkit_active_cmp` and `gtmkit_cmp_display_name` filters let a site declare a consent platform GTM Kit cannot detect, such as one loaded by the theme or a code snippet, so Site Health stops reporting consent as unconfigured.
+* Add: GTM Kit now points out setups that leave data unmeasured, such as a WooCommerce store with its ecommerce events switched off. At most one such notice appears at a time, and dismissing it keeps it away for 90 days.
+* Fix: The order confirmation page now sends purchase data only to visitors WooCommerce or Easy Digital Downloads would show the order to. Anyone opening a shared or guessed link previously received the order contents, its value and the shopper's details. The buyer's own visit still reports the purchase.
+* Changed: The customer details sent with a purchase now come from the order itself, so they describe the buyer rather than whoever opened the confirmation page.
+* Dev: `WooCommerce::include_customer_data()` now takes the order as its second argument, before the order value, and reads every customer field from it. Code that calls this method directly must pass the order.
+
+2026-08-24 - version 2.18.1
+* Fix: The daily check of your pages now keeps running on schedule on WooCommerce sites. It could previously stop after one run until an administrator next opened wp-admin.
+* Fix: On a site using a Google Tag Manager environment, the fallback for visitors without JavaScript pointed at your live container instead of the environment. It now matches the rest of your setup.
+
+2026-08-24 - version 2.18.0
+* Add: GTM Kit now checks one of your pages once a day and tells you when nothing on your site is loading your container, or when your pages load tracking twice.
+* Add: GTM Kit now reports on itself in WordPress's Site Health, with checks for your container, your consent setup, and what the daily page check found.
+* Add: GTM Kit no longer loads your container on sites WordPress reports as staging, development or local, so test traffic stays out of your analytics.
+* Add: You can now import settings from another Google Tag Manager plugin at any time from the Tools page, not only during setup.
+* Fix: The fallback for visitors who have JavaScript turned off is now added to your pages. It was missing on every placement setting, and you can switch it off under "Container code noscript implementation".
+* Fix: On a block theme, adding a product to the cart from the product page no longer reloads the page.
+* Fix: Importing settings during the setup wizard works again, reads the right customer data setting, and no longer produces an unusable container ID on sites with more than one container.
+* Changed: The footer fallback now sits at the standard WordPress footer position. If you added a body_footer hook to your theme to make that option work, you no longer need it.
+* Changed: GTM Kit now requires WordPress 6.9 or later, and is tested with WordPress 7.1.
+
+2026-08-05 - version 2.17.0
+* Fix: Adding a product from a block product grid on a page that also shows the cart or Mini Cart no longer reports add_to_cart twice. The event also keeps the name of the product list it came from, which was missing from the second, duplicate event.
+* Fix: On block themes, product lists no longer report every view and every add to cart twice. WooCommerce runs the classic product-loop hooks inside its block templates so older plugins keep working, and GTM Kit was responding both there and through its own block tracking, which doubled view_item_list and add_to_cart on shop, category and tag pages. List names are unchanged, so existing reports stay comparable.
+* Changed: GTM Kit is now tested with WooCommerce 11.0. Shop, cart, checkout and purchase tracking were verified against the new release on both classic and block themes.
+* Dev: The plugin's WooCommerce integration is now covered by an automated test suite that runs against a real WooCommerce install, and the suite runs against the oldest supported WordPress and WooCommerce versions as well as the newest. Faults in shop, cart and checkout tracking are caught before release instead of in the browser, and the compatibility stated in the plugin header is verified on every change rather than assumed.
+* Fix: Removing a product from the cart now sends the remove_from_cart event again. The product details attached to the cart's remove link were encoded twice, so the browser could not read them and the event was silently skipped on the classic cart page.
+* Dev: Added a non-blocking continuous-integration check that runs the settings-app test suite against React 19, so the admin interface is verified ahead of WordPress bundling React 19 in a future core release.
+* Add: Sharing system data with the support team now starts a live sync session: while your ticket is open (at most 7 days), saving GTM Kit settings automatically sends the support team a fresh copy of the same data. The Support page shows an indicator while sync is active, and a Stop sharing button ends it immediately.
+* Dev: New `gtmkit_support_sync_config` filter lets developers tune the support sync timings (coalesce delay, session cap, and status-check interval).
+* Add: A new Premium page in the settings screen explains what GTM Kit Premium adds on top of the free plugin, covering server-side tracking, purchase accuracy, consent-safe measurement, forms and subscriptions, and debugging tools, with a link to the documentation behind each point. Cards are ordered to match your site, so a WooCommerce store sees the commerce topics first.
+* Add: The setup wizard now includes a short step introducing GTM Kit Premium, worded for the site it is running on: order tracking for WooCommerce stores, consent handling for sites in the EU and EEA, and a general overview otherwise. The step is informational and one click continues past it.
+* Changed: Customers who already have GTM Kit Woo or GTM Kit Premium no longer see upgrade prompts anywhere. The Premium page and the wizard step are hidden entirely, and settings that need a paid add-on no longer show an upgrade link. Those settings still appear with their Premium label, so you can see what the product includes without being sold something you already own.
+* Dev: Building the settings screen now regenerates the compiled Tailwind stylesheet automatically, so new interface styling can no longer be silently missing from a build.
+
+2026-06-29 - version 2.16.4
+* Dev: The settings screen now ships an sGTM Preview test-send control that GTM Kit Premium registers into the Setup → Environment section, so Premium users can send a server-side webhook event to their server container's Preview/Debug panel.
+* Fix: When the Template Assistant cannot generate a container, the page now shows the reason reported by the server inline (and logs the full detail to the browser console), instead of a generic "Error generating template" message that hid what actually went wrong.
+* Changed: The Event Deferral setting no longer warns about Consent Mode when a consent platform supplies consent through the WP Consent API. The notice now appears only when neither Consent Mode nor the WP Consent API can release deferred events, and its wording names both consent sources instead of implying Consent Mode is required.
+
+2026-06-23 - version 2.16.3
+* Add: The Event Deferral setting now warns when it is switched on while Consent Mode is off, because deferred events have no consent signal to wait on and never release in that state.
+* Fix: The Commerce "Brand" selector now lists your product brand taxonomies again, instead of showing only "(not set)". The redesigned settings screen stopped loading the taxonomy and page lists, so the Brand selector (and other taxonomy- or page-based options) appeared empty regardless of how brands were configured.
+
+2026-06-23 - version 2.16.0
+* Add: The settings screen now uses a redesigned, capability-based interface, organising everything into Setup, Events & data layer, Commerce, Consent & privacy, Tools and more.
+* Fix: The Contact Form 7 "Load JavaScript" setting now shows the recommended choice as selected when the setting has never been saved.
+* Changed: Clarified the Debug log setting description so it reflects that it also logs the server-side webhooks GTM Kit sends, not only the purchase event.
+
+2026-06-12 - version 2.15.0
+* Fix: Security hardening. Links served to the settings interface from remote content (upgrade offers, templates, tutorials) and notifications are now validated before they are used for navigation.
+* Dev: New `gtmkit_settings_registry` filter lets add-ons register their settings fields with the GTM Kit settings screen at runtime. The settings screen now exposes its field registry and related metadata, preparing for GTM Kit's new settings interface.
+
+2026-06-03 - version 2.14.1
+* Fix: WooCommerce block tracking now loads on block (FSE) themes where Cart, Checkout, Mini Cart, Product Collection, or Related Products are rendered from block templates and template parts. Previously the block tracking bundle could fail to load on these sites, so block ecommerce events never fired.
+
+2026-06-02 - version 2.14.0
+* Fix: The Contact Form 7 integration now loads reliably on form pages when "Load JavaScript" is set to the recommended "Only on pages where the Contact Form 7 script is registered" mode, even when a performance plugin (e.g. WP Rocket) defers Contact Form 7's own scripts until shortcode render. Previously the integration could be skipped on legitimate form pages and `gtmkit.CF7MailSent` would not fire.
+* Add: New "Engagement events" settings section emits GA4 standard `login`, `sign_up`, `search`, and `generate_lead` events out of the box. Each event has its own toggle and defaults to on, so customers see the events the moment they upgrade.
+* Add: New developer filters let extensions tag the method (`gtmkit_engagement_event_login_method`, `gtmkit_engagement_event_signup_method`), normalise the search term (`gtmkit_engagement_event_search_term`), assign a lead value (`gtmkit_engagement_event_generate_lead_payload`), rename the handoff cookie (`gtmkit_engagement_event_cookie_name`), veto any event (`gtmkit_engagement_event_should_emit`), or opt custom search templates into the `search` event (`gtmkit_is_search_results_page`).
+* Dev: Prepare the settings and setup-wizard bootstrap for React 19, which WordPress will ship in a future release. No behaviour change under the current React 18.
+* Changed: Rebuilt WooCommerce block tracking on stable data-store APIs. Cart, Checkout, Mini Cart, All Products, Product Collection, Single Product, Related Products, the Cart block cross-sells, and product filter blocks now all emit ecommerce events end to end, including add_to_cart and view_cart from the Mini Cart, list and select tracking for the All Products grid and cart cross-sells, and view_item_list re-fires when a filter or pagination control updates a Product Collection.
+* Add: New `gtmkit_blocks_supported` filter lets developers add custom block names to the list that loads GTM Kit's block tracking, so a custom block wrapping Product Collection can be tracked too.
+* Dev: Raised the minimum WooCommerce version to 10.3 for the new block tracking integration. Sites on earlier WooCommerce continue to receive classic-template tracking unchanged.
+* Dev: Added Vitest and Playwright test harnesses covering the block tracking path, plus PHPUnit coverage for the block detection and Store API extension.
+
+2026-05-26 - version 2.13.1
+* Fix: The "Exclude pages from GTM" feature now also holds back the WooCommerce, Contact Form 7, and Easy Digital Downloads tracking scripts on excluded pages. Previously those add-on scripts could still load on an excluded page and fail, because the core GTM Kit runtime they rely on was withheld there.
+
+2026-05-26 - version 2.13.0
+* Add: New "Exclude pages from GTM" section on the Container settings page lets you list URL patterns where GTM Kit should stay off. Useful for third-party checkout iframes, partner-hosted subpages, or in-app webview routes that have their own tracking.
+* Add: New `window.gtmkit.events.push()` helper now sits in front of every GTM Kit event push, so an add-on can defer consent-sensitive events in the browser without server-side suppression.
+* Changed: The existing `gtmkit_container_active` filter now receives the actual computed container-active value instead of a hardcoded `true`, so callbacks that return the value through unchanged automatically honor the new URL exclusion.
+* Changed: PHP-rendered initial dataLayer content is now emitted through the same client helper, so deferral works the same on full-page-cached and uncached pages.
+
+2026-05-19 - version 2.12.0
+* Fix: Prevent a fatal error on WooCommerce shop and archive pages when another plugin (e.g. WP Grid Builder) re-runs the product loop without a current product in context. GTM Kit now skips its hidden product-data tag instead of crashing the page.
+* Fix: No more "headers already sent" PHP warning when running WP-CLI commands on sites that use the Cookie Keeper option.
+* Add: New welcome modal greets fresh installs on their first GTM Kit admin page and links to the documentation. Existing installs are not interrupted.
+* Add: GTM Kit can now surface launch and upgrade announcements from gtmkit.com without a plugin release.
+* Dev: New `gtmkit_introductions` filter and `Introduction_Interface` contract let add-ons register their own announcement modals via a documented public API.
+
+2026-05-11 - version 2.11.0
+* Add: "Exclude tax" toggle now controls every standard e-commerce event the data layer emits: `view_cart`, `begin_checkout`, `purchase`, variation prices on variable product pages (re-fired `view_item` + `add_to_cart`), and the per-item coupon `discount` field.
+* Fix: Cart, checkout, variation, and coupon-discount events now follow the "Exclude tax" toggle consistently across `value`, `price`, and `discount` fields. The GTM Kit Woo and GTM Kit Premium add-ons extend the fix to refund and order-paid events in their paired releases.
+* Fix: Silence the "translation loading triggered too early" notice that WordPress 6.7+ logs against the `gtm-kit` text domain by registering translations at the very start of `init` before any other code can request a translated string.
+* Fix: Close an edge case where a script-dependency notice could still appear under WordPress 6.9.1+ when a consent or CMP plugin toggled the GTM Kit container active mid-request, by asking the WordPress script registry directly which scripts were actually registered instead of re-evaluating the container gate.
+* Changed: GA4 numbers may move after this update. Stores with prices entered ex-tax and tax-inclusive cart display will see `value` change from ex-tax to inc-tax in cart and checkout events.
+* Dev: New `gtmkit_resolve_tax_mode` and `gtmkit_resolve_item_discount` filters let developers override the toggle programmatically (per-event or per-context) and override the per-item coupon discount calculation.
+* Changed: Minimum required WordPress version is now 6.8 (was 6.7). Sites still on WordPress 6.7 won't get this update via the dashboard until they upgrade WordPress.
+
+2026-05-07 - version 2.10.1
+* Add: New `gtmkit_consent_admin_badges` filter lets add-ons (e.g. Premium's WP Consent API integration) push status banners onto the Consent settings page so users see immediately when a higher-priority consent source has taken over.
+
+2026-05-06 - version 2.10.0
+* Add: New "CMP script attributes" section on the Consent settings page lets you toggle Cookiebot, Iubenda, and CookieYes script-blocking attributes with one click and add a custom attribute for any other CMP — no PHP filters required.
+* Add: Fresh installs auto-detect a known CMP plugin (Cookiebot, Iubenda, CookieYes) and pre-select the matching toggle so the right attribute is on from day one.
+* Changed: The Cookiebot script attribute (`data-cookieconsent="ignore"`) is now configurable via Settings → Consent → CMP script attributes. Existing installs keep the attribute on by default to preserve current behavior; turn it off explicitly if you do not use Cookiebot.
+* Add: New "Script gating" mode on the Consent settings page lets you choose between always loading GTM, letting it load under Consent Mode v2 control, or holding it back entirely until consent is granted. Default stays as "Always load" so existing installs see no change.
+* Add: Strong-block mode masks the Google Tag Manager container until visitors consent. Works alongside any CMP and falls back gracefully when no consent signal arrives.
+* Add: Power users can override which consent categories must be granted before the strong-block mode unmasks GTM via the new `gtmkit_strong_block_required_categories` filter.
+* Dev: `window.gtmkit.consent.state` exposes the current consent state so partner scripts and integrators can inspect it without subscribing to events.
+* Add: New developer hooks let CMP integrations and consent add-ons plug into GTM Kit's consent flow without forking the plugin — sites running Cookiebot, CookieYes, WP Consent API or in-house consent solutions can now feed their state straight into GTM Kit.
+* Add: Server-side broadcast `gtmkit_consent_updated` so other plugins can react to consent state changes without polling.
+* Add: Per-event `gtmkit_event_should_defer` filter so future deferral features can hold individual events back when consent is missing.
+* Fix: Eliminate "dependencies that are not registered: gtmkit-container" warnings logged by WordPress 6.9.1+ on sites that have GTM Kit's container active.
+
+2026-04-29 - version 2.9.0
+* Add: Scope Google Consent Mode defaults to specific countries or regions (e.g. DK, DE, US-CA) instead of applying them everywhere. Useful for sites with visitors both inside and outside the EU.
+* Add: Consent updates from other plugins or partner scripts can now talk to GTM Kit through a simple JavaScript API, making CMP integrations easier.
+* Changed: "Wait For Update" is now a proper number field with a sensible 500 ms default on new installs. Your existing value is kept.
+* Changed: Clearer warning on the Consent Mode page — if Cookiebot, Complianz, CookieYes, or Cookie Information already handles your consent, leave this setting off.
+* Fix: Webhooks for Server-side Tracking on the WooCommerce integrations page no longer stay locked after entering an sGTM Container Domain on premium installs.
+* Dev: Introduced an internal automated test suite (PHPUnit + Vitest) and continuous integration across PHP 7.4–8.4 × WordPress 6.9. No functional change — every future release is now verified by unit and integration tests before shipping, raising the bar on quality and reliability.
+
+2026-04-23 - version 2.8.4
+* Dev: Declared compatibility with WooCommerce Product Object Caching (`product_instance_caching`) introduced in WooCommerce 10.5. No functional change; resolves the "incompatible plugins" notice in WooCommerce → Settings → Advanced → Features.
+* Dev: Tested up to WooCommerce 10.7.
+* Dev: Tested up to WordPress 7.0.
+
+2026-03-18 - version 2.8.3
+* Fix: Add error handling to WooCommerce blocks action handlers to prevent tracking errors from breaking checkout functionality or interfering with third-party plugins.
+* Dev: Tested up to WooCommerce 10.6.
+
+2026-02-17 - version 2.8.2
+* Fix: Fix undefined array key warning for order-received query var in edge cases like certain payment gateway redirects or bot traffic.
+
+2026-01-30 - version 2.8.1
+* fix: Fixes correct detection of the premium plugin.
+
+2026-01-29 - version 2.8.0
+* Add: Improved internal handling of plugin settings to make GTM Kit more reliable and easier to maintain, while ensuring full backward compatibility with existing configurations.
+* Changed: Require WooCommerce 9.5.
+* Dev: Tested up to WooCommerce 10.5.
+
+2026-01-06 - version 2.7.0
+* Add: We have added a new template assistant to help you create your own custom templates for Google Tag Manager.
+* Add: Add option to define a custom page that should be detected as the order-received page.
+* Add: The debug info now includes a check to determine if WooCommerce purchase events have been recorded in the logs. This information is included in the debug data to assist with troubleshooting and support.
+* Fix: Fix edge case where quantity in the Datalayer was 0. Set a default quantity of 1 when the quantity element is missing.
+* Changed: Require WooCommerce 9.4.
+* Changed: Require WordPress 6.7.
+* Dev: Tested up to WooCommerce 10.4.
+* Dev: Tested up to WordPress 6.9.
+
+2025-09-24 - version 2.6.0
+* Add: Add tracking on the product collection block.
+* Changed: Require WooCommerce 9.2.
+* Dev: Tested up to WooCommerce 10.2.
+
+2025-08-22 - version 2.5.1
+* Fix: Force rounding values to 2 decimal places to fix rounding issues in edge cases.
+* Fix: In some cases the GTM container would not load after activating and deactivating settings in 'Server-side Tagging (sGTM)'.
+* Dev: Tested up to WooCommerce 10.1.
+
+2025-08-05 - version 2.5.0
+* Fix: The add_to_cart event did not fire in the all-products block.
+* Changed: Require WooCommerce 9.0.
+* Dev: Tested up to WooCommerce 10.0.
+
+2025-04-30 - version 2.4.4
+* Add: Introduced the gtmkit_options_set action and the gtmkit_process_options filter.
+* Fix: The $hook type hint in enqueue_page_assets was removed to avoid conflicts with plugins passing non-standard data types.
+* Dev: Fixed deprecation in Easy Digital Downloads.
+
+2025-04-15 - version 2.4.3
+* Fix: Fix conflict with GTM Kit Woo in admin settings.
+
+2025-04-09 - version 2.4.2
+* Fix: Fix fatal error in admin when used together with MC4WP: Mailchimp for WordPress.
+* Dev: Tested up to WordPress 6.8.
+* Dev: Tested up to WooCommerce 9.8.
+
+2025-04-02 - version 2.4.1
+* Fix: Permission were not checked correct on the admin API.
+
+2025-04-03 - version 2.4.0
+* remove: The Event Inspector has been removed and is only available the premium version.
+
+2025-04-02 - version 2.3.2
+* Fix: Permission were not checked correct on the admin API.
+
+2025-03-12 - version 2.3.1
+* Fix: Fix a rare case of divisionByZero in calculation of discount.
+* Dev: Tested up to WooCommerce 9.7.
+
+2025-01-28 - version 2.3.0
+* Fix: Fix an edge case fatal error in admin if $hook for some reason is missing,
+* Changed: Require WordPress 6.4.
+* Changed: Require WooCommerce 8.4.
+* Dev: Tested up to WooCommerce 9.6.
+
+2024-12-03 - version 2.2.2
+* Dev: Tested up to WooCommerce 9.4.
+* Dev: Tested up to PHP 8.4.
+
+2024-10-29 - version 2.2.1
+* Fix: If the cart and checkout endpoints were set to the same page in order to skip the cart the 'checkout' and 'purchase' events would not fire.
+* Dev: Tested up to WordPress 6.7.
+
+2024-10-16 - version 2.2.0
+* Add: Added notifications and warnings for missing GTM container, debug log usage, auto-update and event inspector usage. These improvements aim to ensure smooth production operations.
+
+2024-10-01 - version 2.1.0
+* Add: Added support for the Bricks theme builder.
+* Fix: In some cases other plugins or a theme could block GTM Kit from firing JS event like the one that fires the add_to_cart GTM event.
+
+2024-09-23 - version 2.0.1
+* Fix: * Fix an edge case that could cause a fatal error in admin_body_class().
+
+2024-09-11 - version 2.0.0
+* Remove: Starting with GTM Kit version 2.0, the add_to_wishlist event is no longer supported in the free version of GTM Kit. To continue tracking the add_to_wishlist event, you must purchase the GTM Kit Add-On plugin.
+* Add: A notifications handler has been added to communicate issues and notifications that require the user’s attention.
+* Add: Added a warning when other Google Tag Manager plugins that may cause a conflict are active.
+* Add: WooCommerce users are advised to install a supported SEO plugin to take advantage of a default category in data layer items.
+* Changed: Require WordPress 6.3.
+* Changed: Require WooCommerce 8.3.
+* Changed: Require PHP 7.4.
+* Dev: Increased PHPStan analysis level to 6, enhancing static code analysis and catching potential issues earlier in the development process.
+
+
+2024-08-22 - version 1.23.3
+* Fix: Prevent fatal errors caused by invalid filter input from third-party plugins.
+* Fix: In WordPress versions prior to 6.6, the options pages fail to load due to a missing dependency.
+
+2024-08-13 - version 1.23.2
+* Dev: Require WooCommerce 8.2.
+* Dev: Tested up to WooCommerce 9.2.
+
+2024-07-15 - version 1.23.1
+* Update: The 'Getting Started' section the setup wizard has been updated with new content.
+* Fix: The settings were not saved correctly in multisite installations.
+* Fix: An upgrade function was causing problems for multisite installations leading lost configuration.
+* Dev: The load priority of the script 'gtmkit-js-before' has been lowered from 1 to 5 to allow user to register scripts before.
+
+2024-07-04 - version 1.23
+* Add: Added an option to exclude selected user roles from tracking.
+* Add: Improve the flexibility of GTM Kit integrations.
+* Dev: Tested up to WooCommerce 9.1.
+* Dev: Tested up to WordPress 6.6.

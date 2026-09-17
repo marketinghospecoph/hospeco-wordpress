@@ -1,0 +1,2 @@
+Read our documentation to know how to import the demo content
+http://docs.grixbase.com/cleanpro/#/03-import-demo-content\01-import

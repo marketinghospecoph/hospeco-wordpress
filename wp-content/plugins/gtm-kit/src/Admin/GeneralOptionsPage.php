@@ -1,0 +1,416 @@
+<?php
+/**
+ * GTM Kit plugin file.
+ *
+ * @package GTM Kit
+ */
+
+namespace TLA_Media\GTM_Kit\Admin;
+
+use TLA_Media\GTM_Kit\Common\Conditionals\PremiumConditional;
+use TLA_Media\GTM_Kit\Common\Conditionals\PremiumPluginConditional;
+use TLA_Media\GTM_Kit\Common\SiteEnvironment;
+use TLA_Media\GTM_Kit\Common\SupportSync;
+use TLA_Media\GTM_Kit\Common\Util;
+use TLA_Media\GTM_Kit\Installation\PluginDataImport;
+use TLA_Media\GTM_Kit\Options\Options;
+
+/**
+ * GeneralOptionsPage
+ */
+final class GeneralOptionsPage extends AbstractOptionsPage {
+
+	/**
+	 * The settings registration contract version exposed to the shell and to
+	 * add-ons through the `gtmkit_settings_registry` filter. Bump only with a
+	 * compatibility story; a field-schema or condition-grammar change is
+	 * breaking.
+	 *
+	 * @var int
+	 */
+	public const SETTINGS_REGISTRY_SCHEMA_VERSION = 1;
+
+	/**
+	 * The option group.
+	 *
+	 * @var string
+	 */
+	protected string $option_group = 'general';
+
+	/**
+	 * The notifications
+	 *
+	 * @var array<string, array<string, int|array<string>>|int>
+	 */
+	protected array $notifications = [];
+
+	/**
+	 * Create an instance of the options page.
+	 *
+	 * @param Options $options The Options instance.
+	 * @param Util    $util The Util instance.
+	 *
+	 * @return AbstractOptionsPage
+	 */
+	protected static function create_instance( Options $options, Util $util ): AbstractOptionsPage {
+		return new self( $options, $util );
+	}
+
+	/**
+	 * Adds the admin page to the menu.
+	 */
+	public function add_admin_page(): void {
+		add_menu_page(
+			$this->get_page_title(),
+			$this->get_main_menu_title(),
+			$this->get_capability(),
+			$this->get_menu_slug(),
+			[ $this, 'render' ],
+			'data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOWVhM2E4IiBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNDIgMjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMzguNTE2IDEuMjc5aC0yMi45MTRjLTEuMzU3IDAtMi41MDMtLjEtNC4yOTQgMS4zOTJsLTguNzE4IDYuODM2Yy0yLjExNCAxLjc2NS0yLjEyNSAzLjIxNyAwIDQuOTg2bDguNzE4IDYuODM2YzEuNjk5IDEuNDIgMi45MyAxLjM5MyA0LjI5NCAxLjM5M2g3LjI5NSAxNS42MTljMS4zNjQtLjAzMiAyLjUxLS45NTcgMi40ODQtMi4xMDR2LTE3LjI2N2MtLjAwNi0xLjE0Ni0xLjEyLTIuMDcyLTIuNDg0LTIuMDcyeiIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIC0xIDQyLjAwMDgwNiAyMy45OTk2MzkpIi8+PC9zdmc+'
+		);
+	}
+
+	/**
+	 * Configure the options page.
+	 */
+	public function configure(): void {
+		register_setting( $this->get_menu_slug(), $this->option_name );
+	}
+
+	/**
+	 * Get the options page menu slug.
+	 *
+	 * @return string
+	 */
+	protected function get_menu_slug(): string {
+		return 'gtmkit_general';
+	}
+
+	/**
+	 * Get the main admin page menu title.
+	 *
+	 * @return string
+	 */
+	protected function get_main_menu_title(): string {
+		return 'GTM Kit' . $this->get_notification_counter();
+	}
+
+	/**
+	 * Get the admin page menu title.
+	 *
+	 * @return string
+	 */
+	protected function get_menu_title(): string {
+		return __( 'General', 'gtm-kit' ) . $this->get_notification_counter();
+	}
+
+	/**
+	 * Get the options page title.
+	 *
+	 * @return string
+	 */
+	protected function get_page_title(): string {
+		return __( 'General Settings', 'gtm-kit' );
+	}
+
+	/**
+	 * Get the parent slug of the options page.
+	 *
+	 * @return string
+	 */
+	protected function get_parent_slug(): string {
+		return 'gtmkit_general';
+	}
+
+	/**
+	 * Enqueue admin page scripts and styles.
+	 *
+	 * @param mixed $hook Current hook.
+	 */
+	public function enqueue_page_assets( $hook ): void {
+		if ( \strpos( $hook, $this->get_menu_slug() ) !== false ) {
+			$this->enqueue_assets( 'general', 'settings' );
+		}
+	}
+
+	/**
+	 * Localize script.
+	 *
+	 * @param string $page_slug The page slug.
+	 * @param string $script_handle The script handle.
+	 */
+	public function localize_script( string $page_slug, string $script_handle ): void {
+		$support_sync      = new SupportSync( $this->options, $this->util );
+		$is_premium_plugin = ( new PremiumPluginConditional() )->is_met();
+
+		$settings = [
+			'rootId'             => 'gtmkit-settings',
+			'currentPage'        => $page_slug,
+			'version'            => GTMKIT_VERSION,
+			'root'               => \esc_url_raw( rest_url() ),
+			'nonce'              => \wp_create_nonce( 'wp_rest' ),
+			'pluginUrl'          => GTMKIT_URL,
+			'isPremium'          => ( new PremiumConditional() )->is_met(),
+			'isPremiumPlugin'    => $is_premium_plugin,
+			'tutorials'          => $this->get_tutorials(),
+			'integrations'       => Integrations::get_integrations(),
+			'plugins'            => Integrations::get_plugins(),
+			'adminPageUrl'       => $this->util->get_admin_page_url(),
+			'templates'          => $this->util->get_data( '/get-template-assistant', 'gtmkit_templates' ),
+			'generatorUrl'       => $this->util->get_api_url( '/generate-template' ),
+			'opportunities'      => $this->get_upgrade_opportunities(),
+			'settings'           => $this->options->get_all_raw(),
+			'site_data'          => $this->util->get_site_data( $this->options->get_all_raw() ),
+			'siteEnvironment'    => $this->get_site_environment_state(),
+			'supportSync'        => $support_sync->get_client_state(),
+			// Premium only: the export goes to the support team by email, and
+			// a free user's route to help is the public forum, where this
+			// data must never be posted. Nested, because wp_localize_script()
+			// entity-decodes top-level strings, which would alter the JSON
+			// the customer hands over.
+			'supportExport'      => $is_premium_plugin ? $support_sync->get_export() : null,
+			'user_roles'         => $this->get_user_roles(),
+			'notifications'      => $this->get_notifications(),
+			'consentAdminBadges' => $this->get_consent_admin_badges(),
+			'settingsRegistry'   => $this->get_settings_registry(),
+			'taxonomyOptions'    => $this->get_taxonomy_options(),
+			'pageOptions'        => $this->get_page_options(),
+			'install_data'       => ( new PluginDataImport() )->get_all(),
+		];
+
+		/**
+		 * Filters the settings payload localised to the admin settings app.
+		 *
+		 * Add-ons append data the shell reads (for example the masked license
+		 * key and license status) by hooking this filter, instead of rewriting
+		 * the already-localised script.
+		 *
+		 * @param array<string, mixed> $settings The settings payload.
+		 */
+		$settings = (array) apply_filters( 'gtmkit_settings', $settings );
+
+		\wp_localize_script(
+			'gtmkit-' . $script_handle . '-script',
+			'gtmkitSettings',
+			$settings
+		);
+	}
+
+	/**
+	 * Build the settings registration payload add-ons contribute their
+	 * capability/section/field schema to.
+	 *
+	 * Add-ons hook `gtmkit_settings_registry`, receiving the accumulating
+	 * payload and the contract version, and append entries to `fields` and
+	 * `sections`. Each field/section mirrors the shell's registry schema
+	 * (`key`, `capability`, `section`, `order`, `control`, `label`, `tier`, and
+	 * the declarative `visibleWhen`/`enabledWhen` conditions). Core stamps the
+	 * `schemaVersion`, so an add-on cannot forge a version it does not target;
+	 * the shell ignores a payload whose version it does not understand.
+	 *
+	 * A registered field supersedes the core upsell stub of the same `key`, so
+	 * add-on field UI lives in the add-on, not in core.
+	 *
+	 * @return array<string, mixed>
+	 */
+	private function get_settings_registry(): array {
+		$registry = (array) apply_filters(
+			'gtmkit_settings_registry',
+			[
+				'fields'   => [],
+				'sections' => [],
+			],
+			self::SETTINGS_REGISTRY_SCHEMA_VERSION
+		);
+
+		$fields   = ( isset( $registry['fields'] ) && is_array( $registry['fields'] ) ) ? array_values( $registry['fields'] ) : [];
+		$sections = ( isset( $registry['sections'] ) && is_array( $registry['sections'] ) ) ? array_values( $registry['sections'] ) : [];
+
+		return [
+			'schemaVersion' => self::SETTINGS_REGISTRY_SCHEMA_VERSION,
+			'fields'        => $fields,
+			'sections'      => $sections,
+		];
+	}
+
+	/**
+	 * What the site reports about itself, for the readout on the container settings.
+	 *
+	 * Resolved through {@see SiteEnvironment}, the same code the runtime gate
+	 * calls, so the readout can never claim something the frontend does not do.
+	 *
+	 * @return array{type: string, isProduction: bool, suppressesContainer: bool}
+	 */
+	private function get_site_environment_state(): array {
+		return [
+			'type'                => SiteEnvironment::get_type(),
+			'isProduction'        => SiteEnvironment::is_production(),
+			'suppressesContainer' => SiteEnvironment::suppresses_container( $this->options ),
+		];
+	}
+
+	/**
+	 * Resolve the admin status badges rendered above the Consent settings
+	 * page sections.
+	 *
+	 * Add-ons (e.g. the Premium WP Consent API integration) hook
+	 * `gtmkit_consent_admin_badges` to push entries shaped as
+	 * `[ 'id' => string, 'message' => string, 'severity' => 'info'|'warning'|'success'|'error' ]`.
+	 * The React app renders each entry as a Notice at the top of the
+	 * Consent page, so users see immediately when a higher-priority
+	 * consent source has taken over from the standard admin defaults.
+	 *
+	 * @return array<int, array<string, string>>
+	 */
+	private function get_consent_admin_badges(): array {
+		$badges = (array) apply_filters( 'gtmkit_consent_admin_badges', [] );
+
+		$normalised = [];
+		foreach ( $badges as $badge ) {
+			if ( ! is_array( $badge ) ) {
+				continue;
+			}
+			$id       = isset( $badge['id'] ) ? (string) $badge['id'] : '';
+			$message  = isset( $badge['message'] ) ? (string) $badge['message'] : '';
+			$severity = isset( $badge['severity'] ) && in_array( $badge['severity'], [ 'info', 'warning', 'success', 'error' ], true )
+				? (string) $badge['severity']
+				: 'info';
+			if ( '' === $id || '' === $message ) {
+				continue;
+			}
+			$normalised[] = [
+				'id'       => $id,
+				'message'  => $message,
+				'severity' => $severity,
+			];
+		}
+
+		return $normalised;
+	}
+
+	/**
+	 * Build the list of public, UI-visible custom taxonomies offered as
+	 * options for taxonomy-backed settings such as the WooCommerce brand
+	 * source. Built-in taxonomies are excluded so the list stays focused on
+	 * the taxonomies a store actually uses to classify products.
+	 *
+	 * @return array<int, array<string, string>>
+	 */
+	private function get_taxonomy_options(): array {
+		$taxonomies = get_taxonomies(
+			[
+				'show_ui'  => true,
+				'public'   => true,
+				'_builtin' => false,
+			],
+			'objects'
+		);
+
+		$taxonomy_options = [];
+
+		foreach ( $taxonomies as $taxonomy ) {
+			if ( is_object( $taxonomy ) && property_exists( $taxonomy, 'label' ) && property_exists( $taxonomy, 'name' ) ) {
+				$taxonomy_options[] = [
+					'label' => $taxonomy->label,
+					'value' => $taxonomy->name,
+				];
+			}
+		}
+
+		return $taxonomy_options;
+	}
+
+	/**
+	 * Build the list of published pages offered as options for page-backed
+	 * settings.
+	 *
+	 * @return array<int, array<string, string>>
+	 */
+	private function get_page_options(): array {
+		$pages = get_pages(
+			[
+				'sort_column' => 'post_title',
+				'sort_order'  => 'ASC',
+			]
+		);
+
+		$page_options = [];
+
+		if ( is_array( $pages ) ) {
+			foreach ( $pages as $page ) {
+				if ( is_object( $page ) && property_exists( $page, 'post_title' ) && property_exists( $page, 'ID' ) ) {
+					$page_options[] = [
+						'label' => $page->post_title . ' (ID: ' . $page->ID . ')',
+						'value' => (string) $page->ID,
+					];
+				}
+			}
+		}
+
+		return $page_options;
+	}
+
+	/**
+	 * Get the tutorials
+	 *
+	 * @return array<string, mixed>
+	 */
+	private function get_tutorials(): array {
+		return $this->util->get_data( '/get-tutorials', 'gtmkit_tutorials' );
+	}
+
+	/**
+	 * Get user roles
+	 *
+	 * @return array<array<string, string>>
+	 */
+	private function get_user_roles(): array {
+
+		$user_roles = [];
+		$roles      = get_editable_roles();
+
+		foreach ( $roles as $role_id => $role_info ) {
+			$user_roles[] = [
+				'role' => $role_id,
+				'name' => translate_user_role( $role_info['name'] ),
+			];
+		}
+
+		return $user_roles;
+	}
+
+	/**
+	 * Get the notifications array
+	 *
+	 * @return array<string, array<string, int|array<string>>|int>
+	 */
+	private function get_notifications_array(): array {
+		if ( empty( $this->notifications ) ) {
+			$notifications_handler = NotificationsHandler::get();
+			$this->notifications   = $notifications_handler->get_notifications_array();
+		}
+
+		return $this->notifications;
+	}
+
+	/**
+	 * Returns the notification count in HTML format.
+	 *
+	 * @return string The notification count in HTML format.
+	 */
+	private function get_notification_counter(): string {
+		return sprintf(
+			' <span class="menu-counter count-%1$d"><span class="count" aria-hidden="true">%1$d</span></span>',
+			$this->get_notifications_array()['metrics']['total']
+		);
+	}
+
+	/**
+	 * Returns the notifications.
+	 *
+	 * @return object The notifications.
+	 */
+	protected function get_notifications(): object {
+		return (object) $this->get_notifications_array();
+	}
+}
