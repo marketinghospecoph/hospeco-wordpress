@@ -1,5 +1,7 @@
+
 # Database dumps
 *.sql
+*.sql.gz
 
 # Uploads / media
 wp-content/uploads/
@@ -17,3 +19,9 @@ pwa-amp-sw.js
 
 # Logs
 *.log
+
+# Sensitive key files
+*.pem
+
+# Local environment files
+.env
